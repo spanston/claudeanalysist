@@ -92,11 +92,29 @@ scannable Swedish body in this order:
 6. Warning patterns + invalidation.
 Add one short note that levels/rung prices must be verified against Investtech's
 charts before trading.
+Embed the zone chart near the top: `![Zonkarta](<date>.svg)`.
+
+### 4b. Render the zone chart (`btc-digests/<date>.svg`)
+Fetch ~50 daily candles and render the chart from the digest's own front matter:
+```bash
+curl -s --max-time 12 \
+  "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400" \
+  -H "User-Agent: Mozilla/5.0" -o /tmp/btc_prices.json
+python3 tools/plot_zones.py btc-digests/<date>.md /tmp/btc_prices.json \
+  btc-digests/<date>.svg
+```
+The SVG overlays the accumulation/distribution bands, back-weighted rungs
+(bar length ∝ weight; solid = armed, dashed = pending), current price and the
+invalidation line on real candles — it renders inline on GitHub and on mobile,
+no plotting dependencies. Candles are price-action *context* (Coinbase BTC-USD);
+zones/levels come from Investtech via the front matter, so the candle close may
+differ slightly from Investtech's stated close. If candles are unavailable, pass
+`-` for the prices arg and the chart renders zones only.
 
 ### 5. Commit & push
-`git add btc-digests/<date>.md && git commit && git push -u origin <branch>`.
-On network error, retry up to 4× with exponential backoff (2s, 4s, 8s, 16s).
-Do **not** open a pull request unless explicitly asked.
+`git add btc-digests/<date>.md btc-digests/<date>.svg && git commit && git push
+-u origin <branch>`. On network error, retry up to 4× with exponential backoff
+(2s, 4s, 8s, 16s). Do **not** open a pull request unless explicitly asked.
 
 ### 6. Notify (push notification / `<routine_summary>`)
 First sentence = bottom line: regime + armed rung (or which level to wait for).

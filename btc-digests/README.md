@@ -110,5 +110,18 @@ ladder (where you are, next rung, invalidation), medium/long summary, score
 slopes (momentum of the model itself), a four-timeframe table, level map, and
 warning patterns. Short-term gets one line — fill timing only.
 
+## Zone chart
+
+Each digest has a companion `YYYY-MM-DD.svg` rendered by `tools/plot_zones.py`
+from the digest's own front matter, overlaid on ~50 daily Coinbase BTC-USD
+candles. It draws the accumulation/distribution bands, the back-weighted rungs
+(bar length ∝ weight; solid = armed, dashed = pending), the current price and
+the invalidation line. SVG renders inline on GitHub and on mobile and needs no
+plotting dependencies. Regenerate with:
+
+```bash
+python3 tools/plot_zones.py btc-digests/<date>.md /tmp/btc_prices.json
+```
+
 > Levels and rung prices are derived from Investtech text and should be verified
 > against Investtech's charts before trading.
