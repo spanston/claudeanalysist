@@ -1,0 +1,6 @@
+# Third-party MCP server, reproduced by tools/setup-tradingview-mcp.sh — not vendored into this repo
+/vendor/
+
+# Transient data pulled at runtime
+/tmp/
+*.tmp

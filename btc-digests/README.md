@@ -96,12 +96,63 @@ ladder:
       - {price: 70500, weight: 20, state: "inactive"}
       - {price: 72500, weight: 25, state: "inactive"}
       - {price: 74000, weight: 30, state: "inactive"}
+source_integrity:                      # provenance / facts vs interpretation
+  fetched_utc: "2026-06-23T20:30:00Z"
+  feed: "Investtech BTCUSDT (CompanyID 99400001)"
+  analysis_time: "2026-06-23"          # Investtech's own analysis date if visible
+  pages_complete: true                 # all four pages returned data
+  quotes:                              # raw snippet backing each key level
+    invalidation: "Etablerat genombrott under stödet vid 56845 ..."
+cross_check:                           # tools/venue_crosscheck.py output (Korsverifierat)
+  venue_ref: 62396.93                  # live venue spot used as reference
+  venues: {coinbase_btc_usd: 62396.93, binance_btc_usdt: null}
+  investtech_minus_venue: 1662.29      # gap between Investtech close and venue
+  atr14_daily: 2134.89
+  atr14_pct: 3.42
+  falling_knife: false                 # any "don't catch it" condition active?
+trade_plan:                            # Mitt beslut (derived decision)
+  status: "bevaka"                     # inget köp | bevaka | starter | add | invaliderad
+  entry_trigger: "test mot 63000-bandet"
+  stop: 56845
+  first_target: 66000
+  max_alloc_pct: 10                    # rung weight cap for this action
+  reward_risk: 0.5
+  confidence: "låg"                    # låg | medel | hög (source agreement)
+falsifiability:
+  invalidated_if: "bekräftad dagsstängning under 56845"
+  prior_signal_review: "baslinje 2 dagar gammal — ingen utfallshistorik ännu"
 ---
 ```
 
 `slopes` are `null` on the baseline day and computed from the prior digest
 thereafter. Rung prices are seeded from Investtech's stated levels and
 interpolated across the band; verify against the charts before trading.
+
+`source_integrity`, `cross_check`, `trade_plan` and `falsifiability` make the
+digest auditable and falsifiable rather than a polished restatement of one
+vendor. `cross_check` is filled by `tools/venue_crosscheck.py` (live venue spot +
+ATR(14), Investtech-vs-venue gap); `trade_plan` is the single derived decision
+with its invalidation, reward/risk and confidence; `falsifiability` records what
+would break the thesis and how earlier signals resolved.
+
+## Data integrity & cross-check
+
+Investtech is one vendor's technical model — *conditions, not a decision system*.
+The digest carries three tiers and labels every claim `Rapporterat (Investtech)` /
+`Korsverifierat (venue/ATR)` / `Härlett (zoner)` / `Mitt beslut (trade)`:
+
+1. **Investtech** — scores, recs, structural levels (primary).
+2. **`tools/venue_crosscheck.py`** — live Coinbase/Binance spot + daily ATR(14),
+   measuring every level/rung against venue price in $/%/ATR. Runs in the cloud
+   routine, no key needed. Surfaces the gap when Investtech's feed differs from
+   the execution venue.
+3. **TradingView MCP** (`tradingview` server in `.mcp.json`) — *local, interactive
+   only*: bridges to TradingView Desktop over CDP (`localhost:9222`), needs the
+   desktop app running with `--remote-debugging-port=9222` and a paid
+   subscription. Install with `bash tools/setup-tradingview-mcp.sh`. **Not
+   available in the unattended cloud routine.** See CLAUDE.md for which tools
+   (`data_get_ohlcv`, `quote_get`, `data_get_study_values`, `alert_create`, …)
+   strengthen the analysis.
 
 ## Reading the digest
 
