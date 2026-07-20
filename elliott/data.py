@@ -95,7 +95,8 @@ def fetch_ohlcv(ticker: str, period: str = "10y", interval: str = "1d",
     cache_dir = cache_dir or CACHE_DIR
     os.makedirs(cache_dir, exist_ok=True)
     safe_ticker = re.sub(r"[^A-Za-z0-9._-]+", "_", ticker)
-    cache_path = os.path.join(cache_dir, f"{safe_ticker}_{interval}.parquet")
+    safe_period = re.sub(r"[^A-Za-z0-9._-]+", "_", period)
+    cache_path = os.path.join(cache_dir, f"{safe_ticker}_{interval}_{safe_period}.parquet")
 
     df = None
     if os.path.exists(cache_path):

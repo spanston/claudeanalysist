@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "ticker": "MSTR",
+    "run_date": "2026-07-20",
+    "window": [
+      "2024-08-07",
+      "2026-07-17"
+    ],
+    "monowaves": 121,
+    "pivot_k": 1.2446
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2024-11-21",
+    "index": 19
+  },
+  "preferred": {
+    "pattern": "triple_zigzag",
+    "structure_strength": 4.711,
+    "relative_confidence": 0.309,
+    "direction": "down",
+    "span": [
+      "2024-11-21",
+      "2026-07-17"
+    ],
+    "position": {
+      "path": [
+        "Z",
+        "(C)"
+      ],
+      "text_en": "Degree 2 Z in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 Z p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 60.149993896484375,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)"
+      }
+    ]
+  },
+  "alternate": {
+    "anchor_date": "2024-11-21",
+    "pattern": "double_zigzag",
+    "score": 2.345,
+    "direction": "down",
+    "span": [
+      "2024-11-21",
+      "2026-07-17"
+    ],
+    "same_anchor": true
+  },
+  "anchors_considered": [
+    {
+      "date": "2024-11-21",
+      "score": 4.711
+    },
+    {
+      "date": "2025-05-01",
+      "score": -0.141
+    },
+    {
+      "date": "2025-04-10",
+      "score": -3.009
+    },
+    {
+      "date": "2024-11-14",
+      "score": null
+    },
+    {
+      "date": "2026-02-05",
+      "score": null
+    }
+  ]
+}

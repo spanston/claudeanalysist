@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "ticker": "MSTR",
+    "run_date": "2026-07-20",
+    "window": [
+      "2016-10-03",
+      "2026-06-26"
+    ],
+    "monowaves": 109,
+    "pivot_k": 3.3106
+  },
+  "no_clean_count": true,
+  "best_score": -4.513,
+  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
+  "anchors_considered": [
+    {
+      "date": "2020-03-19",
+      "score": -4.513
+    },
+    {
+      "date": "2021-02-09",
+      "score": -9.257
+    },
+    {
+      "date": "2020-12-09",
+      "score": null
+    },
+    {
+      "date": "2024-01-23",
+      "score": null
+    },
+    {
+      "date": "2024-03-27",
+      "score": null
+    }
+  ]
+}
