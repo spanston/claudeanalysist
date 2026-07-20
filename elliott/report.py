@@ -201,23 +201,41 @@ def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: To
         }
 
     root = winner.root
-    alternates = [r for r in tournament.candidates if r is not winner and r.root is not None]
-    alt = None
-    if alternates:
-        # diversity rule: prefer an alternate with different market implication
-        # (direction or a materially different degree-2 pattern) over the
-        # runner-up by raw score alone (DESIGN.md §7).
-        opp_direction = [r for r in alternates if r.root.direction != root.direction]
-        pick = opp_direction[0] if opp_direction else alternates[0]
-        alt = {
-            "anchor_date": pick.date, "pattern": pick.root.pattern,
-            "score": round(pick.score, 3), "direction": pick.root.direction,
-            "span": [pivots[pick.root.i].date, pivots[pick.root.j].date],
+
+    def _alt_dict(anchor_date: str, node: WaveUnit, score: float, same_anchor: bool) -> dict:
+        return {
+            "anchor_date": anchor_date, "pattern": node.pattern,
+            "score": round(score, 3), "direction": node.direction,
+            "span": [pivots[node.i].date, pivots[node.j].date],
+            "same_anchor": same_anchor,
         }
 
-    softmax_denom = sum(math.exp(min(r.score - winner.score, 0)) for r in tournament.candidates
-                          if r.root is not None)
-    relative_confidence = 1.0 / softmax_denom if softmax_denom > 0 else 1.0
+    # Alternate selection, diversity by market implication (DESIGN.md §7).
+    # Prefer a genuinely-different reading at the SAME anchor from the
+    # winner's own root k-best list -- this is where the classic "pattern
+    # just completed vs larger-degree reversal just began" ambiguity lives
+    # (DESIGN.md §4) -- and only then fall back to other anchors' winners.
+    alt = None
+    same_anchor_roots = [r for r in winner.roots if r is not root]
+    diff_dir = [r for r in same_anchor_roots if r.direction != root.direction]
+    diff_pat = [r for r in same_anchor_roots if r.pattern != root.pattern]
+    pick = diff_dir[0] if diff_dir else (diff_pat[0] if diff_pat else None)
+    if pick is not None:
+        alt = _alt_dict(winner.date, pick, pick.total_ll, True)
+    else:
+        alternates = [r for r in tournament.candidates if r is not winner and r.root is not None]
+        if alternates:
+            opp_direction = [r for r in alternates if r.root.direction != root.direction]
+            r0 = opp_direction[0] if opp_direction else alternates[0]
+            alt = _alt_dict(r0.date, r0.root, r0.score, False)
+
+    # Relative confidence: softmax over the winning anchor's root k-best
+    # list (DESIGN.md §7) -- the preferred count vs its same-span
+    # competitors, not across different anchors.
+    root_scores = [r.total_ll for r in winner.roots] or [winner.score]
+    top = max(root_scores)
+    denom = sum(math.exp(s - top) for s in root_scores)
+    relative_confidence = math.exp(winner.score - top) / denom if denom > 0 else 1.0
 
     return {
         "meta": meta,

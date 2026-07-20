@@ -16,6 +16,7 @@ rendering, not baked into the fetch layer.
 from __future__ import annotations
 
 import os
+import re
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -93,7 +94,7 @@ def fetch_ohlcv(ticker: str, period: str = "10y", interval: str = "1d",
     requested (see the granularity check in _fetch_chart)."""
     cache_dir = cache_dir or CACHE_DIR
     os.makedirs(cache_dir, exist_ok=True)
-    safe_ticker = ticker.replace("/", "_")
+    safe_ticker = re.sub(r"[^A-Za-z0-9._-]+", "_", ticker)
     cache_path = os.path.join(cache_dir, f"{safe_ticker}_{interval}.parquet")
 
     df = None

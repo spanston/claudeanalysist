@@ -40,6 +40,11 @@ from .pivots import Pivot
 
 MIN_LEAF = {"5": 5, "3": 3}
 
+# DESIGN.md §4 degree floor: "a :5 child spans >=5 monowaves, a :3 child >=3
+# (a triangle needs >=5)". Triangle legs get the stricter floor so a degree-1
+# triangle cannot be assembled from minimal 3-monowave zigzag legs.
+TRIANGLE_LEG_MIN = 5
+
 
 @dataclass
 class WaveUnit:
@@ -83,12 +88,15 @@ def _mk_leaf(pivots: list[Pivot], i: int, j: int) -> WaveUnit:
     )
 
 
-def leaf_shape_ok(pivots: list[Pivot], i: int, j: int, slot: str) -> bool:
+def leaf_shape_ok(pivots: list[Pivot], i: int, j: int, slot: str,
+                    min_len: Optional[int] = None) -> bool:
     """Degree-floor sanity check (DESIGN.md §4): hard minimum size, odd
     parity (net directional move), and the endpoint must be the span's own
-    extreme in its net direction -- a completed wave ends where it turned."""
+    extreme in its net direction -- a completed wave ends where it turned.
+    `min_len` overrides MIN_LEAF[slot] (triangle legs use TRIANGLE_LEG_MIN)."""
     L = j - i
-    if L < MIN_LEAF[slot] or L % 2 == 0:
+    floor = min_len if min_len is not None else MIN_LEAF[slot]
+    if L < floor or L % 2 == 0:
         return False
     direction = "up" if pivots[j].price > pivots[i].price else "down"
     want_kind = "H" if direction == "up" else "L"
@@ -107,10 +115,11 @@ class LeafCache:
         self.pivots = pivots
         self._cache: dict[tuple[int, int, str], Optional[WaveUnit]] = {}
 
-    def get(self, i: int, j: int, slot: str) -> Optional[WaveUnit]:
-        key = (i, j, slot)
+    def get(self, i: int, j: int, slot: str,
+              min_len: Optional[int] = None) -> Optional[WaveUnit]:
+        key = (i, j, slot, min_len)
         if key not in self._cache:
-            if leaf_shape_ok(self.pivots, i, j, slot):
+            if leaf_shape_ok(self.pivots, i, j, slot, min_len=min_len):
                 self._cache[key] = _mk_leaf(self.pivots, i, j)
             else:
                 self._cache[key] = None
@@ -180,9 +189,12 @@ def parse_pattern_from_start(
     restricted to specific spans (component_kind="pattern")."""
     n_comp = len(spec.components)
     role_universe = "5" if G.is_five_pattern(spec.name) else "3"
+    # Degree floor: triangle legs need >=5 monowaves, not the generic 3
+    # (DESIGN.md §4). Applies only when components are raw leaves.
+    leaf_min_len = TRIANGLE_LEG_MIN if (
+        component_kind == "leaf" and spec.name.startswith("triangle")) else None
     # states[pos] = top-k (score, comps) after placing all components so far
     states: dict[int, list[tuple[float, list[WaveUnit]]]] = {i: [(0.0, [])]}
-    any_open = False
 
     for c, comp in enumerate(spec.components):
         remaining_after = n_comp - c - 1
@@ -198,13 +210,12 @@ def parse_pattern_from_start(
                     units = _candidate_units(
                         comp, pos, e, component_kind=component_kind,
                         leaf_cache=leaf_cache, pattern_memo=pattern_memo,
-                        pivots=pivots, open_ok=open_ok,
+                        pivots=pivots, open_ok=open_ok, leaf_min_len=leaf_min_len,
                     )
                     for unit in units:
                         comps2 = comps + [unit]
                         if not _passes_rules(spec, comps2, ctx):
                             continue
-                        any_open = any_open or unit.open
                         new_states.setdefault(e, []).append((score + unit.total_ll, comps2))
         for pos2 in new_states:
             new_states[pos2] = _top_k(new_states[pos2], k)
@@ -226,10 +237,11 @@ def parse_pattern_from_start(
 
 def _candidate_units(comp: G.Component, pos: int, e: int, *, component_kind: str,
                        leaf_cache: Optional[LeafCache], pattern_memo: Optional[dict],
-                       pivots: Optional[list[Pivot]], open_ok: bool) -> list[WaveUnit]:
+                       pivots: Optional[list[Pivot]], open_ok: bool,
+                       leaf_min_len: Optional[int] = None) -> list[WaveUnit]:
     if component_kind == "leaf":
         out = []
-        unit = leaf_cache.get(pos, e, comp.slot)
+        unit = leaf_cache.get(pos, e, comp.slot, min_len=leaf_min_len)
         if unit is not None:
             out.append(unit)
         if open_ok and pivots is not None:

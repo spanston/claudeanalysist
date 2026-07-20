@@ -18,7 +18,7 @@ def test_report_end_to_end():
         Pivot(len(base), base[-1].bar + 2, "d_extra1", base[-1].price + 40, "H" if base[-1].kind == "L" else "L"),
         Pivot(len(base) + 1, base[-1].bar + 4, "d_extra2", base[-1].price + 20, base[-1].kind),
     ]
-    pivots = base  # keep it simple: the base fixture itself has an unconfirmed feel already
+    pivots = base + extra  # open tail included: exercises the right-edge logic
     null = fit_null_model(pivots)
     ctx = {"atr_epsilon": 0.0}
     memo = build_pattern_memo(pivots, null, ctx, k=4)

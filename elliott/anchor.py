@@ -30,7 +30,7 @@ normalization or prefix bookkeeping needed.
 from __future__ import annotations
 
 import math
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from .guidelines import NullModel
 from .parser import WaveUnit, build_root_candidates
@@ -48,6 +48,8 @@ def _prominence(pivots: list[Pivot], idx: int) -> float:
     time_span = 1
     if idx > 0:
         time_span = max(time_span, pivots[idx].bar - pivots[idx - 1].bar)
+    if idx < len(pivots) - 1:
+        time_span = max(time_span, pivots[idx + 1].bar - pivots[idx].bar)
     return price_dist * math.sqrt(time_span)
 
 
@@ -79,6 +81,7 @@ class AnchorResult:
     date: str
     score: float          # S(best root tree) = root.total_ll; -inf if no root found
     root: WaveUnit | None
+    roots: list = field(default_factory=list)  # root k-best list at this anchor, best-first
 
 
 @dataclass
@@ -100,7 +103,8 @@ def run_tournament(pivots: list[Pivot], pattern_memo: dict, null: NullModel, ctx
         roots = build_root_candidates(pattern_memo, a, n, null, ctx, k=k)
         best_root = roots[0] if roots else None
         score = best_root.total_ll if best_root is not None else float("-inf")
-        results.append(AnchorResult(anchor=a, date=pivots[a].date, score=score, root=best_root))
+        results.append(AnchorResult(anchor=a, date=pivots[a].date, score=score,
+                                      root=best_root, roots=roots))
 
     results.sort(key=lambda r: -r.score)
     winner = results[0] if results else None
