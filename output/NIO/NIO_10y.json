@@ -7,7 +7,9 @@
       "2026-06-26"
     ],
     "monowaves": 112,
-    "pivot_k": 2.8788
+    "pivot_k": 2.8788,
+    "last_close": 4.880000114440918,
+    "data_through": "2026-07-17"
   },
   "no_clean_count": true,
   "best_score": 1.86,

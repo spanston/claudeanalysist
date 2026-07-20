@@ -7,61 +7,17 @@
       "2026-07-16"
     ],
     "monowaves": 123,
-    "pivot_k": 3.3106
+    "pivot_k": 3.3106,
+    "last_close": 50.31999969482422,
+    "data_through": "2026-07-17"
   },
-  "no_clean_count": false,
-  "anchor": {
-    "date": "2016-11-23",
-    "index": 3
-  },
-  "preferred": {
-    "pattern": "zigzag",
-    "structure_strength": 9.348,
-    "relative_confidence": 0.261,
-    "direction": "up",
-    "span": [
-      "2016-11-23",
-      "2026-07-16"
-    ],
-    "position": {
-      "path": [
-        "C",
-        "(5)"
-      ],
-      "text_en": "Degree 2 C in progress; within it, degree 1 (5) unfolding (impulse)",
-      "text_sv": "Grad 2 C p\u00e5g\u00e5r; inom den utvecklas grad 1 (5) (impulse)"
-    },
-    "invalidations": [],
-    "targets": [
-      {
-        "price": 92.21500015258789,
-        "basis": "C = A from B extreme",
-        "degree": 2,
-        "label": "C"
-      },
-      {
-        "price": 155.60000228881836,
-        "basis": "W5 = W1 from W4 extreme",
-        "degree": 1,
-        "label": "(5)"
-      }
-    ]
-  },
-  "alternate": {
-    "anchor_date": "2016-11-23",
-    "pattern": "double_zigzag",
-    "score": 3.981,
-    "direction": "up",
-    "span": [
-      "2016-11-23",
-      "2026-07-16"
-    ],
-    "same_anchor": true
-  },
+  "no_clean_count": true,
+  "best_score": 1.861,
+  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
   "anchors_considered": [
     {
       "date": "2016-11-23",
-      "score": 9.348
+      "score": 1.861
     },
     {
       "date": "2023-12-11",

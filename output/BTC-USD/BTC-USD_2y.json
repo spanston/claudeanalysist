@@ -7,7 +7,9 @@
       "2026-07-15"
     ],
     "monowaves": 105,
-    "pivot_k": 1.6459
+    "pivot_k": 1.6459,
+    "last_close": 64179.19921875,
+    "data_through": "2026-07-20"
   },
   "no_clean_count": false,
   "anchor": {
@@ -17,7 +19,7 @@
   "preferred": {
     "pattern": "triple_zigzag",
     "structure_strength": 4.209,
-    "relative_confidence": 0.228,
+    "relative_confidence": 0.238,
     "direction": "up",
     "span": [
       "2024-08-05",
@@ -37,7 +39,8 @@
         "price": 78949.30859375,
         "basis": "C = A from B extreme",
         "degree": 1,
-        "label": "(C)"
+        "label": "(C)",
+        "pct_from_last": 23.0
       }
     ]
   },
@@ -52,6 +55,10 @@
     ],
     "same_anchor": true
   },
+  "warnings": [
+    "no_invalidation_available: open wave Z/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "near_tie_alternate: same-anchor triple_zigzag (up) is within 1 nat of the preferred count"
+  ],
   "anchors_considered": [
     {
       "date": "2024-08-05",
@@ -66,11 +73,11 @@
       "score": -4.224
     },
     {
-      "date": "2025-10-06",
-      "score": -11.701
+      "date": "2025-05-02",
+      "score": null
     },
     {
-      "date": "2025-05-02",
+      "date": "2025-10-06",
       "score": null
     }
   ]

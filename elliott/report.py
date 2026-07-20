@@ -179,13 +179,43 @@ def build_targets(root: WaveUnit) -> list[dict]:
     return out
 
 
+def build_warnings(root: WaveUnit, tournament: TournamentResult, invalidations: list[dict],
+                     targets: list[dict], last_close: float | None, meta: dict) -> list[str]:
+    """Honesty flags for the report consumer (review v1.1): situations where
+    the headline count needs an explicit caveat rather than silent omission."""
+    out = []
+    edge = open_edge_path(root)
+    if edge and not invalidations:
+        labels = "/".join(lw.label for lw in edge)
+        out.append(f"no_invalidation_available: open wave {labels} has no hard-rule "
+                   "invalidation in this grammar (documented gap, report.py)")
+    data_through, run_date = meta.get("data_through"), meta.get("run_date")
+    if data_through and run_date and data_through < run_date:
+        out.append(f"stale_data: price data ends {data_through}, report run {run_date}")
+    if last_close:
+        for t in targets:
+            overshot = (root.direction == "up" and last_close > t["price"]) or \
+                       (root.direction == "down" and last_close < t["price"])
+            if overshot:
+                out.append(f"target_overshoot: last close {last_close:,.2f} is already beyond "
+                           f"the {t['label']} projection of {t['price']:,.2f}")
+    runner_up = tournament.winner.roots[1] if len(tournament.winner.roots) > 1 else None
+    if runner_up is not None and (tournament.winner.score - runner_up.total_ll) < 1.0:
+        out.append(f"near_tie_alternate: same-anchor {runner_up.pattern} "
+                   f"({runner_up.direction}) is within 1 nat of the preferred count")
+    return out
+
+
 def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: TournamentResult,
-                   pivot_k: float) -> dict:
+                   pivot_k: float, last_close: float | None = None,
+                   data_through: str | None = None) -> dict:
     winner = tournament.winner
     meta = {
         "ticker": ticker, "run_date": run_date,
         "window": [pivots[0].date, pivots[-1].date] if pivots else [],
         "monowaves": len(pivots), "pivot_k": round(pivot_k, 4),
+        "last_close": last_close,
+        "data_through": data_through or (pivots[-1].date if pivots else None),
     }
     if tournament.no_clean_count or winner is None or winner.root is None:
         return {
@@ -237,6 +267,13 @@ def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: To
     denom = sum(math.exp(s - top) for s in root_scores)
     relative_confidence = math.exp(winner.score - top) / denom if denom > 0 else 1.0
 
+    invalidations = build_invalidations(root)
+    targets = build_targets(root)
+    if last_close:
+        for d in invalidations + targets:
+            d["pct_from_last"] = round((d["price"] / last_close - 1.0) * 100.0, 1)
+    warnings = build_warnings(root, tournament, invalidations, targets, last_close, meta)
+
     return {
         "meta": meta,
         "no_clean_count": False,
@@ -248,10 +285,11 @@ def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: To
             "direction": root.direction,
             "span": [pivots[root.i].date, pivots[root.j].date],
             "position": build_position(root),
-            "invalidations": build_invalidations(root),
-            "targets": build_targets(root),
+            "invalidations": invalidations,
+            "targets": targets,
         },
         "alternate": alt,
+        "warnings": warnings,
         "anchors_considered": [
             {"date": r.date, "score": (round(r.score, 3) if r.score != float("-inf") else None)}
             for r in tournament.candidates

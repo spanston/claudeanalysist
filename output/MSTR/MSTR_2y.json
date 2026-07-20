@@ -7,7 +7,9 @@
       "2026-07-17"
     ],
     "monowaves": 121,
-    "pivot_k": 1.2446
+    "pivot_k": 1.2446,
+    "last_close": 94.8499984741211,
+    "data_through": "2026-07-17"
   },
   "no_clean_count": false,
   "anchor": {
@@ -37,7 +39,8 @@
         "price": 60.149993896484375,
         "basis": "C = A from B extreme",
         "degree": 1,
-        "label": "(C)"
+        "label": "(C)",
+        "pct_from_last": -36.6
       }
     ]
   },
@@ -52,6 +55,11 @@
     ],
     "same_anchor": true
   },
+  "warnings": [
+    "no_invalidation_available: open wave Z/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "stale_data: price data ends 2026-07-17, report run 2026-07-20",
+    "near_tie_alternate: same-anchor triple_zigzag (down) is within 1 nat of the preferred count"
+  ],
   "anchors_considered": [
     {
       "date": "2024-11-21",
@@ -62,11 +70,11 @@
       "score": -0.141
     },
     {
-      "date": "2025-04-10",
-      "score": -3.009
+      "date": "2024-11-14",
+      "score": null
     },
     {
-      "date": "2024-11-14",
+      "date": "2025-04-10",
       "score": null
     },
     {

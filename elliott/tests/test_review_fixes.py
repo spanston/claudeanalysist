@@ -15,7 +15,7 @@ from elliott.guidelines import fit_null_model
 from elliott.parser import WaveUnit, build_pattern_memo
 from elliott.pivots import Pivot
 from elliott.report import build_report
-from .test_grammar_roundtrip import _textured5, _textured3
+from .test_grammar_roundtrip import _build_impulse_pivots, _textured5, _textured3
 
 
 def _build_triangle_pivots(leg_builder):
@@ -99,3 +99,75 @@ def test_report_falls_back_to_other_anchor_when_no_same_anchor_diversity():
     assert alt["pattern"] == "flat_expanded"
     # single-root k-best list -> confidence 1.0 by construction
     assert report["preferred"]["relative_confidence"] == 1.0
+
+
+# ---------------------------------------------------------------------------
+# v1.1: open-edge coherence + report price context
+# ---------------------------------------------------------------------------
+
+def test_open_components_always_alternate_direction():
+    """An open right-edge component must move AGAINST its predecessor --
+    otherwise the predecessor is still unfolding (review finding A: NVO/BTC
+    'up wave 5' readings whose open leaf was in fact collapsing)."""
+    base = _build_impulse_pivots()
+    # collapse tail: price falls hard from the 450 top -- the incoherent
+    # "open up wave 5" configuration from the review
+    tail = [
+        Pivot(len(base), base[-1].bar + 2, "t1", 380.0, "L"),
+        Pivot(len(base) + 1, base[-1].bar + 4, "t2", 400.0, "H"),
+        Pivot(len(base) + 2, base[-1].bar + 6, "t3", 300.0, "L"),
+    ]
+    pivots = base + tail
+    null = fit_null_model(pivots)
+    memo = build_pattern_memo(pivots, null, {"atr_epsilon": 0.0}, k=4)
+
+    checked = 0
+    for (i, j, name, is_open), nodes in memo.items():
+        if not is_open:
+            continue
+        for nd in nodes:
+            ch = nd.children
+            assert ch and ch[-1].open, f"open {name} without open last child"
+            if len(ch) >= 2:
+                assert ch[-1].direction != ch[-2].direction, (
+                    f"open {name} [{i},{j}]: last two components both {ch[-1].direction}")
+                checked += 1
+    assert checked > 0, "no multi-component open parses found to check"
+
+
+def _open_c_zigzag_root():
+    """Up zigzag with wave C open (the documented no-invalidation case)."""
+    a = WaveUnit(i=0, j=4, pattern=None, start_price=100.0, end_price=200.0,
+                 hi=200.0, lo=100.0, direction="up", n_pivots=4, start_bar=0, end_bar=8)
+    b = WaveUnit(i=4, j=7, pattern=None, start_price=200.0, end_price=150.0,
+                 hi=200.0, lo=150.0, direction="down", n_pivots=3, start_bar=8, end_bar=14)
+    c = WaveUnit(i=7, j=10, pattern=None, start_price=150.0, end_price=180.0,
+                 hi=185.0, lo=150.0, direction="up", n_pivots=3, start_bar=14, end_bar=20,
+                 open=True)
+    return WaveUnit(i=0, j=10, pattern="zigzag", start_price=100.0, end_price=180.0,
+                    hi=200.0, lo=100.0, direction="up", n_pivots=10, start_bar=0, end_bar=20,
+                    children=(a, b, c), ll=5.0, total_ll=10.0, open=True)
+
+
+def test_report_price_context_and_warnings():
+    pivots = [Pivot(i, i * 2, f"2026-07-{7 + i:02d}", 100.0 + i, "H" if i % 2 else "L")
+              for i in range(11)]
+    root = _open_c_zigzag_root()
+    winner = AnchorResult(anchor=0, date=pivots[0].date, score=10.0, root=root, roots=[root])
+    tr = TournamentResult(candidates=[winner], winner=winner,
+                          no_clean_count=False, margin=10.0)
+
+    report = build_report("TEST", "2026-07-20", pivots, tr, pivot_k=1.0,
+                          last_close=180.0, data_through="2026-07-17")
+
+    assert report["meta"]["last_close"] == 180.0
+    assert report["meta"]["data_through"] == "2026-07-17"
+
+    targets = report["preferred"]["targets"]
+    assert len(targets) == 1 and targets[0]["price"] == 250.0  # C = A from B
+    assert targets[0]["pct_from_last"] == 38.9
+
+    warnings = report["warnings"]
+    assert any(w.startswith("no_invalidation_available") for w in warnings)
+    assert any(w.startswith("stale_data") for w in warnings)
+    assert not any(w.startswith("target_overshoot") for w in warnings)

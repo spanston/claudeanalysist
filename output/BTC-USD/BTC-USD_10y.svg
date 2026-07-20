@@ -251,8 +251,8 @@
 <circle cx="960.0" cy="274.6" r="2.2" fill="#475569"/>
 <line x1="64" y1="240.3" x2="960" y2="240.3" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,4"/>
 <text x="68" y="236.3" font-size="10" fill="#2563eb">target 75,498 (C = A from B extreme)</text>
-<line x1="64" y1="182.3" x2="960" y2="182.3" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,4"/>
-<text x="68" y="178.3" font-size="10" fill="#2563eb">target 92,355 (W5 = W1 from W4 extreme)</text>
+<line x1="64" y1="244.8" x2="960" y2="244.8" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,4"/>
+<text x="68" y="240.8" font-size="10" fill="#2563eb">target 74,180 (W5 = W1 from W4 extreme)</text>
 <text x="64" y="24" font-size="16" font-weight="600" fill="#1a202c">BTC-USD — Elliott Wave count — zigzag (up)</text>
 <text x="64" y="550" font-size="11" fill="#718096">Degree 2 C in progress; within it, degree 1 (5) unfolding (impulse)</text>
 <text x="432.9" y="279.3" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">A</text>
@@ -269,6 +269,6 @@
 <text x="673.9" y="382.5" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(1)</text>
 <text x="696.5" y="432.2" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(2)</text>
 <text x="794.4" y="119.6" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(3)</text>
-<text x="816.9" y="248.8" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(4)</text>
+<text x="922.4" y="311.3" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(4)</text>
 <text x="960.0" y="266.6" font-size="10" font-style="italic" fill="#718096" text-anchor="middle">(5)</text>
 </svg>

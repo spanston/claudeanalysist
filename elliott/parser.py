@@ -213,6 +213,14 @@ def parse_pattern_from_start(
                         pivots=pivots, open_ok=open_ok, leaf_min_len=leaf_min_len,
                     )
                     for unit in units:
+                        # Open-edge coherence: every Elliott component alternates
+                        # net direction against its predecessor. An open component
+                        # moving the SAME way as the previous one means the previous
+                        # component is still unfolding, not that a new wave has begun
+                        # (kills "up wave 5 in progress" readings where price is in
+                        # fact collapsing below wave 4's start -- review finding A).
+                        if unit.open and comps and unit.direction == comps[-1].direction:
+                            continue
                         comps2 = comps + [unit]
                         if not _passes_rules(spec, comps2, ctx):
                             continue

@@ -41,7 +41,9 @@ def run(ticker: str, period: str = "10y", k_top: int = 4,
     tournament = run_tournament(pivots, memo, null, ctx, k=k_top)
 
     run_date = date.today().isoformat()
-    report = build_report(ticker, run_date, pivots, tournament, pivot_k)
+    report = build_report(ticker, run_date, pivots, tournament, pivot_k,
+                            last_close=series.closes[-1] if series.closes else None,
+                            data_through=series.dates[-1] if series.dates else None)
 
     if out_json:
         with open(out_json, "w") as f:
@@ -85,6 +87,8 @@ def _print_summary(report: dict) -> None:
         print()
         print(f'ALTERNATE: {alt["pattern"]} ({alt["direction"]}) from anchor {alt["anchor_date"]}, '
               f'score {alt["score"]}')
+    for w in report.get("warnings", []):
+        print(f'  ! {w}')
 
 
 def main(argv=None) -> int:
