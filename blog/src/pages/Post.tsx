@@ -56,11 +56,15 @@ export default function PostPage() {
         ) : (
           pref && (
             <>
-              <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
                 <Stat label="Pattern" value={fmtPattern(pref.pattern)} />
                 <Stat label="Direction" value={pref.direction === 'up' ? '▲ up' : '▼ down'} />
                 <Stat label="Structure strength" value={pref.structure_strength.toFixed(2)} />
                 <Stat label="Rel. confidence" value={pref.relative_confidence.toFixed(2)} />
+                <Stat
+                  label="Last close"
+                  value={r.meta.last_close != null ? fmtPrice(r.meta.last_close) : '—'}
+                />
               </div>
 
               <section className="mt-6 rounded-xl border border-slate-200 bg-white p-6">
@@ -77,6 +81,11 @@ export default function PostPage() {
                       {pref.invalidations.map((inv, i) => (
                         <li key={i} className="flex items-baseline gap-2 text-sm">
                           <span className="font-mono font-semibold text-red-700">{fmtPrice(inv.price)}</span>
+                          {inv.pct_from_last !== undefined && (
+                            <span className="font-mono text-xs text-red-400">
+                              ({inv.pct_from_last >= 0 ? '+' : ''}{inv.pct_from_last.toFixed(1)}%)
+                            </span>
+                          )}
                           <span className="text-slate-600">{inv.rule}</span>
                           <span className="text-xs text-slate-400">
                             ({inv.label}, degree {inv.degree})
@@ -99,6 +108,11 @@ export default function PostPage() {
                       {pref.targets.map((t, i) => (
                         <li key={i} className="flex items-baseline gap-2 text-sm">
                           <span className="font-mono font-semibold text-blue-700">{fmtPrice(t.price)}</span>
+                          {t.pct_from_last !== undefined && (
+                            <span className="font-mono text-xs text-blue-400">
+                              ({t.pct_from_last >= 0 ? '+' : ''}{t.pct_from_last.toFixed(1)}%)
+                            </span>
+                          )}
                           <span className="text-slate-600">{t.basis}</span>
                           <span className="text-xs text-slate-400">({t.label})</span>
                         </li>
@@ -122,6 +136,20 @@ export default function PostPage() {
               )}
             </>
           )
+        )}
+
+        {(r.warnings?.length ?? 0) > 0 && (
+          <section className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-6">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-amber-700">Caveats</h2>
+            <ul className="mt-2 space-y-1.5">
+              {r.warnings!.map((w, i) => (
+                <li key={i} className="text-sm leading-relaxed text-amber-900">
+                  <span className="font-mono font-semibold">{w.split(':')[0]}</span>
+                  <span>:{w.split(':').slice(1).join(':')}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         {post.svg && (

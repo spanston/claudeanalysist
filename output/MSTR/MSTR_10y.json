@@ -12,16 +12,16 @@
     "data_through": "2026-07-17"
   },
   "no_clean_count": true,
-  "best_score": -9.257,
+  "best_score": -2.864,
   "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
   "anchors_considered": [
     {
       "date": "2021-02-09",
-      "score": -9.257
+      "score": -2.864
     },
     {
       "date": "2020-03-19",
-      "score": null
+      "score": -8.601
     },
     {
       "date": "2020-12-09",

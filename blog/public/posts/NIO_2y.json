@@ -7,7 +7,9 @@
       "2026-07-17"
     ],
     "monowaves": 107,
-    "pivot_k": 1.4313
+    "pivot_k": 1.4313,
+    "last_close": 4.880000114440918,
+    "data_through": "2026-07-17"
   },
   "no_clean_count": false,
   "anchor": {
@@ -17,7 +19,7 @@
   "preferred": {
     "pattern": "triangle_contract",
     "structure_strength": 4.286,
-    "relative_confidence": 0.219,
+    "relative_confidence": 0.212,
     "direction": "down",
     "span": [
       "2024-10-02",
@@ -37,7 +39,8 @@
         "price": 4.389999866485596,
         "basis": "C = A from B extreme",
         "degree": 1,
-        "label": "(C)"
+        "label": "(C)",
+        "pct_from_last": -10.0
       }
     ]
   },
@@ -52,6 +55,11 @@
     ],
     "same_anchor": true
   },
+  "warnings": [
+    "no_invalidation_available: open wave E/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "stale_data: price data ends 2026-07-17, report run 2026-07-20",
+    "near_tie_alternate: same-anchor triangle_contract (down) is within 1 nat of the preferred count"
+  ],
   "anchors_considered": [
     {
       "date": "2024-10-02",
@@ -59,7 +67,7 @@
     },
     {
       "date": "2025-04-08",
-      "score": 0.94
+      "score": 1.536
     },
     {
       "date": "2025-10-02",

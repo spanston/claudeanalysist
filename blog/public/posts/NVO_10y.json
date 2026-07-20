@@ -7,7 +7,9 @@
       "2026-07-16"
     ],
     "monowaves": 123,
-    "pivot_k": 3.3106
+    "pivot_k": 3.3106,
+    "last_close": 50.31999969482422,
+    "data_through": "2026-07-17"
   },
   "no_clean_count": false,
   "anchor": {
@@ -15,8 +17,8 @@
     "index": 3
   },
   "preferred": {
-    "pattern": "zigzag",
-    "structure_strength": 9.348,
+    "pattern": "triple_zigzag",
+    "structure_strength": 5.638,
     "relative_confidence": 0.261,
     "direction": "up",
     "span": [
@@ -25,32 +27,27 @@
     ],
     "position": {
       "path": [
-        "C",
-        "(5)"
+        "X",
+        "(C)"
       ],
-      "text_en": "Degree 2 C in progress; within it, degree 1 (5) unfolding (impulse)",
-      "text_sv": "Grad 2 C p\u00e5g\u00e5r; inom den utvecklas grad 1 (5) (impulse)"
+      "text_en": "Degree 2 X in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 X p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
     },
     "invalidations": [],
     "targets": [
       {
-        "price": 92.21500015258789,
+        "price": 33.69000244140625,
         "basis": "C = A from B extreme",
-        "degree": 2,
-        "label": "C"
-      },
-      {
-        "price": 155.60000228881836,
-        "basis": "W5 = W1 from W4 extreme",
         "degree": 1,
-        "label": "(5)"
+        "label": "(C)",
+        "pct_from_last": -33.0
       }
     ]
   },
   "alternate": {
     "anchor_date": "2016-11-23",
-    "pattern": "double_zigzag",
-    "score": 3.981,
+    "pattern": "triangle_contract",
+    "score": 3.113,
     "direction": "up",
     "span": [
       "2016-11-23",
@@ -58,10 +55,16 @@
     ],
     "same_anchor": true
   },
+  "warnings": [
+    "no_invalidation_available: open wave X/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "stale_data: price data ends 2026-07-17, report run 2026-07-20",
+    "target_overshoot: last close 50.32 is already beyond the (C) projection of 33.69",
+    "near_tie_alternate: same-anchor triple_zigzag (up) is within 1 nat of the preferred count"
+  ],
   "anchors_considered": [
     {
       "date": "2016-11-23",
-      "score": 9.348
+      "score": 5.638
     },
     {
       "date": "2023-12-11",

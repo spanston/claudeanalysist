@@ -145,11 +145,25 @@ def _passes_rules(spec: G.PatternSpec, comps: list, ctx: dict) -> bool:
     return all(_try_rule(r, comps, ctx) for r in spec.hard_rules)
 
 
-def _reserve_bound(n: int, pos: int, components_remaining_after: int) -> int:
-    """Never let a component eat so much of the span that the remaining
-    components can't fit their universal 3-pivot floor -- cheap, safe
-    (every leaf and pattern spans >=3 pivots) proportionality pruning."""
-    return n - 1 - components_remaining_after * MIN_LEAF["3"]
+def _reserve_bound(n: int, pos: int, c: int, n_comp: int, strict: bool) -> int:
+    """Rightmost end a closed component at index c may have.
+    strict (root phase): reserve remaining*3 for ALL remaining components --
+    the root must genuinely partition the window into several degree-1
+    children; one hot child covering the whole window plus crumbs is not a
+    two-degree count (permissiveness leak, measured on the GBM seed sweep).
+    non-strict (leaf phase): prefix-aware minimum -- a closed component at
+    c >= 1 may be followed by just the open terminal (1 pivot); only the
+    first component must leave room for a closed 2nd plus an open 3rd."""
+    remaining_after = n_comp - c - 1
+    if strict:
+        reserve = remaining_after * MIN_LEAF["3"]
+    elif remaining_after == 0:
+        reserve = 0
+    elif c >= 1:
+        reserve = 1                       # next component may be the open terminal
+    else:
+        reserve = MIN_LEAF["3"] + 1       # closed 2nd + open 3rd minimum
+    return n - 1 - reserve
 
 
 def _assemble(spec: G.PatternSpec, comps: list[WaveUnit], role_universe: str,
@@ -195,18 +209,24 @@ def parse_pattern_from_start(
         component_kind == "leaf" and spec.name.startswith("triangle")) else None
     # states[pos] = top-k (score, comps) after placing all components so far
     states: dict[int, list[tuple[float, list[WaveUnit]]]] = {i: [(0.0, [])]}
+    # Prefix-complete derivations (DESIGN.md §4: an impulse with waves 1-2
+    # done and wave 3 UNDERWAY is a legal terminal parse): any component
+    # from the 2nd onward may be the open right-edge one, ending the
+    # derivation there. Without this, every count is forced to claim its
+    # final component is underway -- the engine could never say "wave 3 of
+    # 5 in progress" (review finding B).
+    prefix: dict[int, list[tuple[float, list[WaveUnit]]]] = {}
 
     for c, comp in enumerate(spec.components):
-        remaining_after = n_comp - c - 1
-        is_last = c == n_comp - 1
         new_states: dict[int, list[tuple[float, list[WaveUnit]]]] = {}
         for pos, entries in states.items():
-            max_e = min(n - 1, _reserve_bound(n, pos, remaining_after))
+            max_e = min(n - 1, _reserve_bound(n, pos, c, n_comp,
+                                              strict=component_kind == "pattern"))
             if max_e <= pos:
                 continue
             for score, comps in entries:
                 for e in range(pos + 1, max_e + 1):
-                    open_ok = allow_open and is_last and e == n - 1
+                    open_ok = allow_open and e == n - 1 and c >= 1
                     units = _candidate_units(
                         comp, pos, e, component_kind=component_kind,
                         leaf_cache=leaf_cache, pattern_memo=pattern_memo,
@@ -224,7 +244,33 @@ def parse_pattern_from_start(
                         comps2 = comps + [unit]
                         if not _passes_rules(spec, comps2, ctx):
                             continue
+                        if unit.open:
+                            prefix.setdefault(e, []).append((score + unit.total_ll, comps2))
+                            continue  # nothing may follow an open component
                         new_states.setdefault(e, []).append((score + unit.total_ll, comps2))
+                # Prefix-complete terminal at the right edge for NON-final
+                # components ("wave 3 of 5 underway"): the reserve bound
+                # above correctly excludes e == n-1 from the closed loop
+                # (it saves room for siblings that will never exist in a
+                # prefix), so the open terminal is considered separately.
+                # c >= 2: at least TWO closed components must precede the
+                # open one -- a single closed wave plus "something is moving"
+                # is not a count, and letting one lucky child carry a whole
+                # root breaks the permissiveness margin.
+                if allow_open and c >= 2 and c < n_comp - 1:
+                    e = n - 1
+                    for unit in _candidate_units(
+                            comp, pos, e, component_kind=component_kind,
+                            leaf_cache=leaf_cache, pattern_memo=pattern_memo,
+                            pivots=pivots, open_ok=True, leaf_min_len=leaf_min_len):
+                        if not unit.open:
+                            continue
+                        if comps and unit.direction == comps[-1].direction:
+                            continue
+                        comps2 = comps + [unit]
+                        if not _passes_rules(spec, comps2, ctx):
+                            continue
+                        prefix.setdefault(e, []).append((score + unit.total_ll, comps2))
         for pos2 in new_states:
             new_states[pos2] = _top_k(new_states[pos2], k)
         states = new_states
@@ -237,6 +283,16 @@ def parse_pattern_from_start(
                 continue
             open_flag = any(c.open for c in comps)
             nodes.append(_assemble(spec, comps, role_universe, null, open_flag=open_flag))
+        if nodes:
+            results[j] = sorted(nodes, key=lambda nd: -nd.total_ll)[:k]
+
+    # assemble prefix-complete (open) derivations and merge into results
+    for j, entries in prefix.items():
+        nodes = list(results.get(j, []))
+        for score, comps in entries:
+            if not _passes_rules(spec, comps, ctx):
+                continue
+            nodes.append(_assemble(spec, comps, role_universe, null, open_flag=True))
         if nodes:
             results[j] = sorted(nodes, key=lambda nd: -nd.total_ll)[:k]
 
@@ -260,7 +316,17 @@ def _candidate_units(comp: G.Component, pos: int, e: int, *, component_kind: str
     for name in names:
         out.extend(pattern_memo.get((pos, e, name, False), []))
         if open_ok:
-            out.extend(pattern_memo.get((pos, e, name, True), []))
+            # Only FINAL-component-open patterns may serve as a root's open
+            # child. A mid-prefix open pattern (e.g. impulse with waves 1-2
+            # done and 3 underway) carries almost no scoring cost for its
+            # long open tail, which lets noise winners park all their
+            # evidence in one hot closed sibling and claim the rest of the
+            # window for ~0 nats (measured: GBM seed 5 at +14.8). Root
+            # mid-prefixes themselves stay legal -- their open child is one
+            # of these final-open patterns.
+            for u in pattern_memo.get((pos, e, name, True), []):
+                if len(u.children) == len(G.GRAMMAR[name].components):
+                    out.append(u)
     return out
 
 

@@ -11,13 +11,60 @@
     "last_close": 50.31999969482422,
     "data_through": "2026-07-17"
   },
-  "no_clean_count": true,
-  "best_score": 1.861,
-  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2016-11-23",
+    "index": 3
+  },
+  "preferred": {
+    "pattern": "triple_zigzag",
+    "structure_strength": 5.638,
+    "relative_confidence": 0.261,
+    "direction": "up",
+    "span": [
+      "2016-11-23",
+      "2026-07-16"
+    ],
+    "position": {
+      "path": [
+        "X",
+        "(C)"
+      ],
+      "text_en": "Degree 2 X in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 X p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 33.69000244140625,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)",
+        "pct_from_last": -33.0
+      }
+    ]
+  },
+  "alternate": {
+    "anchor_date": "2016-11-23",
+    "pattern": "triangle_contract",
+    "score": 3.113,
+    "direction": "up",
+    "span": [
+      "2016-11-23",
+      "2026-07-16"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "no_invalidation_available: open wave X/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "stale_data: price data ends 2026-07-17, report run 2026-07-20",
+    "target_overshoot: last close 50.32 is already beyond the (C) projection of 33.69",
+    "near_tie_alternate: same-anchor triple_zigzag (up) is within 1 nat of the preferred count"
+  ],
   "anchors_considered": [
     {
       "date": "2016-11-23",
-      "score": 1.861
+      "score": 5.638
     },
     {
       "date": "2023-12-11",

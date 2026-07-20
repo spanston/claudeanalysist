@@ -19,7 +19,7 @@
   "preferred": {
     "pattern": "triangle_contract",
     "structure_strength": 4.286,
-    "relative_confidence": 0.219,
+    "relative_confidence": 0.212,
     "direction": "down",
     "span": [
       "2024-10-02",
@@ -67,7 +67,7 @@
     },
     {
       "date": "2025-04-08",
-      "score": 0.94
+      "score": 1.536
     },
     {
       "date": "2025-10-02",

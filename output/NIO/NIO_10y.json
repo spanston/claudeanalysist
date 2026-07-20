@@ -11,29 +11,76 @@
     "last_close": 4.880000114440918,
     "data_through": "2026-07-17"
   },
-  "no_clean_count": true,
-  "best_score": 1.86,
-  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2019-10-02",
+    "index": 11
+  },
+  "preferred": {
+    "pattern": "triangle_contract",
+    "structure_strength": 5.982,
+    "relative_confidence": 0.261,
+    "direction": "up",
+    "span": [
+      "2019-10-02",
+      "2026-06-26"
+    ],
+    "position": {
+      "path": [
+        "D",
+        "(C)"
+      ],
+      "text_en": "Degree 2 D in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 D p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 2.5699996948242188,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)",
+        "pct_from_last": -47.3
+      }
+    ]
+  },
+  "alternate": {
+    "anchor_date": "2019-10-02",
+    "pattern": "triple_zigzag",
+    "score": 3.497,
+    "direction": "up",
+    "span": [
+      "2019-10-02",
+      "2026-06-26"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "no_invalidation_available: open wave D/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "stale_data: price data ends 2026-07-17, report run 2026-07-20",
+    "target_overshoot: last close 4.88 is already beyond the (C) projection of 2.57",
+    "near_tie_alternate: same-anchor triangle_contract (up) is within 1 nat of the preferred count"
+  ],
   "anchors_considered": [
     {
       "date": "2019-10-02",
-      "score": 1.86
-    },
-    {
-      "date": "2020-09-04",
-      "score": -2.818
-    },
-    {
-      "date": "2021-03-05",
-      "score": -3.578
+      "score": 5.982
     },
     {
       "date": "2020-11-13",
-      "score": -5.959
+      "score": 3.362
+    },
+    {
+      "date": "2020-09-04",
+      "score": 3.234
+    },
+    {
+      "date": "2021-03-05",
+      "score": -3.033
     },
     {
       "date": "2021-01-11",
-      "score": -9.252
+      "score": -4.304
     }
   ]
 }

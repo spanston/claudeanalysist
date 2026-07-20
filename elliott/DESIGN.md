@@ -377,6 +377,56 @@ string consumed verbatim). Nothing in v1 depends on the digest.
 
 ---
 
+## Errata and v1.1 changes (2026-07 review)
+
+**Doc-vs-code overclaims flagged by the review** (left as-is, documented
+here so the next implementer is not misled):
+
+- §4's "Viterbi is exact" does not hold in the implementation: the DP memo
+  key does not carry the threaded state the design specifies, so cell top-k
+  is a beam search, not an exact algorithm. k=4–5 is the design's own
+  mitigation. `relative_confidence` is therefore not exact posterior odds.
+- §5's priors are normalized over two global universes (all-:5, all-:3),
+  not per family×role×open/complete. Role-gating is hard (legal/illegal),
+  but alternation lives only in the soft impulse guideline, not in
+  role-conditioned priors.
+
+**v1.1 behavior changes (implemented, tested):**
+
+- **Open-edge coherence rule**: an open right-edge component must alternate
+  net direction against its predecessor. A component moving the same way
+  means the predecessor is still unfolding. Killed two production counts
+  that read "up wave 5 in progress" while price collapsed below wave 4's
+  start (NVO 10y → now correctly no-clean-count; BTC 10y re-partitioned
+  with a coherent open wave 5).
+- **Prefix-complete parses, guarded**: mid-structure readings ("wave 3 of
+  5 underway") are now representable, per §4's original intent. Guards,
+  each added after a measured permissiveness leak: ≥2 closed components
+  before the open one; a root's open child must be a final-component-open
+  pattern (a mid-prefix child parks its long open tail at ~0 nats cost —
+  GBM seed scored +14.8 before this gate); strict reserve bound at the
+  root phase so roots genuinely partition the window.
+- **Uplift gate**: no-clean-count also fires when the root adds ≤0 nats
+  beyond its own best component (a single hot span plus open tail is not
+  a two-degree count).
+- **Report context**: `meta.last_close`, `meta.data_through`,
+  `pct_from_last` on every target/invalidation, and `warnings[]`
+  (no-invalidation gap, stale data, target overshoot, near-tie alternate).
+
+**Residual false positives — disclosed, not solved.** The permissiveness
+audit is now multi-seed (single-seed v1 audit passed while 4/8 unseen
+seeds counted pure noise — the 3.0-nat margin was never calibrated).
+Current honest state on 8 GBM seeds: 6/8 refuse; 2/8 count noise, one of
+them strongly (16.4 nats via a single lucky degree-1 impulse — the
+multiple-comparison max over the span hypergraph). Irreducible by
+thresholding without killing genuine weak counts (which start at 4.2
+nats). The audit is pinned to this state as a regression tripwire; the
+mitigation for consumers is the report's confidence, alternate, and
+warnings fields. A real fix needs what we deliberately did not build in
+this pass: a held-out validation set for prior/σ/margin tuning.
+
+---
+
 ## Changelog v1 → v2 (from the three-way review)
 
 **Elliott Wave canon audit** — leading diagonal corrected to 5-3-5-3-5;

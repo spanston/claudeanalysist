@@ -7,19 +7,21 @@
       "2026-07-17"
     ],
     "monowaves": 123,
-    "pivot_k": 1.2446
+    "pivot_k": 1.2446,
+    "last_close": 380.8399963378906,
+    "data_through": "2026-07-17"
   },
   "no_clean_count": true,
-  "best_score": 0.523,
+  "best_score": 0.928,
   "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
   "anchors_considered": [
     {
       "date": "2024-08-07",
-      "score": 0.523
+      "score": 0.928
     },
     {
       "date": "2025-09-02",
-      "score": 0.065
+      "score": 0.47
     },
     {
       "date": "2024-12-18",

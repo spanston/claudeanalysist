@@ -7,70 +7,32 @@
       "2026-07-17"
     ],
     "monowaves": 123,
-    "pivot_k": 1.2446
+    "pivot_k": 1.2446,
+    "last_close": 114.97000122070312,
+    "data_through": "2026-07-17"
   },
-  "no_clean_count": false,
-  "anchor": {
-    "date": "2025-04-09",
-    "index": 46
-  },
-  "preferred": {
-    "pattern": "double_zigzag",
-    "structure_strength": 3.079,
-    "relative_confidence": 0.254,
-    "direction": "up",
-    "span": [
-      "2025-04-09",
-      "2026-07-17"
-    ],
-    "position": {
-      "path": [
-        "Y",
-        "(C)"
-      ],
-      "text_en": "Degree 2 Y in progress; within it, degree 1 (C) unfolding (zigzag)",
-      "text_sv": "Grad 2 Y p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
-    },
-    "invalidations": [],
-    "targets": [
-      {
-        "price": 144.17999267578125,
-        "basis": "C = A from B extreme",
-        "degree": 1,
-        "label": "(C)"
-      }
-    ]
-  },
-  "alternate": {
-    "anchor_date": "2025-04-09",
-    "pattern": "double_three",
-    "score": -0.137,
-    "direction": "up",
-    "span": [
-      "2025-04-09",
-      "2026-07-17"
-    ],
-    "same_anchor": true
-  },
+  "no_clean_count": true,
+  "best_score": 2.316,
+  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
   "anchors_considered": [
     {
       "date": "2025-04-09",
-      "score": 3.079
+      "score": 2.316
     },
     {
       "date": "2024-08-07",
-      "score": 1.453
-    },
-    {
-      "date": "2025-09-04",
-      "score": -3.214
-    },
-    {
-      "date": "2025-10-02",
-      "score": -7.772
+      "score": 0.69
     },
     {
       "date": "2025-03-17",
+      "score": null
+    },
+    {
+      "date": "2025-09-04",
+      "score": null
+    },
+    {
+      "date": "2025-10-02",
       "score": null
     }
   ]

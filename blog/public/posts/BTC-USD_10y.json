@@ -7,7 +7,9 @@
       "2026-07-15"
     ],
     "monowaves": 120,
-    "pivot_k": 3.8072
+    "pivot_k": 3.8072,
+    "last_close": 64182.0390625,
+    "data_through": "2026-07-20"
   },
   "no_clean_count": false,
   "anchor": {
@@ -15,9 +17,9 @@
     "index": 0
   },
   "preferred": {
-    "pattern": "zigzag",
-    "structure_strength": 7.519,
-    "relative_confidence": 0.245,
+    "pattern": "impulse",
+    "structure_strength": 24.778,
+    "relative_confidence": 0.347,
     "direction": "up",
     "span": [
       "2016-08-03",
@@ -25,32 +27,36 @@
     ],
     "position": {
       "path": [
-        "C",
-        "(5)"
+        "4",
+        "(C)"
       ],
-      "text_en": "Degree 2 C in progress; within it, degree 1 (5) unfolding (impulse)",
-      "text_sv": "Grad 2 C p\u00e5g\u00e5r; inom den utvecklas grad 1 (5) (impulse)"
+      "text_en": "Degree 2 4 in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 4 p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
     },
-    "invalidations": [],
+    "invalidations": [
+      {
+        "price": 58330.5703125,
+        "degree": 2,
+        "rule": "wave 4 may not overlap wave 1's territory",
+        "label": "4",
+        "binding": true,
+        "pct_from_last": -9.1
+      }
+    ],
     "targets": [
       {
-        "price": 75497.64636230469,
+        "price": 18409.296875,
         "basis": "C = A from B extreme",
-        "degree": 2,
-        "label": "C"
-      },
-      {
-        "price": 92354.806640625,
-        "basis": "W5 = W1 from W4 extreme",
         "degree": 1,
-        "label": "(5)"
+        "label": "(C)",
+        "pct_from_last": -71.3
       }
     ]
   },
   "alternate": {
     "anchor_date": "2016-08-03",
-    "pattern": "double_zigzag",
-    "score": 4.949,
+    "pattern": "triple_zigzag",
+    "score": 8.735,
     "direction": "up",
     "span": [
       "2016-08-03",
@@ -58,14 +64,18 @@
     ],
     "same_anchor": true
   },
+  "warnings": [
+    "target_overshoot: last close 64,182.04 is already beyond the (C) projection of 18,409.30",
+    "near_tie_alternate: same-anchor impulse (up) is within 1 nat of the preferred count"
+  ],
   "anchors_considered": [
     {
       "date": "2016-08-03",
-      "score": 7.519
+      "score": 24.778
     },
     {
       "date": "2020-09-07",
-      "score": -2.349
+      "score": -3.006
     },
     {
       "date": "2024-10-10",

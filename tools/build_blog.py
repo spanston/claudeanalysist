@@ -49,6 +49,8 @@ def build() -> list[dict]:
                 "run_date": report["meta"]["run_date"],
                 "window": report["meta"]["window"],
                 "monowaves": report["meta"]["monowaves"],
+                "last_close": report["meta"].get("last_close"),
+                "data_through": report["meta"].get("data_through"),
                 "no_clean_count": report["no_clean_count"],
                 "pattern": pref.get("pattern"),
                 "direction": pref.get("direction"),
@@ -56,6 +58,7 @@ def build() -> list[dict]:
                 "relative_confidence": pref.get("relative_confidence"),
                 "position_en": (pref.get("position") or {}).get("text_en"),
                 "best_score": report.get("best_score"),
+                "warnings": report.get("warnings", []),
                 "svg": f"posts/{post_id}.svg" if has_svg else None,
                 "report": report,
             })

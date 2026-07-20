@@ -82,6 +82,7 @@ class AnchorResult:
     score: float          # S(best root tree) = root.total_ll; -inf if no root found
     root: WaveUnit | None
     roots: list = field(default_factory=list)  # root k-best list at this anchor, best-first
+    uplift: float = 0.0   # root.total_ll minus its best child's score (see run_tournament)
 
 
 @dataclass
@@ -90,6 +91,15 @@ class TournamentResult:
     winner: AnchorResult | None
     no_clean_count: bool
     margin: float          # winner.score, directly (0 = indistinguishable from random walk)
+
+
+def _uplift(root: WaveUnit | None) -> float:
+    """How much the assembled root adds beyond its own best component:
+    root.total_ll - max(child.total_ll). Positive means the two-degree
+    structure explains the data better than any single component alone."""
+    if root is None or not root.children:
+        return 0.0
+    return root.total_ll - max(c.total_ll for c in root.children)
 
 
 def run_tournament(pivots: list[Pivot], pattern_memo: dict, null: NullModel, ctx: dict,
@@ -103,12 +113,19 @@ def run_tournament(pivots: list[Pivot], pattern_memo: dict, null: NullModel, ctx
         roots = build_root_candidates(pattern_memo, a, n, null, ctx, k=k)
         best_root = roots[0] if roots else None
         score = best_root.total_ll if best_root is not None else float("-inf")
+        uplift = _uplift(best_root) if best_root is not None else float("-inf")
         results.append(AnchorResult(anchor=a, date=pivots[a].date, score=score,
-                                      root=best_root, roots=roots))
+                                      root=best_root, roots=roots, uplift=uplift))
 
     results.sort(key=lambda r: -r.score)
     winner = results[0] if results else None
     margin = winner.score if winner else float("-inf")
-    no_clean = winner is None or winner.root is None or margin < margin_threshold
+    # A count must (a) beat chance by the calibrated margin AND (b) earn its
+    # keep as a two-degree structure: the assembled root must add explanatory
+    # power beyond its own best component. Without (b), a single lucky
+    # degree-1 span plus an open tail can masquerade as a degree-2 count
+    # (observed: GBM random walk scoring +10.6 via a 2-component prefix).
+    no_clean = (winner is None or winner.root is None
+                or margin < margin_threshold or winner.uplift <= 0.0)
 
     return TournamentResult(candidates=results, winner=winner, no_clean_count=no_clean, margin=margin)

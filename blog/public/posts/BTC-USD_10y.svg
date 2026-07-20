@@ -249,26 +249,30 @@
 <circle cx="944.9" cy="215.2" r="2.2" fill="#475569"/>
 <circle cx="952.5" cy="301.3" r="2.2" fill="#475569"/>
 <circle cx="960.0" cy="274.6" r="2.2" fill="#475569"/>
-<line x1="64" y1="240.3" x2="960" y2="240.3" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,4"/>
-<text x="68" y="236.3" font-size="10" fill="#2563eb">target 75,498 (C = A from B extreme)</text>
-<line x1="64" y1="182.3" x2="960" y2="182.3" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,4"/>
-<text x="68" y="178.3" font-size="10" fill="#2563eb">target 92,355 (W5 = W1 from W4 extreme)</text>
-<text x="64" y="24" font-size="16" font-weight="600" fill="#1a202c">BTC-USD — Elliott Wave count — zigzag (up)</text>
-<text x="64" y="550" font-size="11" fill="#718096">Degree 2 C in progress; within it, degree 1 (5) unfolding (impulse)</text>
-<text x="432.9" y="279.3" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">A</text>
+<line x1="64" y1="299.3" x2="960" y2="299.3" stroke="#b91c1c" stroke-width="1.4" stroke-dasharray="6,4"/>
+<text x="68" y="295.3" font-size="10" fill="#b91c1c">invalidation 58,331</text>
+<line x1="64" y1="436.6" x2="960" y2="436.6" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,4"/>
+<text x="68" y="432.6" font-size="10" fill="#2563eb">target 18,409 (C = A from B extreme)</text>
+<text x="64" y="24" font-size="16" font-weight="600" fill="#1a202c">BTC-USD — Elliott Wave count — impulse (up)</text>
+<text x="64" y="550" font-size="11" fill="#718096">Degree 2 4 in progress; within it, degree 1 (C) unfolding (zigzag)</text>
+<text x="432.9" y="279.3" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">1</text>
 <text x="176.9" y="465.2" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(1)</text>
 <text x="274.8" y="507.0" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(2)</text>
 <text x="312.5" y="444.5" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(3)</text>
 <text x="335.1" y="486.4" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(4)</text>
 <text x="432.9" y="291.3" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(5)</text>
-<text x="560.9" y="472.0" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">B</text>
+<text x="545.9" y="442.3" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">2</text>
 <text x="470.6" y="418.6" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(A)</text>
 <text x="493.2" y="255.4" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(B)</text>
-<text x="560.9" y="457.0" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(C)</text>
-<text x="960.0" y="254.6" font-size="13" font-style="italic" fill="#1a202c" text-anchor="middle">C</text>
-<text x="673.9" y="382.5" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(1)</text>
-<text x="696.5" y="432.2" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(2)</text>
+<text x="545.9" y="427.3" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(C)</text>
+<text x="869.6" y="51.9" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">3</text>
+<text x="719.1" y="238.3" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(1)</text>
+<text x="756.7" y="349.0" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(2)</text>
 <text x="794.4" y="119.6" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(3)</text>
 <text x="816.9" y="248.8" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(4)</text>
-<text x="960.0" y="266.6" font-size="10" font-style="italic" fill="#718096" text-anchor="middle">(5)</text>
+<text x="869.6" y="63.9" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(5)</text>
+<text x="960.0" y="254.6" font-size="13" font-style="italic" fill="#1a202c" text-anchor="middle">4</text>
+<text x="922.4" y="311.3" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(A)</text>
+<text x="944.9" y="207.2" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(B)</text>
+<text x="960.0" y="266.6" font-size="10" font-style="italic" fill="#718096" text-anchor="middle">(C)</text>
 </svg>

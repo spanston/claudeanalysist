@@ -255,5 +255,24 @@
 <circle cx="945.3" cy="392.7" r="2.2" fill="#475569"/>
 <circle cx="952.7" cy="414.9" r="2.2" fill="#475569"/>
 <circle cx="960.0" cy="379.8" r="2.2" fill="#475569"/>
-<text x="64" y="24" font-size="16" font-weight="600" fill="#1a202c">NVO — Elliott Wave count</text>
+<line x1="64" y1="438.7" x2="960" y2="438.7" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,4"/>
+<text x="68" y="434.7" font-size="10" fill="#2563eb">target 33.69 (C = A from B extreme)</text>
+<text x="64" y="24" font-size="16" font-weight="600" fill="#1a202c">NVO — Elliott Wave count — triple_zigzag (up)</text>
+<text x="64" y="550" font-size="11" fill="#718096">Degree 2 X in progress; within it, degree 1 (C) unfolding (zigzag)</text>
+<text x="504.7" y="339.6" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">W</text>
+<text x="328.4" y="434.8" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(A)</text>
+<text x="350.4" y="486.2" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(B)</text>
+<text x="504.7" y="351.6" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(C)</text>
+<text x="600.1" y="419.6" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">X</text>
+<text x="526.7" y="400.1" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(A)</text>
+<text x="563.4" y="341.5" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(B)</text>
+<text x="600.1" y="404.6" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(C)</text>
+<text x="769.0" y="78.1" font-size="13" font-style="normal" fill="#1a202c" text-anchor="middle">Y</text>
+<text x="680.9" y="258.7" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(A)</text>
+<text x="703.0" y="320.3" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(B)</text>
+<text x="769.0" y="90.1" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(C)</text>
+<text x="960.0" y="359.8" font-size="13" font-style="italic" fill="#1a202c" text-anchor="middle">X</text>
+<text x="820.5" y="311.8" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(A)</text>
+<text x="842.5" y="234.9" font-size="10" font-style="normal" fill="#718096" text-anchor="middle">(B)</text>
+<text x="960.0" y="371.8" font-size="10" font-style="italic" fill="#718096" text-anchor="middle">(C)</text>
 </svg>

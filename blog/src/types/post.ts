@@ -4,6 +4,7 @@ export interface Invalidation {
   rule: string
   label: string
   binding?: boolean
+  pct_from_last?: number
 }
 
 export interface Target {
@@ -11,6 +12,7 @@ export interface Target {
   basis: string
   degree: number
   label: string
+  pct_from_last?: number
 }
 
 export interface Report {
@@ -20,6 +22,8 @@ export interface Report {
     window: string[]
     monowaves: number
     pivot_k: number
+    last_close?: number | null
+    data_through?: string | null
   }
   no_clean_count: boolean
   best_score?: number | null
@@ -44,6 +48,7 @@ export interface Report {
     same_anchor?: boolean
   } | null
   anchors_considered: { date: string; score: number | null }[]
+  warnings?: string[]
 }
 
 export interface Post {
@@ -53,6 +58,8 @@ export interface Post {
   run_date: string
   window: string[]
   monowaves: number
+  last_close: number | null
+  data_through: string | null
   no_clean_count: boolean
   pattern: string | null
   direction: string | null
@@ -60,6 +67,7 @@ export interface Post {
   relative_confidence: number | null
   position_en: string | null
   best_score?: number | null
+  warnings: string[]
   svg: string | null
   report: Report
 }

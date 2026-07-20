@@ -105,6 +105,28 @@ def test_report_falls_back_to_other_anchor_when_no_same_anchor_diversity():
 # v1.1: open-edge coherence + report price context
 # ---------------------------------------------------------------------------
 
+def test_prefix_complete_impulse_wave3_underway():
+    """Prefix-complete parse (DESIGN.md §4, review finding B): an impulse
+    with waves 1-2 complete and wave 3 underway must be representable --
+    not only 'final component in progress' readings."""
+    p1, k1 = _textured5(100, 200, "L")   # wave 1 complete
+    p2, k2 = _textured3(200, 150, "H")   # wave 2 complete
+    p3, k3 = [150, 220, 190, 260], ["L", "H", "L", "H"]  # wave 3 underway
+    prices = p1 + p2[1:] + p3[1:]
+    kinds = k1 + k2[1:] + k3[1:]
+    pivots = [Pivot(i, i * 2, f"d{i}", pr, kd) for i, (pr, kd) in enumerate(zip(prices, kinds))]
+
+    null = fit_null_model(pivots)
+    memo = build_pattern_memo(pivots, null, {"atr_epsilon": 0.0}, k=4)
+    full = (0, len(pivots) - 1, "impulse", True)
+    assert full in memo, "no open impulse spanning the partial wave 3"
+    prefixes = [nd for nd in memo[full] if len(nd.children) == 3]
+    assert prefixes, "expected a prefix parse with children (1, 2, open 3)"
+    node = prefixes[0]
+    assert [c.open for c in node.children] == [False, False, True]
+    assert node.children[2].direction == "up"
+
+
 def test_open_components_always_alternate_direction():
     """An open right-edge component must move AGAINST its predecessor --
     otherwise the predecessor is still unfolding (review finding A: NVO/BTC
