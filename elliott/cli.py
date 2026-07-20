@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
+import re
 import statistics
 import sys
 from datetime import date
@@ -91,12 +93,27 @@ def main(argv=None) -> int:
     parser.add_argument("--period", default="10y",
                           help="Yahoo range string (default: 10y; avoid 'max', see data.py)")
     parser.add_argument("--k", type=int, default=4, help="top-k retained per parse cell (default: 4)")
-    parser.add_argument("--json", dest="out_json", default=None, help="write JSON report to this path")
-    parser.add_argument("--svg", dest="out_svg", default=None, help="write labeled SVG chart to this path")
+    parser.add_argument("--json", dest="out_json", default=None,
+                          help="write JSON report to this path (default: output/<TICKER>/<TICKER>_<period>.json)")
+    parser.add_argument("--svg", dest="out_svg", default=None,
+                          help="write labeled SVG chart to this path (default: output/<TICKER>/<TICKER>_<period>.svg)")
     args = parser.parse_args(argv)
+
+    # Repo-structured outputs (output/<TICKER>/ per ticker, per period) so
+    # every run's report and chart are kept, not just printed.
+    safe = re.sub(r"[^A-Za-z0-9._-]+", "_", args.ticker)
+    out_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                           "output", safe)
+    os.makedirs(out_dir, exist_ok=True)
+    if args.out_json is None:
+        args.out_json = os.path.join(out_dir, f"{safe}_{args.period}.json")
+    if args.out_svg is None:
+        args.out_svg = os.path.join(out_dir, f"{safe}_{args.period}.svg")
 
     report = run(args.ticker, period=args.period, k_top=args.k,
                   out_json=args.out_json, out_svg=args.out_svg)
+    print(f"report: {args.out_json}")
+    print(f"chart:  {args.out_svg}")
     _print_summary(report)
     return 0
 

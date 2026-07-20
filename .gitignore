@@ -1,3 +1,4 @@
-elliott/.cache/
+data/cache/*.parquet
+!data/cache/.gitkeep
 __pycache__/
-*.pyc
+.pytest_cache/

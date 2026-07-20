@@ -24,7 +24,11 @@ from datetime import datetime, timezone
 import pandas as pd
 import requests
 
-CACHE_DIR = os.path.join(os.path.dirname(__file__), ".cache")
+# Repo-structured cache: <repo>/data/cache/, one parquet per
+# ticker/interval/period. Volatile (12h TTL, re-downloadable) -- gitignored,
+# the directory itself is kept via .gitkeep.
+CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                         "data", "cache")
 CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
 
 

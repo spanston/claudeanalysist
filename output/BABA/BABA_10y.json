@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "ticker": "BABA",
+    "run_date": "2026-07-20",
+    "window": [
+      "2016-08-08",
+      "2026-07-15"
+    ],
+    "monowaves": 124,
+    "pivot_k": 3.3106
+  },
+  "no_clean_count": true,
+  "best_score": -3.952,
+  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
+  "anchors_considered": [
+    {
+      "date": "2020-05-29",
+      "score": -3.952
+    },
+    {
+      "date": "2020-09-02",
+      "score": null
+    },
+    {
+      "date": "2020-10-27",
+      "score": null
+    },
+    {
+      "date": "2020-12-24",
+      "score": null
+    },
+    {
+      "date": "2022-10-24",
+      "score": null
+    }
+  ]
+}

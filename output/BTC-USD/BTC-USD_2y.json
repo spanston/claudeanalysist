@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "ticker": "BTC-USD",
+    "run_date": "2026-07-20",
+    "window": [
+      "2024-08-03",
+      "2026-07-15"
+    ],
+    "monowaves": 105,
+    "pivot_k": 1.6459
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2024-08-05",
+    "index": 1
+  },
+  "preferred": {
+    "pattern": "triple_zigzag",
+    "structure_strength": 4.209,
+    "relative_confidence": 0.228,
+    "direction": "up",
+    "span": [
+      "2024-08-05",
+      "2026-07-15"
+    ],
+    "position": {
+      "path": [
+        "Z",
+        "(C)"
+      ],
+      "text_en": "Degree 2 Z in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 Z p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 78949.30859375,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)"
+      }
+    ]
+  },
+  "alternate": {
+    "anchor_date": "2024-08-05",
+    "pattern": "double_zigzag",
+    "score": 3.408,
+    "direction": "up",
+    "span": [
+      "2024-08-05",
+      "2026-07-15"
+    ],
+    "same_anchor": true
+  },
+  "anchors_considered": [
+    {
+      "date": "2024-08-05",
+      "score": 4.209
+    },
+    {
+      "date": "2025-04-07",
+      "score": -3.556
+    },
+    {
+      "date": "2025-06-22",
+      "score": -4.224
+    },
+    {
+      "date": "2025-10-06",
+      "score": -11.701
+    },
+    {
+      "date": "2025-05-02",
+      "score": null
+    }
+  ]
+}
