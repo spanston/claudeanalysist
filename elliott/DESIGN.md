@@ -395,10 +395,12 @@ here so the next implementer is not misled):
 
 - **Open-edge coherence rule**: an open right-edge component must alternate
   net direction against its predecessor. A component moving the same way
-  means the predecessor is still unfolding. Killed two production counts
+  means the predecessor is still unfolding. Killed the production counts
   that read "up wave 5 in progress" while price collapsed below wave 4's
-  start (NVO 10y → now correctly no-clean-count; BTC 10y re-partitioned
-  with a coherent open wave 5).
+  start. Final v1.1 state on those two tickers: NVO 10y now parses as a
+  triple zigzag with (C) of X underway, BTC 10y as a degree-2 wave 4 with
+  (C) of a zigzag underway — both coherent, and both carry warnings
+  (target overshoot, near-tie alternate) where residual doubt remains.
 - **Prefix-complete parses, guarded**: mid-structure readings ("wave 3 of
   5 underway") are now representable, per §4's original intent. Guards,
   each added after a measured permissiveness leak: ≥2 closed components
@@ -424,6 +426,26 @@ nats). The audit is pinned to this state as a regression tripwire; the
 mitigation for consumers is the report's confidence, alternate, and
 warnings fields. A real fix needs what we deliberately did not build in
 this pass: a held-out validation set for prior/σ/margin tuning.
+
+**v1.2 — horizon-adaptive degree selection (`horizon.py`, `--horizon`).**
+Which two degrees are *relevant* is a function of the trading horizon: on
+a 10y window degree-1 waves span ~1–2 years, the wrong scale for a 3–12
+month swing trade. Horizon mode takes a target holding period (`6m`,
+`90d`, …; bars = trading days, m=21/y=252) and picks the analysis window
+in closed loop: run the normal pipeline on the last W bars, measure the
+winning root's median *closed* degree-1 duration, rescale W by
+horizon/measured (d1 is ~linear in W at the fixed 80–150 monowave budget,
+so 1–2 corrections suffice), up to 3 runs, accepting within
+[0.75, 1.33]×H. The traded degree is degree 1 by design — position,
+invalidation, and targets live on the open edge; degree 2 is context. The
+best-fitting iteration's report carries a `meta.horizon` diagnostics
+block (target, window, realized durations, fit ∈
+ok/unresolved/no_clean_count/history_limited, per-iteration decisions) and
+a warning when the band wasn't reached. `--period` becomes only the
+source pool in this mode; fixed-window behavior is unchanged. The
+pipeline core now lives in `horizon.analyze_window`, shared by both
+modes. Design doc:
+`docs/superpowers/specs/2026-07-20-horizon-adaptive-degrees-design.md`.
 
 ---
 

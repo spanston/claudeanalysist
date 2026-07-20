@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "ticker": "BTC-USD",
+    "run_date": "2026-07-20",
+    "window": [
+      "2024-07-25",
+      "2026-07-15"
+    ],
+    "monowaves": 106,
+    "pivot_k": 1.6459,
+    "last_close": 64182.0390625,
+    "data_through": "2026-07-20",
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 741,
+      "degree1_durations_bars": [
+        122,
+        85,
+        220,
+        123
+      ],
+      "degree1_median_bars": 122.5,
+      "fit": "ok",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 171.5,
+          "d1_bars": [
+            401,
+            85,
+            220,
+            123
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 741,
+          "median_d1_bars": 122.5,
+          "d1_bars": [
+            122,
+            85,
+            220,
+            123
+          ],
+          "decision": "accept"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2024-08-05",
+    "index": 2
+  },
+  "preferred": {
+    "pattern": "triple_zigzag",
+    "structure_strength": 4.125,
+    "relative_confidence": 0.225,
+    "direction": "up",
+    "span": [
+      "2024-08-05",
+      "2026-07-15"
+    ],
+    "position": {
+      "path": [
+        "Z",
+        "(C)"
+      ],
+      "text_en": "Degree 2 Z in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 Z p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 78949.30859375,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)",
+        "pct_from_last": 23.0
+      }
+    ]
+  },
+  "alternate": {
+    "anchor_date": "2024-08-05",
+    "pattern": "triangle_contract",
+    "score": 3.762,
+    "direction": "up",
+    "span": [
+      "2024-08-05",
+      "2026-07-15"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "no_invalidation_available: open wave Z/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "near_tie_alternate: same-anchor triple_zigzag (up) is within 1 nat of the preferred count"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2024-08-05",
+      "score": 4.125
+    },
+    {
+      "date": "2025-04-07",
+      "score": -3.605
+    },
+    {
+      "date": "2025-06-22",
+      "score": -4.253
+    },
+    {
+      "date": "2025-05-02",
+      "score": null
+    },
+    {
+      "date": "2025-10-06",
+      "score": null
+    }
+  ]
+}
