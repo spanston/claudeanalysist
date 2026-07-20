@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "ticker": "NIO",
+    "run_date": "2026-07-20",
+    "window": [
+      "2018-10-10",
+      "2026-06-26"
+    ],
+    "monowaves": 112,
+    "pivot_k": 2.8788
+  },
+  "no_clean_count": true,
+  "best_score": 1.86,
+  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
+  "anchors_considered": [
+    {
+      "date": "2019-10-02",
+      "score": 1.86
+    },
+    {
+      "date": "2020-09-04",
+      "score": -2.818
+    },
+    {
+      "date": "2021-03-05",
+      "score": -3.578
+    },
+    {
+      "date": "2020-11-13",
+      "score": -5.959
+    },
+    {
+      "date": "2021-01-11",
+      "score": -9.252
+    }
+  ]
+}

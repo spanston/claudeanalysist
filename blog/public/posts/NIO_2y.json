@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "ticker": "NIO",
+    "run_date": "2026-07-20",
+    "window": [
+      "2024-08-08",
+      "2026-07-17"
+    ],
+    "monowaves": 107,
+    "pivot_k": 1.4313
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2024-10-02",
+    "index": 11
+  },
+  "preferred": {
+    "pattern": "triangle_contract",
+    "structure_strength": 4.286,
+    "relative_confidence": 0.219,
+    "direction": "down",
+    "span": [
+      "2024-10-02",
+      "2026-07-17"
+    ],
+    "position": {
+      "path": [
+        "E",
+        "(C)"
+      ],
+      "text_en": "Degree 2 E in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 E p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 4.389999866485596,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)"
+      }
+    ]
+  },
+  "alternate": {
+    "anchor_date": "2024-10-02",
+    "pattern": "triple_zigzag",
+    "score": 4.133,
+    "direction": "down",
+    "span": [
+      "2024-10-02",
+      "2026-07-17"
+    ],
+    "same_anchor": true
+  },
+  "anchors_considered": [
+    {
+      "date": "2024-10-02",
+      "score": 4.286
+    },
+    {
+      "date": "2025-04-08",
+      "score": 0.94
+    },
+    {
+      "date": "2025-10-02",
+      "score": -5.381
+    },
+    {
+      "date": "2025-11-06",
+      "score": null
+    },
+    {
+      "date": "2025-12-03",
+      "score": null
+    }
+  ]
+}
