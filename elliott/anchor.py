@@ -96,9 +96,16 @@ class TournamentResult:
 def _uplift(root: WaveUnit | None) -> float:
     """How much the assembled root adds beyond its own best component:
     root.total_ll - max(child.total_ll). Positive means the two-degree
-    structure explains the data better than any single component alone."""
+    structure explains the data better than any single component alone.
+    For a reversal reading (completed root + tail), the two-degree
+    structure being validated is the COMPLETED root alone, so the tail is
+    excluded from both sides."""
     if root is None or not root.children:
         return 0.0
+    if root.reversal:
+        core = root.children[:-1]
+        core_total = root.total_ll - root.children[-1].total_ll
+        return core_total - max(c.total_ll for c in core)
     return root.total_ll - max(c.total_ll for c in root.children)
 
 
@@ -110,7 +117,7 @@ def run_tournament(pivots: list[Pivot], pattern_memo: dict, null: NullModel, ctx
 
     results: list[AnchorResult] = []
     for a in anchor_idxs:
-        roots = build_root_candidates(pattern_memo, a, n, null, ctx, k=k)
+        roots = build_root_candidates(pattern_memo, a, n, null, ctx, k=k, pivots=pivots)
         best_root = roots[0] if roots else None
         score = best_root.total_ll if best_root is not None else float("-inf")
         uplift = _uplift(best_root) if best_root is not None else float("-inf")

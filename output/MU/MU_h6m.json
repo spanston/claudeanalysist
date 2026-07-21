@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "ticker": "MU",
+    "run_date": "2026-07-20",
+    "window": [
+      "2022-08-02",
+      "2026-07-17"
+    ],
+    "monowaves": 131,
+    "pivot_k": 1.8928,
+    "last_close": 865.4600219726562,
+    "data_through": "2026-07-20",
+    "relvol_50": 1.16,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [
+        302,
+        270,
+        305
+      ],
+      "degree1_median_bars": 302,
+      "fit": "unresolved",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 302,
+          "d1_bars": [
+            302,
+            270,
+            305
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 421,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2022-12-22",
+    "index": 16
+  },
+  "preferred": {
+    "pattern": "double_zigzag",
+    "structure_strength": 9.679,
+    "relative_confidence": 0.939,
+    "direction": "down",
+    "span": [
+      "2022-12-22",
+      "2026-07-17"
+    ],
+    "completed": true,
+    "reversal_tail": {
+      "pattern": null,
+      "direction": "down",
+      "structured": false,
+      "span": [
+        "2026-06-25",
+        "2026-07-17"
+      ],
+      "completed_at": {
+        "date": "2026-06-25",
+        "price": 1255.0
+      },
+      "relvol_at_completion": 1.61
+    },
+    "position": {
+      "path": [
+        "?'"
+      ],
+      "text_en": "Degree 2 double_zigzag complete at 1,255; degree 1 counter-move (down) underway (too young to structure)",
+      "text_sv": "Grad 2 double_zigzag avslutad vid 1,255; grad 1 motv\u00e5g (ned\u00e5t) p\u00e5g\u00e5r"
+    },
+    "invalidations": [
+      {
+        "price": 1255.0,
+        "degree": 2,
+        "rule": "a new extreme beyond the completion point falsifies the completed reading",
+        "label": "?'",
+        "binding": true,
+        "pct_from_last": 45.0,
+        "zone": [
+          1213.41,
+          1296.59
+        ]
+      }
+    ],
+    "targets": []
+  },
+  "alternate": {
+    "anchor_date": "2022-12-22",
+    "pattern": "impulse",
+    "score": 5.563,
+    "direction": "up",
+    "span": [
+      "2022-12-22",
+      "2026-07-17"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "horizon_fit_unresolved: realized median degree-1 duration 302 bars did not settle within [0.75, 1.33]x the 126-bar horizon"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2022-12-22",
+      "score": 9.679
+    },
+    {
+      "date": "2024-08-05",
+      "score": -2.68
+    },
+    {
+      "date": "2024-06-18",
+      "score": -7.313
+    },
+    {
+      "date": "2025-09-02",
+      "score": null
+    },
+    {
+      "date": "2025-11-10",
+      "score": null
+    }
+  ]
+}

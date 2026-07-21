@@ -427,6 +427,79 @@ mitigation for consumers is the report's confidence, alternate, and
 warnings fields. A real fix needs what we deliberately did not build in
 this pass: a held-out validation set for prior/σ/margin tuning.
 
+**v1.4 — young reversals; open-component "beyond" rules; volume/ATR in
+report.** Follow-up to gaps proven by manual review of the first watchlist
+run (MU, NVDA):
+
+- **Bare-tail fallback** (`parser._reversal_readings`): when the
+  counter-move is too young for ANY structured tail (span < 7 pivots = 2
+  closed :3 leaves + open), a raw open monowave run may serve as the
+  reversal tail. Relaxes the v1.1 gates only where structure is impossible
+  by construction. Guard: the bare span may not make a new extreme beyond
+  the completion point (a "reversal" that first exceeds it is falsified —
+  structured tails need no such guard since a verified expanded flat's B
+  may legally exceed it). Report marks the tail `structured: false`,
+  labels it `?'`, and the position says "too young to structure". MU now
+  reads correctly: advance complete at the 1255 high, decline underway.
+- **"Must exceed" hard rules are undecidable on open components**
+  (`w3_beyond_w1_end`, `b_beyond_a_start`, `c_beyond_a_end`,
+  `d_beyond_b_end`, `e_beyond_c_end` return true while the relevant
+  component is open — same philosophy as `_try_rule`'s IndexError pass).
+  "Within/short" rules unchanged: an open component already violating
+  them cannot recover. NVDA's forming expanded flat became representable
+  (score 1.70→2.13) yet still fails margin+uplift — the gate working,
+  not a bug.
+- **Report enrichments (no scoring impact)**: `meta.relvol_50` (relative
+  volume at the right edge), `reversal_tail.relvol_at_completion` +
+  `low_volume_at_completion` warning (volume confirmation of tops — the
+  check that downgraded AAPL/SNDK in manual review), and ATR-banded
+  `zone` on every target/invalidation (levels are zones, not lines).
+
+Permissiveness audit unchanged (43-test suite green).
+
+**v1.3 — completed-root + reversal-tail readings; :5 leaf floor.**
+Motivated by NFLX 2022→2026 (8x advance into 2025-06, then a 50% decline
+still underway), which refused at every horizon and exposed two gaps:
+
+- **Reversal readings (the missing DESIGN §4 root reading).** Roots no
+  longer have to partition the entire window into their own components: a
+  CLOSED root ending at m < n-1 may pair with an open degree-1 tail over
+  [m, n-1] — "pattern just completed, larger-degree reversal just began".
+  Guards mirror the existing right-edge gates: tail must be a
+  final-component-open pattern with ≥2 closed components and must move
+  against the completed root's last component (v1.1 coherence); the uplift
+  gate evaluates the completed root alone. Open tails score log-prior only
+  (≤0), so the reading can only subtract from its root's score. The tail
+  is labeled from its own scheme with a prime (A') and reported via
+  `preferred.completed` / `preferred.reversal_tail`.
+- **:5 leaf floor (doc-vs-code gap, now closed).** §4 always specified
+  "interior pullbacks hold inside the right extremes" for the :5 floor,
+  but the code checked only endpoint extremes. A bogus NFLX reading (down
+  "impulse" whose wave-1 leaf contained a rally above its own start)
+  exploited this. `leaf_shape_ok` now rejects :5 leaves whose interior
+  counter-swings cross the leaf's start; :3 corrective leaves are exempt
+  (deep first dips/rallies are legal corrective shape — an expanded flat's
+  B making a new high is exactly how NFLX's honest count is legal).
+
+**Pivot-layer audit (tools/diagnose_pivots.py), prompted by the NFLX
+refusal — pivots exonerated on the dimensions that mattered:** calibrated
+pivot sets are far above a shuffled-returns null band (structural, not
+budget-stuffed noise); median leg 3.1-3.5× ATR; single-bar ATR spikes
+(earnings gaps) proven immaterial (winsorized ATR changes ~2 of 109
+pivots); greedy zigzag within ~3% of offline-maximal. One real weakness
+recorded: count(k) has no plateaus at any resolution — the calibrated k
+sits on a steep slope (±15% in k ⇒ ±30-40% in count), so pivot sets are
+inherently jittery run-to-run. Not fixed here; the principled fix is an
+ensemble parse over neighboring k values, not plateau-aware selection
+(there are no plateaus to select).
+
+Post-fix state: NFLX 6m yields a textbook count (double zigzag completing
+2025-02, expanded flat correction with B making the 2025-06 high, C down
+underway); BTC-USD honestly refuses at 6m/2y — its earlier borderline
+counts rested on leaves the new floor rejects (median containment
+overshoot 12.5×ε, structural, not wick noise). Permissiveness audit
+unchanged (≥6/8 refusals, worst <17 nats).
+
 **v1.2 — horizon-adaptive degree selection (`horizon.py`, `--horizon`).**
 Which two degrees are *relevant* is a function of the trading horizon: on
 a 10y window degree-1 waves span ~1–2 years, the wrong scale for a 3–12

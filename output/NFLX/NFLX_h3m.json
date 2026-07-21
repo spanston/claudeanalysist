@@ -1,25 +1,25 @@
 {
   "meta": {
-    "ticker": "BTC-USD",
+    "ticker": "NFLX",
     "run_date": "2026-07-20",
     "window": [
-      "2023-11-09",
-      "2026-07-20"
+      "2024-08-05",
+      "2026-07-17"
     ],
-    "monowaves": 117,
-    "pivot_k": 1.8928,
-    "last_close": 65232.9296875,
+    "monowaves": 111,
+    "pivot_k": 1.2446,
+    "last_close": 67.6050033569336,
     "data_through": "2026-07-20",
     "horizon": {
-      "input": "6m",
-      "target_bars": 126,
-      "window_bars": 1008,
+      "input": "3m",
+      "target_bars": 63,
+      "window_bars": 504,
       "degree1_durations_bars": [],
       "degree1_median_bars": null,
       "fit": "no_clean_count",
       "iterations": [
         {
-          "window_bars": 1008,
+          "window_bars": 504,
           "median_d1_bars": null,
           "decision": "stop_no_clean_count"
         }
@@ -27,28 +27,28 @@
     }
   },
   "no_clean_count": true,
-  "best_score": 1.838,
+  "best_score": -1.672,
   "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
   "anchors_considered": [
     {
-      "date": "2023-10-31",
-      "score": 1.838
+      "date": "2024-08-05",
+      "score": -1.672
     },
     {
-      "date": "2024-01-23",
-      "score": -2.711
+      "date": "2025-01-14",
+      "score": -4.792
     },
     {
-      "date": "2025-04-07",
-      "score": null
+      "date": "2025-04-10",
+      "score": -8.848
     },
     {
-      "date": "2025-05-22",
-      "score": null
+      "date": "2025-06-30",
+      "score": -8.974
     },
     {
-      "date": "2025-10-06",
-      "score": null
+      "date": "2025-05-02",
+      "score": -15.347
     }
   ]
 }

@@ -58,11 +58,22 @@ class LabeledWave:
 def walk_labels(root: WaveUnit) -> list[LabeledWave]:
     """Flatten the tree into degree-2 and degree-1 labeled waves (raw
     monowave leaves are not individually labeled -- DESIGN.md caps
-    labeling at two degrees)."""
+    labeling at two degrees). For a reversal reading, the tail is the
+    first wave of the NEXT degree-2 pattern: it is labeled from its own
+    pattern's scheme with a prime (e.g. A'), not as a spurious extra
+    component of the completed pattern."""
     out = []
     scheme2 = label_scheme(root.pattern)
+    tail_idx = len(root.children) - 1 if root.reversal else -1
     for idx, child in enumerate(root.children):
-        base2 = scheme2[idx] if idx < len(scheme2) else str(idx + 1)
+        if idx == tail_idx:
+            # the reversal tail: first wave of the NEXT degree-2 pattern,
+            # labeled from its own scheme with a prime, not as a spurious
+            # extra component of the completed pattern. A bare (pattern-
+            # less) tail is a reversal too young to have structure yet.
+            base2 = "?'" if child.pattern is None else label_scheme(child.pattern)[0] + "'"
+        else:
+            base2 = scheme2[idx] if idx < len(scheme2) else str(idx + 1)
         lbl2 = label_for(base2, 2)
         out.append(LabeledWave(child, lbl2, 2, (lbl2,)))
         if child.pattern is not None and child.children:
@@ -88,6 +99,17 @@ def _fmt_price(p: float) -> str:
 def build_position(root: WaveUnit) -> dict:
     edge = open_edge_path(root)
     path = [lw.label for lw in edge]
+    if root.reversal:
+        tail = root.children[-1]
+        dir_sv = "nedåt" if tail.direction == "down" else "uppåt"
+        tail_name = tail.pattern or "counter-move"
+        tail_name_sv = "motvåg" if tail.pattern is None else tail.pattern
+        young = "" if tail.pattern else " (too young to structure)"
+        text_en = (f"Degree 2 {root.pattern} complete at {_fmt_price(tail.start_price)}; "
+                    f"degree 1 {tail_name} ({tail.direction}) underway{young}")
+        text_sv = (f"Grad 2 {root.pattern} avslutad vid {_fmt_price(tail.start_price)}; "
+                    f"grad 1 {tail_name_sv} ({dir_sv}) pågår")
+        return {"path": path, "text_en": text_en, "text_sv": text_sv}
     if not path:
         text_en = f"{root.pattern} complete at {_fmt_price(root.end_price)}"
         text_sv = f"{root.pattern} avslutad vid {_fmt_price(root.end_price)}"
@@ -143,6 +165,15 @@ def build_invalidations(root: WaveUnit) -> list[dict]:
         else:
             continue
         out.append({"price": price, "degree": lw.degree, "rule": rule, "label": lw.label})
+    if root.reversal and root.children[-1].pattern is None:
+        # A bare-tail reversal reading's own falsifier (enforced in
+        # parser._reversal_readings): a new extreme beyond the completion
+        # point kills the completed reading. Emitting it also resolves the
+        # no_invalidation_available warning for this case (observed on MU).
+        out.append({"price": root.children[-2].end_price, "degree": 2,
+                    "rule": "a new extreme beyond the completion point falsifies "
+                            "the completed reading",
+                    "label": "?'"})
     out.sort(key=lambda d: abs(d["price"] - root.end_price))
     for i, d in enumerate(out):
         d["binding"] = (i == 0)
@@ -208,7 +239,13 @@ def build_warnings(root: WaveUnit, tournament: TournamentResult, invalidations: 
 
 def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: TournamentResult,
                    pivot_k: float, last_close: float | None = None,
-                   data_through: str | None = None) -> dict:
+                   data_through: str | None = None,
+                   volumes: list[float] | None = None,
+                   atr_last: float | None = None) -> dict:
+    """`volumes` (bar-aligned) and `atr_last` enrich the report without
+    touching scores: relative volume at the completion point of a reversal
+    reading (volume confirmation is the standard TA cross-check) and
+    ATR-banded zones around levels (levels are zones, not lines)."""
     winner = tournament.winner
     meta = {
         "ticker": ticker, "run_date": run_date,
@@ -272,7 +309,40 @@ def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: To
     if last_close:
         for d in invalidations + targets:
             d["pct_from_last"] = round((d["price"] / last_close - 1.0) * 100.0, 1)
+    if atr_last:
+        for d in invalidations + targets:
+            d["zone"] = [round(d["price"] - 0.5 * atr_last, 2),
+                         round(d["price"] + 0.5 * atr_last, 2)]
+
+    def _relvol(bar: int) -> float | None:
+        if not volumes or bar <= 0:
+            return None
+        base = [v for v in volumes[max(0, bar - 50):bar] if v > 0]
+        if not base or not volumes[bar]:
+            return None
+        return round(volumes[bar] / (sum(base) / len(base)), 2)
+
     warnings = build_warnings(root, tournament, invalidations, targets, last_close, meta)
+    if volumes:
+        rv = _relvol(pivots[-1].bar)
+        if rv is not None:
+            meta["relvol_50"] = rv
+
+    reversal_tail = None
+    if root.reversal:
+        tail = root.children[-1]
+        reversal_tail = {
+            "pattern": tail.pattern, "direction": tail.direction,
+            "structured": tail.pattern is not None,
+            "span": [pivots[tail.i].date, pivots[tail.j].date],
+            "completed_at": {"date": pivots[tail.i].date, "price": pivots[tail.i].price},
+        }
+        rv_c = _relvol(pivots[tail.i].bar)
+        if rv_c is not None:
+            reversal_tail["relvol_at_completion"] = rv_c
+            if rv_c < 0.85:
+                warnings.append(f"low_volume_at_completion: {rv_c}x 50-bar mean at "
+                                f"{pivots[tail.i].date} -- the top is not volume-confirmed")
 
     return {
         "meta": meta,
@@ -284,6 +354,8 @@ def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: To
             "relative_confidence": round(relative_confidence, 3),
             "direction": root.direction,
             "span": [pivots[root.i].date, pivots[root.j].date],
+            "completed": root.reversal,
+            "reversal_tail": reversal_tail,
             "position": build_position(root),
             "invalidations": invalidations,
             "targets": targets,

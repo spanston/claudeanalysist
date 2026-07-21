@@ -1,14 +1,14 @@
 {
   "meta": {
-    "ticker": "BTC-USD",
+    "ticker": "NVDA",
     "run_date": "2026-07-20",
     "window": [
-      "2023-11-09",
-      "2026-07-20"
+      "2022-08-04",
+      "2026-07-15"
     ],
-    "monowaves": 117,
-    "pivot_k": 1.8928,
-    "last_close": 65232.9296875,
+    "monowaves": 111,
+    "pivot_k": 2.1768,
+    "last_close": 203.27999877929688,
     "data_through": "2026-07-20",
     "horizon": {
       "input": "6m",
@@ -27,27 +27,27 @@
     }
   },
   "no_clean_count": true,
-  "best_score": 1.838,
+  "best_score": 2.13,
   "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
   "anchors_considered": [
     {
-      "date": "2023-10-31",
-      "score": 1.838
+      "date": "2022-10-13",
+      "score": 2.13
     },
     {
-      "date": "2024-01-23",
-      "score": -2.711
+      "date": "2024-04-19",
+      "score": -6.721
     },
     {
-      "date": "2025-04-07",
+      "date": "2025-04-21",
       "score": null
     },
     {
-      "date": "2025-05-22",
+      "date": "2025-07-18",
       "score": null
     },
     {
-      "date": "2025-10-06",
+      "date": "2025-10-29",
       "score": null
     }
   ]

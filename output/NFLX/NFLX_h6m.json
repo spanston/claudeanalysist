@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "ticker": "NFLX",
+    "run_date": "2026-07-20",
+    "window": [
+      "2022-08-02",
+      "2026-07-17"
+    ],
+    "monowaves": 109,
+    "pivot_k": 1.8928,
+    "last_close": 67.6050033569336,
+    "data_through": "2026-07-20",
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [
+        168,
+        86,
+        332
+      ],
+      "degree1_median_bars": 168,
+      "fit": "unresolved",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 168,
+          "d1_bars": [
+            168,
+            86,
+            332
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 756,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2022-10-13",
+    "index": 8
+  },
+  "preferred": {
+    "pattern": "double_zigzag",
+    "structure_strength": 5.446,
+    "relative_confidence": 0.271,
+    "direction": "down",
+    "span": [
+      "2022-10-13",
+      "2026-07-17"
+    ],
+    "completed": true,
+    "reversal_tail": {
+      "pattern": "flat_expanded",
+      "direction": "down",
+      "span": [
+        "2025-02-14",
+        "2026-07-17"
+      ],
+      "completed_at": {
+        "date": "2025-02-14",
+        "price": 106.44999694824219
+      }
+    },
+    "position": {
+      "path": [
+        "A'",
+        "(C)"
+      ],
+      "text_en": "Degree 2 double_zigzag complete at 106.45; degree 1 flat_expanded (down) underway",
+      "text_sv": "Grad 2 double_zigzag avslutad vid 106.45; grad 1 flat_expanded (ned\u00e5t) p\u00e5g\u00e5r"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 109.77500915527344,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)",
+        "pct_from_last": 62.4
+      }
+    ]
+  },
+  "alternate": null,
+  "warnings": [
+    "no_invalidation_available: open wave A'/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "target_overshoot: last close 67.61 is already beyond the (C) projection of 109.78",
+    "near_tie_alternate: same-anchor double_zigzag (down) is within 1 nat of the preferred count",
+    "horizon_fit_unresolved: realized median degree-1 duration 168 bars did not settle within [0.75, 1.33]x the 126-bar horizon"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2022-10-13",
+      "score": 5.446
+    },
+    {
+      "date": "2024-10-17",
+      "score": null
+    },
+    {
+      "date": "2025-04-07",
+      "score": null
+    },
+    {
+      "date": "2025-06-05",
+      "score": null
+    },
+    {
+      "date": "2025-06-30",
+      "score": null
+    }
+  ]
+}

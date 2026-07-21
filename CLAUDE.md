@@ -131,3 +131,23 @@ data, and still write + notify with what you have.
 - Develop on the branch specified by the session; never push elsewhere.
 - Schema reference and rung details live in `btc-digests/README.md`.
 - Do not put model identifiers in commits, code, or pushed artifacts.
+
+## Elliott watchlist workflow
+- `py -3 tools/run_watchlist.py [SYMBOLS] [--horizon 6m]` refreshes each
+  symbol's candle cache incrementally (`elliott/data.py::update_ohlcv` —
+  probe first, download only when new candles exist; full refetch on gaps
+  or split/adjustment basis changes), runs the horizon-adaptive Elliott
+  analysis, and writes `output/<SYM>/` + a digest in `output/watchlist/`.
+- Default watchlist: MU NVDA AAPL SNDK TSLA. Refusals (NO CLEAN COUNT)
+  are first-class answers — do not force counts.
+
+## Skills in use (installed user-level)
+- **technical-analysis** — review lens for manually validating engine
+  counts and refusal verdicts (zones not lines, pre-defined invalidation,
+  volume confirmation, hindsight-bias checks). Apply before trading on
+  any count.
+- **backtesting-frameworks** — methodology source for the engine
+  validation harness (golden set, walk-forward tuning of priors/σ/margin;
+  out-of-sample or it didn't happen).
+- **requesting-code-review** — dispatch a reviewer subagent on the diff
+  before committing engine changes. Mandatory for parser/scoring work.

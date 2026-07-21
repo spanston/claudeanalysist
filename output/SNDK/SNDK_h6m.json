@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "ticker": "SNDK",
+    "run_date": "2026-07-20",
+    "window": [
+      "2025-03-06",
+      "2026-07-17"
+    ],
+    "monowaves": 107,
+    "pivot_k": 0.9411,
+    "last_close": 1390.949951171875,
+    "data_through": "2026-07-20",
+    "relvol_50": 1.54,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 358,
+      "degree1_durations_bars": [
+        205,
+        25
+      ],
+      "degree1_median_bars": 115.0,
+      "fit": "ok",
+      "iterations": [
+        {
+          "window_bars": 358,
+          "median_d1_bars": 115.0,
+          "d1_bars": [
+            205,
+            25
+          ],
+          "decision": "accept"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2025-04-07",
+    "index": 4
+  },
+  "preferred": {
+    "pattern": "double_zigzag",
+    "structure_strength": 8.27,
+    "relative_confidence": 0.293,
+    "direction": "up",
+    "span": [
+      "2025-04-07",
+      "2026-07-17"
+    ],
+    "completed": false,
+    "reversal_tail": null,
+    "position": {
+      "path": [
+        "Y",
+        "(C)"
+      ],
+      "text_en": "Degree 2 Y in progress; within it, degree 1 (C) unfolding (zigzag)",
+      "text_sv": "Grad 2 Y p\u00e5g\u00e5r; inom den utvecklas grad 1 (C) (zigzag)"
+    },
+    "invalidations": [],
+    "targets": [
+      {
+        "price": 2200.0299072265625,
+        "basis": "C = A from B extreme",
+        "degree": 1,
+        "label": "(C)",
+        "pct_from_last": 58.2,
+        "zone": [
+          2100.25,
+          2299.81
+        ]
+      }
+    ]
+  },
+  "alternate": {
+    "anchor_date": "2025-04-07",
+    "pattern": "triangle_expand",
+    "score": 6.884,
+    "direction": "up",
+    "span": [
+      "2025-04-07",
+      "2026-07-17"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "no_invalidation_available: open wave Y/(C) has no hard-rule invalidation in this grammar (documented gap, report.py)",
+    "near_tie_alternate: same-anchor double_zigzag (up) is within 1 nat of the preferred count"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2025-04-07",
+      "score": 8.27
+    },
+    {
+      "date": "2025-12-31",
+      "score": null
+    },
+    {
+      "date": "2026-01-22",
+      "score": null
+    },
+    {
+      "date": "2026-04-27",
+      "score": null
+    },
+    {
+      "date": "2026-04-28",
+      "score": null
+    }
+  ]
+}

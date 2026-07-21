@@ -125,7 +125,9 @@ def analyze_window(series: Series, ticker: str, run_date: str, k_top: int = 4) -
 
     report = build_report(ticker, run_date, pivots, tournament, pivot_k,
                           last_close=series.closes[-1] if series.closes else None,
-                          data_through=series.dates[-1] if series.dates else None)
+                          data_through=series.dates[-1] if series.dates else None,
+                          volumes=series.volumes,
+                          atr_last=atr[-1] if atr else None)
     root = tournament.winner.root if (tournament.winner and not report["no_clean_count"]) else None
     return {"report": report, "tournament": tournament, "pivots": pivots,
             "pivot_k": pivot_k, "root": root}

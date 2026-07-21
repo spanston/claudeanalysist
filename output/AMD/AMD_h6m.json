@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "ticker": "AMD",
+    "run_date": "2026-07-21",
+    "window": [
+      "2024-12-11",
+      "2026-07-20"
+    ],
+    "monowaves": 110,
+    "pivot_k": 1.2446,
+    "last_close": 503.57000732421875,
+    "data_through": "2026-07-20",
+    "relvol_50": 0.71,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 414,
+      "degree1_durations_bars": [
+        134,
+        91,
+        82
+      ],
+      "degree1_median_bars": 91,
+      "fit": "unresolved",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 307,
+          "d1_bars": [
+            351,
+            271,
+            307
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 414,
+          "median_d1_bars": 91,
+          "d1_bars": [
+            134,
+            91,
+            82
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 573,
+          "median_d1_bars": 91,
+          "d1_bars": [
+            134,
+            91,
+            82
+          ],
+          "decision": "refine"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2025-04-08",
+    "index": 20
+  },
+  "preferred": {
+    "pattern": "double_zigzag",
+    "structure_strength": 5.895,
+    "relative_confidence": 0.737,
+    "direction": "down",
+    "span": [
+      "2025-04-08",
+      "2026-07-20"
+    ],
+    "completed": true,
+    "reversal_tail": {
+      "pattern": null,
+      "direction": "down",
+      "structured": false,
+      "span": [
+        "2026-06-30",
+        "2026-07-20"
+      ],
+      "completed_at": {
+        "date": "2026-06-30",
+        "price": 584.72998046875
+      },
+      "relvol_at_completion": 0.91
+    },
+    "position": {
+      "path": [
+        "?'"
+      ],
+      "text_en": "Degree 2 double_zigzag complete at 584.73; degree 1 counter-move (down) underway (too young to structure)",
+      "text_sv": "Grad 2 double_zigzag avslutad vid 584.73; grad 1 motv\u00e5g (ned\u00e5t) p\u00e5g\u00e5r"
+    },
+    "invalidations": [
+      {
+        "price": 584.72998046875,
+        "degree": 2,
+        "rule": "a new extreme beyond the completion point falsifies the completed reading",
+        "label": "?'",
+        "binding": true,
+        "pct_from_last": 16.1,
+        "zone": [
+          566.27,
+          603.19
+        ]
+      }
+    ],
+    "targets": []
+  },
+  "alternate": {
+    "anchor_date": "2025-04-08",
+    "pattern": "double_zigzag",
+    "score": 3.481,
+    "direction": "up",
+    "span": [
+      "2025-04-08",
+      "2026-07-20"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "stale_data: price data ends 2026-07-20, report run 2026-07-21",
+    "horizon_fit_unresolved: realized median degree-1 duration 91 bars did not settle within [0.75, 1.33]x the 126-bar horizon"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2025-04-08",
+      "score": 5.895
+    },
+    {
+      "date": "2026-01-12",
+      "score": null
+    },
+    {
+      "date": "2026-03-30",
+      "score": null
+    },
+    {
+      "date": "2026-04-24",
+      "score": null
+    },
+    {
+      "date": "2026-05-11",
+      "score": null
+    }
+  ]
+}

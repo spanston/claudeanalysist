@@ -114,7 +114,10 @@ def w3_not_shortest(components, ctx) -> bool:
 
 
 def w3_beyond_w1_end(components, ctx) -> bool:
-    return _beyond(components[2].end_price, components[0].end_price, components[0].direction)
+    w3 = components[2]
+    if w3.open:
+        return True  # undecidable while W3 is underway (may yet exceed)
+    return _beyond(w3.end_price, components[0].end_price, components[0].direction)
 
 
 def w4_no_overlap(components, ctx) -> bool:
@@ -165,11 +168,15 @@ def b_le_262pct_a(components, ctx) -> bool:
 
 def b_beyond_a_start(components, ctx) -> bool:
     a, b = components[0], components[1]
+    if b.open:
+        return True  # undecidable while B is underway
     return _beyond(b.end_price, a.start_price, _opposite(a.direction))
 
 
 def c_beyond_a_end(components, ctx) -> bool:
     a, c = components[0], components[2]
+    if c.open:
+        return True  # undecidable while C is underway (may yet exceed A's end)
     return _beyond(c.end_price, a.end_price, a.direction)
 
 
@@ -200,11 +207,15 @@ def c_beyond_a_end_leg(components, ctx) -> bool:
 
 def d_beyond_b_end(components, ctx) -> bool:
     b, d = components[1], components[3]
+    if d.open:
+        return True  # undecidable while D is underway
     return _beyond(d.end_price, b.end_price, b.direction)
 
 
 def e_beyond_c_end(components, ctx) -> bool:
     c, e = components[2], components[4]
+    if e.open:
+        return True  # undecidable while E is underway
     return _beyond(e.end_price, c.end_price, c.direction)
 
 

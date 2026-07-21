@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "ticker": "AAPL",
+    "run_date": "2026-07-20",
+    "window": [
+      "2022-08-02",
+      "2026-07-17"
+    ],
+    "monowaves": 124,
+    "pivot_k": 1.8928,
+    "last_close": 326.5899963378906,
+    "data_through": "2026-07-20",
+    "relvol_50": 1.13,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [
+        383,
+        184,
+        319
+      ],
+      "degree1_median_bars": 319,
+      "fit": "unresolved",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 319,
+          "d1_bars": [
+            383,
+            184,
+            319
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 398,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2023-01-03",
+    "index": 16
+  },
+  "preferred": {
+    "pattern": "double_zigzag",
+    "structure_strength": 6.204,
+    "relative_confidence": 0.327,
+    "direction": "up",
+    "span": [
+      "2023-01-03",
+      "2026-07-17"
+    ],
+    "completed": false,
+    "reversal_tail": null,
+    "position": {
+      "path": [],
+      "text_en": "double_zigzag complete at 334.99",
+      "text_sv": "double_zigzag avslutad vid 334.99"
+    },
+    "invalidations": [],
+    "targets": []
+  },
+  "alternate": {
+    "anchor_date": "2023-01-03",
+    "pattern": "zigzag",
+    "score": 4.827,
+    "direction": "up",
+    "span": [
+      "2023-01-03",
+      "2026-07-17"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "near_tie_alternate: same-anchor double_zigzag (up) is within 1 nat of the preferred count",
+    "horizon_fit_unresolved: realized median degree-1 duration 319 bars did not settle within [0.75, 1.33]x the 126-bar horizon"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2023-01-03",
+      "score": 6.204
+    },
+    {
+      "date": "2024-12-26",
+      "score": -7.171
+    },
+    {
+      "date": "2024-11-04",
+      "score": null
+    },
+    {
+      "date": "2025-03-31",
+      "score": null
+    },
+    {
+      "date": "2025-10-31",
+      "score": null
+    }
+  ]
+}

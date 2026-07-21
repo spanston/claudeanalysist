@@ -1,14 +1,14 @@
 {
   "meta": {
-    "ticker": "BTC-USD",
-    "run_date": "2026-07-20",
+    "ticker": "AMZN",
+    "run_date": "2026-07-21",
     "window": [
-      "2023-11-09",
-      "2026-07-20"
+      "2022-08-02",
+      "2026-07-16"
     ],
-    "monowaves": 117,
-    "pivot_k": 1.8928,
-    "last_close": 65232.9296875,
+    "monowaves": 98,
+    "pivot_k": 2.1768,
+    "last_close": 249.99000549316406,
     "data_through": "2026-07-20",
     "horizon": {
       "input": "6m",
@@ -27,27 +27,27 @@
     }
   },
   "no_clean_count": true,
-  "best_score": 1.838,
+  "best_score": -1.693,
   "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
   "anchors_considered": [
     {
-      "date": "2023-10-31",
-      "score": 1.838
+      "date": "2023-01-06",
+      "score": -1.693
     },
     {
-      "date": "2024-01-23",
-      "score": -2.711
+      "date": "2023-05-02",
+      "score": -2.077
     },
     {
-      "date": "2025-04-07",
-      "score": null
+      "date": "2023-10-26",
+      "score": -2.439
     },
     {
-      "date": "2025-05-22",
-      "score": null
+      "date": "2023-07-14",
+      "score": -11.233
     },
     {
-      "date": "2025-10-06",
+      "date": "2025-02-04",
       "score": null
     }
   ]

@@ -68,6 +68,7 @@ class WaveUnit:
     ll: float = 0.0          # this node's own contribution (prior + guidelines)
     total_ll: float = 0.0    # ll + sum(child.total_ll) -- flat sum over the subtree
     open: bool = False
+    reversal: bool = False   # completed-root + reversal-tail reading (build_root_candidates)
 
     @property
     def label(self) -> str:
@@ -91,9 +92,13 @@ def _mk_leaf(pivots: list[Pivot], i: int, j: int) -> WaveUnit:
 def leaf_shape_ok(pivots: list[Pivot], i: int, j: int, slot: str,
                     min_len: Optional[int] = None) -> bool:
     """Degree-floor sanity check (DESIGN.md §4): hard minimum size, odd
-    parity (net directional move), and the endpoint must be the span's own
-    extreme in its net direction -- a completed wave ends where it turned.
-    `min_len` overrides MIN_LEAF[slot] (triangle legs use TRIANGLE_LEG_MIN)."""
+    parity (net directional move), the endpoint must be the span's own
+    extreme in its net direction, and -- :5 slots only -- interior
+    counter-swings must hold inside the leaf's own start ("interior
+    pullbacks hold inside the right extremes"): a down impulse run
+    containing a high above its start is not one wave, it is two waves
+    the parser should split there. `min_len` overrides MIN_LEAF[slot]
+    (triangle legs use TRIANGLE_LEG_MIN)."""
     L = j - i
     floor = min_len if min_len is not None else MIN_LEAF[slot]
     if L < floor or L % 2 == 0:
@@ -105,9 +110,24 @@ def leaf_shape_ok(pivots: list[Pivot], i: int, j: int, slot: str,
     # Compare against same-kind pivots *strictly inside* the span -- j must
     # itself be the extreme, not merely tie with itself trivially.
     others = [p.price for p in pivots[i + 1:j] if p.kind == want_kind]
-    if not others:
-        return True
-    return pivots[j].price >= max(others) if direction == "up" else pivots[j].price <= min(others)
+    if others:
+        if direction == "up" and pivots[j].price < max(others):
+            return False
+        if direction == "down" and pivots[j].price > min(others):
+            return False
+    # DESIGN.md §4 degree floor: the :5 check tests impulse shape --
+    # "interior pullbacks hold inside the right extremes". A :5 run whose
+    # counter-swings cross the run's own start is not one impulse wave.
+    # (:3 corrective runs are exempt: deep first dips/rallies past the
+    # start are legal corrective shape.)
+    if slot == "5":
+        counter = [p.price for p in pivots[i + 1:j] if p.kind != want_kind]
+        if counter:
+            if direction == "up" and min(counter) < pivots[i].price:
+                return False
+            if direction == "down" and max(counter) > pivots[i].price:
+                return False
+    return True
 
 
 class LeafCache:
@@ -357,17 +377,118 @@ def build_pattern_memo(pivots: list[Pivot], null: NullModel, ctx: dict, k: int =
     return memo
 
 
+# A structured reversal tail needs >=2 closed :3 leaves plus an open one;
+# below this span no structured tail is possible at all.
+STRUCTURED_TAIL_MIN = 2 * MIN_LEAF["3"] + 1
+
+
+def _reversal_readings(pattern_memo: dict, closed_by_end: dict[int, list[WaveUnit]],
+                       n: int, pivots: list[Pivot] | None = None) -> list[WaveUnit]:
+    """DESIGN.md §4's missing reading: "pattern just completed, larger-degree
+    reversal just began". A CLOSED degree-2 root ending at m < n-1, plus an
+    open degree-1 tail spanning [m, n-1] -- the first wave of the NEXT
+    degree-2 pattern. Without this, every root must partition the entire
+    window into its own components, which forces a completed trend plus a
+    young counter-move into a bogus containing pattern (observed on NFLX:
+    2022-2025 advance + 12-month decline could only parse as a triple
+    zigzag with negative uplift, or as nothing at 4/5 anchors).
+
+    Guards, each mirroring an existing right-edge gate (permissiveness is
+    the binding constraint here):
+    - the tail must be a FINAL-component-open pattern with >=2 closed
+      components (a single closed wave plus "something moved" is not a
+      reversal, same reasoning as the root prefix guard);
+    - it must move AGAINST the completed root's last component -- same
+      direction means the old wave is still unfolding, not that a new one
+      began (v1.1's open-edge coherence rule);
+    - the tournament's uplift gate applies to the completed root alone
+      (anchor._uplift), so the root must earn its keep without the tail.
+
+    Bare-tail fallback: when the counter-move is too young for ANY
+    structured tail (span < STRUCTURED_TAIL_MIN pivots), a raw open
+    monowave run may serve as the tail instead. This only relaxes the
+    gates exactly where structure is impossible by construction -- the
+    reading then says "root complete, reversal underway but not yet
+    structured" (observed on MU: impulse complete at the high, decline
+    containing a single monowave -- invisible to the structured gates).
+    """
+    best: dict[tuple[str, int], WaveUnit] = {}
+    for m, roots in closed_by_end.items():
+        tails = []
+        for name, spec in G.GRAMMAR.items():
+            for t in pattern_memo.get((m, n - 1, name, True), []):
+                if not t.open or len(t.children) != len(spec.components):
+                    continue
+                if sum(1 for c in t.children if not c.open) < 2:
+                    continue
+                tails.append(t)
+        if not tails and pivots is not None and (n - 1 - m) < STRUCTURED_TAIL_MIN:
+            tails.append(_open_leaf(pivots, m, n - 1))
+        if not tails:
+            continue
+        for r in roots:
+            if not r.children:
+                continue
+            for t in tails:
+                if t.direction == r.children[-1].direction:
+                    continue
+                if t.pattern is None:
+                    # Bare tails carry no internal shape checks, so check
+                    # the one thing that falsifies the reversal itself: no
+                    # new extreme beyond the completion point. (Structured
+                    # tails need no such guard -- a legitimately verified
+                    # expanded flat's B MAY exceed it, cf. NFLX.)
+                    if r.children[-1].direction == "up" and t.hi > r.end_price:
+                        continue
+                    if r.children[-1].direction == "down" and t.lo < r.end_price:
+                        continue
+                wrapper = WaveUnit(
+                    i=r.i, j=n - 1, pattern=r.pattern,
+                    start_price=r.start_price, end_price=t.end_price,
+                    hi=max(r.hi, t.hi), lo=min(r.lo, t.lo),
+                    # the live move is the tail's; the completed pattern's
+                    # direction is history
+                    direction=t.direction,
+                    n_pivots=(n - 1) - r.i,
+                    start_bar=r.start_bar, end_bar=t.end_bar,
+                    children=r.children + (t,),
+                    ll=r.ll, total_ll=r.total_ll + t.total_ll,
+                    open=True, reversal=True,
+                )
+                # One reading per (pattern, completion point): the
+                # roots x tails cross-product otherwise floods the root
+                # k-best with near-identical variants, which deflates
+                # relative_confidence's softmax, crowds out genuinely
+                # diverse alternates, and fires near-tie warnings between
+                # variants of the SAME reading (observed on NFLX).
+                key = (r.pattern, m)
+                if key not in best or wrapper.total_ll > best[key].total_ll:
+                    best[key] = wrapper
+    return list(best.values())
+
+
 def build_root_candidates(pattern_memo: dict, anchor_i: int, n: int, null: NullModel,
-                            ctx: dict, k: int = 5, allow_open: bool = True) -> list[WaveUnit]:
+                            ctx: dict, k: int = 5, allow_open: bool = True,
+                            pivots: list[Pivot] | None = None) -> list[WaveUnit]:
     """Phase 2: assemble degree-2 root candidates spanning [anchor_i, n-1]
     only -- the one span the anchor tournament actually needs (DESIGN.md
-    §4/§6: 'one chart serves everything')."""
+    §4/§6: 'one chart serves everything'). Also admits completed-root +
+    reversal-tail readings (closed root ending at m < n-1, open degree-1
+    tail over [m, n-1]) via _reversal_readings. `pivots` enables the
+    bare-tail fallback for too-young reversals; without it only
+    structured tails are considered."""
     out: list[WaveUnit] = []
+    closed_by_end: dict[int, list[WaveUnit]] = {}
     for name, spec in G.GRAMMAR.items():
         results = parse_pattern_from_start(
             spec, anchor_i, n, component_kind="pattern", pattern_memo=pattern_memo,
             null=null, ctx=ctx, k=k, allow_open=allow_open,
         )
-        for nd in results.get(n - 1, []):
-            out.append(nd)
+        for j, nodes in results.items():
+            if j == n - 1:
+                out.extend(nodes)
+            elif allow_open:
+                closed_by_end.setdefault(j, []).extend(nd for nd in nodes if not nd.open)
+    if allow_open:
+        out.extend(_reversal_readings(pattern_memo, closed_by_end, n, pivots=pivots))
     return sorted(out, key=lambda nd: -nd.total_ll)[:max(k, 5)]
