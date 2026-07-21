@@ -127,6 +127,10 @@ def update_ohlcv(ticker: str, period: str = "10y", interval: str = "1d",
 
     if not os.path.exists(cache_path):
         df = fetcher(ticker, period, interval)
+        if df.empty:
+            # never write an empty frame: it would poison the cache (every
+            # later read fails the same way) instead of self-healing
+            raise ValueError(f"No data returned for {ticker!r}")
         df.to_parquet(cache_path)
         return _df_to_series(df), {"refreshed": "full", "added": len(df),
                                    "through": df["Date"].iloc[-1]}
@@ -149,6 +153,8 @@ def update_ohlcv(ticker: str, period: str = "10y", interval: str = "1d",
         # Cache is older than the bridge covers -- a full refetch is the
         # only way to avoid a silent gap.
         df = fetcher(ticker, period, interval)
+        if df.empty:
+            raise ValueError(f"No data returned for {ticker!r}")
         df.to_parquet(cache_path)
         return _df_to_series(df), {"refreshed": "full", "added": len(df) - len(df_cache),
                                    "through": df["Date"].iloc[-1]}
@@ -162,6 +168,8 @@ def update_ohlcv(ticker: str, period: str = "10y", interval: str = "1d",
     overlap = bridge[bridge["Date"] == last_cached]
     if abs(overlap["Close"].iloc[-1] / df_cache["Close"].iloc[-1] - 1.0) > split_tol:
         df = fetcher(ticker, period, interval)  # split/adjustment moved the basis
+        if df.empty:
+            raise ValueError(f"No data returned for {ticker!r}")
         df.to_parquet(cache_path)
         return _df_to_series(df), {"refreshed": "full", "added": len(df) - len(df_cache),
                                    "through": df["Date"].iloc[-1]}
@@ -178,7 +186,7 @@ def update_ohlcv(ticker: str, period: str = "10y", interval: str = "1d",
 def fetch_ohlcv(ticker: str, period: str = "10y", interval: str = "1d",
                   max_age_hours: float = 12.0, cache_dir: str | None = None) -> Series:
     """Fetch daily OHLCV for `ticker`, cached to parquet under
-    elliott/.cache/. Re-fetches when the cache is older than
+    data/cache/. Re-fetches when the cache is older than
     `max_age_hours` or absent. `period` accepts Yahoo Finance range strings
     ("10y", "5y", "2y", "1y", "6mo", ...) -- avoid "max": Yahoo silently
     downgrades very long ranges to monthly bars even when interval="1d" is

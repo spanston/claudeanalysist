@@ -199,14 +199,16 @@ def build_targets(root: WaveUnit) -> list[dict]:
             base = siblings[3].end_price  # wave 4 low/high
             direction = 1 if w1.direction == "up" else -1
             out.append({"price": base + direction * w1_size, "basis": "W5 = W1 from W4 extreme",
-                         "degree": lw.degree, "label": lw.label})
+                         "degree": lw.degree, "label": lw.label,
+                         "direction": "up" if direction > 0 else "down"})
         elif container.pattern in ("zigzag", "flat_regular", "flat_expanded") and idx == 2 and len(siblings) >= 1:
             a = siblings[0]
             a_size = abs(a.end_price - a.start_price)
             base = siblings[1].end_price
             direction = 1 if a.direction == "up" else -1
             out.append({"price": base + direction * a_size, "basis": "C = A from B extreme",
-                         "degree": lw.degree, "label": lw.label})
+                         "degree": lw.degree, "label": lw.label,
+                         "direction": "up" if direction > 0 else "down"})
     return out
 
 
@@ -225,8 +227,12 @@ def build_warnings(root: WaveUnit, tournament: TournamentResult, invalidations: 
         out.append(f"stale_data: price data ends {data_through}, report run {run_date}")
     if last_close:
         for t in targets:
-            overshot = (root.direction == "up" and last_close > t["price"]) or \
-                       (root.direction == "down" and last_close < t["price"])
+            # compare on the target's own side: a degree-1 target can point
+            # AGAINST the root (e.g. (C) of a wave-4 zigzag inside an up
+            # impulse), so keying on root.direction cries overshoot over a
+            # level price never reached (observed on BTC-USD).
+            overshot = (t["direction"] == "up" and last_close > t["price"]) or \
+                       (t["direction"] == "down" and last_close < t["price"])
             if overshot:
                 out.append(f"target_overshoot: last close {last_close:,.2f} is already beyond "
                            f"the {t['label']} projection of {t['price']:,.2f}")
@@ -253,6 +259,10 @@ def build_report(ticker: str, run_date: str, pivots: list[Pivot], tournament: To
         "monowaves": len(pivots), "pivot_k": round(pivot_k, 4),
         "last_close": last_close,
         "data_through": data_through or (pivots[-1].date if pivots else None),
+        # the zigzag's final candidate pivot is always provisional
+        # (pivots.py): the right edge can re-pivot with each new bar, and
+        # with it every open-wave reading in this report
+        "right_edge_provisional": True,
     }
     if tournament.no_clean_count or winner is None or winner.root is None:
         return {

@@ -184,6 +184,9 @@ def test_report_price_context_and_warnings():
 
     assert report["meta"]["last_close"] == 180.0
     assert report["meta"]["data_through"] == "2026-07-17"
+    # the zigzag's last pivot is always provisional (pivots.py): the report
+    # must say so for downstream consumers
+    assert report["meta"]["right_edge_provisional"] is True
 
     targets = report["preferred"]["targets"]
     assert len(targets) == 1 and targets[0]["price"] == 250.0  # C = A from B
@@ -193,3 +196,53 @@ def test_report_price_context_and_warnings():
     assert any(w.startswith("no_invalidation_available") for w in warnings)
     assert any(w.startswith("stale_data") for w in warnings)
     assert not any(w.startswith("target_overshoot") for w in warnings)
+
+
+# ---------------------------------------------------------------------------
+# v1.2: target_overshoot keys on the target's own direction
+# ---------------------------------------------------------------------------
+
+def _impulse_with_open_w4_zigzag_root():
+    """Up impulse whose wave 4 is an unfolding zigzag: the degree-1 (C)
+    target points DOWN, against the root's up direction (the BTC-USD case:
+    up impulse, '(C) unfolding (zigzag)', downside target never reached)."""
+    w1 = WaveUnit(i=0, j=3, pattern=None, start_price=100.0, end_price=200.0,
+                  hi=200.0, lo=100.0, direction="up", n_pivots=3, start_bar=0, end_bar=6)
+    w2 = WaveUnit(i=3, j=5, pattern=None, start_price=200.0, end_price=150.0,
+                  hi=200.0, lo=150.0, direction="down", n_pivots=2, start_bar=6, end_bar=10)
+    w3 = WaveUnit(i=5, j=9, pattern=None, start_price=150.0, end_price=400.0,
+                  hi=400.0, lo=150.0, direction="up", n_pivots=4, start_bar=10, end_bar=18)
+    a = WaveUnit(i=9, j=11, pattern=None, start_price=400.0, end_price=350.0,
+                 hi=400.0, lo=350.0, direction="down", n_pivots=2, start_bar=18, end_bar=22)
+    b = WaveUnit(i=11, j=13, pattern=None, start_price=350.0, end_price=380.0,
+                 hi=380.0, lo=350.0, direction="up", n_pivots=2, start_bar=22, end_bar=26)
+    c = WaveUnit(i=13, j=15, pattern=None, start_price=380.0, end_price=360.0,
+                 hi=380.0, lo=355.0, direction="down", n_pivots=2, start_bar=26, end_bar=30,
+                 open=True)
+    w4 = WaveUnit(i=9, j=15, pattern="zigzag", start_price=400.0, end_price=360.0,
+                  hi=400.0, lo=350.0, direction="down", n_pivots=6, start_bar=18, end_bar=30,
+                  children=(a, b, c), ll=5.0, total_ll=8.0, open=True)
+    return WaveUnit(i=0, j=15, pattern="impulse", start_price=100.0, end_price=360.0,
+                    hi=400.0, lo=100.0, direction="up", n_pivots=15, start_bar=0, end_bar=30,
+                    children=(w1, w2, w3, w4), ll=10.0, total_ll=15.0, open=True)
+
+
+def test_target_overshoot_compares_on_the_targets_own_side():
+    pivots = [Pivot(i, i * 2, f"2026-07-{1 + i:02d}", 100.0 + i, "H" if i % 2 else "L")
+              for i in range(16)]
+    root = _impulse_with_open_w4_zigzag_root()
+    winner = AnchorResult(anchor=0, date=pivots[0].date, score=15.0, root=root, roots=[root])
+    tr = TournamentResult(candidates=[winner], winner=winner,
+                          no_clean_count=False, margin=15.0)
+
+    report = build_report("TEST", "2026-07-21", pivots, tr, pivot_k=1.0, last_close=360.0)
+    targets = report["preferred"]["targets"]
+    assert len(targets) == 1 and targets[0]["price"] == 330.0  # C = A from B
+    assert targets[0]["direction"] == "down"
+    # 360 is NOT beyond a downside target of 330: the pre-fix check keyed on
+    # the root's up direction and fired spuriously here
+    assert not any(w.startswith("target_overshoot") for w in report["warnings"])
+
+    # a close on the target's own far side (below 330) still warns
+    report = build_report("TEST", "2026-07-21", pivots, tr, pivot_k=1.0, last_close=320.0)
+    assert any(w.startswith("target_overshoot") for w in report["warnings"])

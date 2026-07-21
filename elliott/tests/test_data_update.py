@@ -112,3 +112,27 @@ def test_empty_probe_raises_value_error(tmp_path):
     fetch = _fake_fetcher(None, _df([], []), None, None)
     with pytest.raises(ValueError):
         update_ohlcv("TEST", cache_dir=str(tmp_path), fetcher=fetch)
+
+
+def test_empty_full_frame_raises_before_writing_cache(tmp_path):
+    """An empty frame on the no-cache path must raise BEFORE the parquet
+    write: writing it poisons the cache (every later call reads the empty
+    frame and fails the same way) instead of self-healing."""
+    fetch = _fake_fetcher(None, None, None, _df([], []))
+    with pytest.raises(ValueError, match="No data returned"):
+        update_ohlcv("TEST", cache_dir=str(tmp_path), fetcher=fetch)
+    assert not (tmp_path / "TEST_1d_10y.parquet").exists()
+
+
+def test_empty_full_refetch_preserves_existing_cache(tmp_path):
+    """Same guard on the gap-fallback full refetch: the existing cache must
+    survive untouched when the re-download comes back empty."""
+    hist = _df(["2026-01-05", "2026-01-06"], [100, 101])  # months stale
+    hist.to_parquet(tmp_path / "TEST_1d_10y.parquet")
+    probe = _df(["2026-07-16", "2026-07-17"], [103, 104])
+    bridge = _df(["2026-04-20", "2026-04-21"], [102, 103])  # starts after cache end -> gap
+    fetch = _fake_fetcher(None, probe, bridge, _df([], []))
+    with pytest.raises(ValueError, match="No data returned"):
+        update_ohlcv("TEST", cache_dir=str(tmp_path), fetcher=fetch)
+    cached = pd.read_parquet(tmp_path / "TEST_1d_10y.parquet")
+    assert cached["Close"].tolist() == [100, 101]

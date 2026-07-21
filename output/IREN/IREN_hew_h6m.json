@@ -17,93 +17,9 @@
       "fit": "fixed-8x"
     }
   },
-  "no_clean_count": false,
-  "message": "",
-  "preferred": {
-    "direction": "down",
-    "status": "in_progress",
-    "stage": "iii",
-    "harmony": 0.4983,
-    "aspects": {
-      "s3": 0.5,
-      "s5": 0.5,
-      "sc": 0.7860485212978338,
-      "salt": 0.5
-    },
-    "penalties": {
-      "c1_sub_a1": 0.9
-    },
-    "start": {
-      "date": "2025-11-05",
-      "price": 76.87
-    },
-    "end": {
-      "date": "2026-07-17",
-      "price": 32.22
-    },
-    "waves": {
-      "i": {
-        "span": [
-          {
-            "date": "2025-11-05",
-            "price": 76.87
-          },
-          {
-            "date": "2026-03-30",
-            "price": 30.76
-          }
-        ],
-        "len": 46.11,
-        "retr_ii": 0.866
-      },
-      "ii": {
-        "span": [
-          {
-            "date": "2026-03-30",
-            "price": 30.76
-          },
-          {
-            "date": "2026-06-03",
-            "price": 70.71
-          }
-        ],
-        "legs": 5
-      }
-    },
-    "position": {
-      "text_en": "In wave (iii) of a down five-wave fractal (started 2025-11-05 at 76.87)."
-    },
-    "targets": [
-      {
-        "label": "(iii) 176.4% proof level",
-        "price": -10.63,
-        "basis": "rule 6 minimum"
-      },
-      {
-        "label": "(iii) 176.4% cluster",
-        "price": -10.63,
-        "basis": "|(i)| x cluster from (ii) extreme"
-      },
-      {
-        "label": "(iii) 185.4% cluster",
-        "price": -14.78,
-        "basis": "|(i)| x cluster from (ii) extreme"
-      },
-      {
-        "label": "(iii) 190.2% cluster",
-        "price": -16.99,
-        "basis": "|(i)| x cluster from (ii) extreme"
-      }
-    ],
-    "invalidations": [
-      {
-        "label": "high of (ii)",
-        "price": 70.71,
-        "rule": "rule 1 ratchet: (ii) extreme is the binding support",
-        "binding": true
-      }
-    ]
-  },
+  "no_clean_count": true,
+  "message": "No HEW five-wave fractal survives the six hard rules (0 structural candidates tried). Honest refusal.",
+  "preferred": null,
   "alternates": [],
   "warnings": []
 }

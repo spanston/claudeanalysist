@@ -181,6 +181,13 @@ def c_beyond_a_end(components, ctx) -> bool:
 
 
 def c_short_of_a_end(components, ctx) -> bool:
+    a, c = components[0], components[2]
+    if c.open:
+        # An open C violates "short of A's end" only once it has actually
+        # traded beyond it (unrecoverable); delegating to c_beyond_a_end
+        # here would inherit its "undecidable while open -> True" convention
+        # and make a running flat unparseable while C is underway.
+        return not _beyond(c.end_price, a.end_price, a.direction)
     return not c_beyond_a_end(components, ctx)
 
 

@@ -21,6 +21,10 @@ Harmonic Elliott Wave model (Ian Copsey, *Fractal Forecasting*), distilled in
      R3 (iii) never shortest; R4 (iv) never breaches (b)-of-(iii) extreme
      (replaces the classical overlap rule); R6 (iii) ≥ 176.4%×(i), rare
      tolerance 172–176.4% (flagged, penalized). R5 ((v) exceeds (iii)) is soft.
+   - R1/R4 are evaluated on the extreme over *every pivot of the correction
+     span*: an interior (ii) leg beyond the start of (i), or an interior (iv)
+     leg beyond the (b)-of-(iii) extreme, invalidates even when the
+     correction's endpoint holds.
    - (c) of (iii) ≥ (a) of (iii); (c) ≥ 60% of (a) inside (i)/(v) (the (c)
      projection table's floor is 61.8% — a hard 76.4% floor contradicts the
      source's own table); (b) never beyond start of (a); (b) of (iii) ≤ 90%.
@@ -42,7 +46,9 @@ Harmonic Elliott Wave model (Ian Copsey, *Fractal Forecasting*), distilled in
    (ii)%+(iv)% ∈ [0.80,1.20] (w1.5). Unrealized aspects score a neutral 0.5
    (renormalizing would inflate young counts). Penalties: (v) failure ×0.8,
      rare (iii) band ×0.85, sub-equality (c) in (i)/(v) ×0.9, (iv) hugging the
-     (b)-of-(iii) barrier ×0.85. Refusal below harmony 0.40.
+     (b)-of-(iii) barrier ×0.85, structurally-complete-but-sub-172% (iii)
+     at the edge ×0.7. Refusal below harmony 0.50 (backtest-calibrated:
+     <0.50 calls scored 0.227 with 73% breach rate; 0.50+ scored ~0.48).
 6. **Selection**: best harmony; among candidates within 0.05, prefer the
    latest realized_end (the actionable count is the recent one). Alternates
    deduped by (direction, start, end_ii, realized_end, stage).
@@ -53,15 +59,29 @@ Harmonic Elliott Wave model (Ian Copsey, *Fractal Forecasting*), distilled in
 - in (iv): alternation-derived (iv) zone capped by the (b)-of-(iii) barrier;
   binding = (b) of (iii).
 - in (v): (v)-distribution targets + 223.6%×(i); binding = (iv) extreme.
-- completed: aftermath zones (span of (b) of (v); prior (iv) extreme);
-  binding = (v) extreme (a new extreme beyond falsifies the reversal reading).
+- completed: aftermath zones (span of (b) of (v); prior (iv) extreme) PLUS a
+  corrective reading of the tail (zigzag/flat/... with C=A projections) when
+  one scores ≥ 0.45; binding = (v) extreme. Aftermath targets the tail has
+  already traded into are dropped as stale; zigzag C=A projections keep only
+  levels still beyond the realized C end.
+- refusal fallback: when no impulse survives the rules (or harmony < floor),
+  the recent move is scanned for corrective patterns (corrections.py); a match
+  ≥ 0.45 reaching the right edge is reported as a "corrective" reading --
+  this covers declines too deep for a HEW impulse (rule-6 reachability). A
+  match whose invalidation is already exceeded by the last close is dead on
+  arrival and rejected.
 - Non-positive price targets are clipped (not tradeable).
 
-## Known limits (v2.0)
+## Known limits (v2.1)
 
-- Corrective positions (ii)/(iv) are typed by leg count only (1/3/5); no
-  zigzag/flat/triangle classification yet (the corrections skill's ratio
-  tables are not yet enforced).
+- Corrective positions (ii)/(iv) inside a fractal are typed by leg count only
+  (1/3/5). Standalone corrective readings (zigzag/flat/triangle/double-three,
+  corrections.py) cover the post-completion aftermath and charts where no
+  impulse exists; they are not yet used to classify (ii)/(iv) internally.
+- Corrective ambiguity is surfaced, not resolved: a completed zigzag can be
+  the W of a forming double three, and a deep-B zigzag can describe the same
+  span as a regular flat. The engine reports the best scan match; treat
+  near-ties as alternates.
 - No momentum/divergence confirmation (the book's confirmation layer);
   no volume model (HEW has none).
 - No triple-coincidence enforcement across degrees (single-degree analysis;

@@ -15,6 +15,7 @@ from elliott.horizon import parse_horizon, slice_series
 from elliott.pivots import calibrate_pivots
 
 from . import ratios as R
+from .corrections import CorrectionMatch, match_correction, scan_corrections
 from .fractals import Fractal, enumerate_fractals, wave_lengths
 from .score import pick_best
 
@@ -26,12 +27,67 @@ PIVOT_LO, PIVOT_HI = 30, 70
 # candidates are ratio-gated, not budget-gated).
 WINDOW_MULT = 8
 WINDOW_MIN_BARS = 250
-# Refuse when the best candidate's harmony falls below this floor.
-HARMONY_FLOOR = 0.40
+# Refuse when the best candidate's harmony falls below this floor. Set from
+# the 2026-07-21 backtest (output/validation/2026-07-21.md): calls below 0.50
+# scored 0.227 mean with a 73% breach rate; the 0.50+ buckets scored ~0.48.
+HARMONY_FLOOR = 0.50
+# Corrective readings (refusal fallback / aftermath) must clear this score.
+CORR_FLOOR = 0.45
 
 
 def _fmt_price(x: float) -> float:
     return round(x, 2)
+
+
+def _corr_entry(m: CorrectionMatch, pivots) -> dict:
+    """Serialize a corrective match into the report's preferred-entry shape
+    (status "corrective"), so downstream consumers see one uniform contract."""
+    stage = m.pattern if not m.variant else f"{m.pattern}({m.variant})"
+    inv = dict(m.invalidation)
+    return {
+        "direction": m.direction,
+        "status": "corrective",
+        "stage": stage,
+        "harmony": round(m.score, 4),
+        "aspects": {},
+        "penalties": {},
+        "start": {"date": pivots[m.start].date,
+                  "price": _fmt_price(pivots[m.start].price)},
+        "end": {"date": pivots[m.end].date,
+                "price": _fmt_price(pivots[m.end].price)},
+        "waves": {},
+        "legs": m.legs,
+        "position": {"text_en": (
+            f"Corrective reading: {stage} {m.direction}, "
+            f"{pivots[m.start].date} ({_fmt_price(pivots[m.start].price)}) -> "
+            f"{pivots[m.end].date} ({_fmt_price(pivots[m.end].price)}).")},
+        "targets": m.targets,
+        "invalidations": [{"label": f"{stage} invalidation",
+                           "price": _fmt_price(inv["price"]),
+                           "rule": inv["rule"], "binding": True}],
+        "notes": m.notes,
+    }
+
+
+def _corrective_fallback(pivots, last_close: float) -> CorrectionMatch | None:
+    """Best corrective reading reaching the right edge, either direction.
+    Covers charts where no HEW impulse can exist (e.g. declines too deep for
+    the 176.4% rule -- corrective C-waves of larger degree in HEW terms)."""
+    best = None
+    for m in scan_corrections(pivots):
+        if m.score < CORR_FLOOR:
+            continue
+        if m.end < len(pivots) - 4:
+            continue  # only readings reaching the right edge are actionable
+        # Dead-on-arrival guard: the reading's invalidation (e.g. B beyond the
+        # start of A) must still be untested -- a down reading's binding level
+        # sits above price, an up reading's below it.
+        d = 1 if m.direction == "up" else -1
+        if d * (last_close - m.invalidation["price"]) <= 0:
+            continue
+        if best is None or m.score > best.score:
+            best = m
+    return best
 
 
 def _wave_report(fr: Fractal, pivots, L: dict) -> dict:
@@ -132,14 +188,25 @@ def _targets_and_invalidations(fr: Fractal, pivots, L: dict) -> tuple[list, list
                                   "binding": True})
     else:
         # Completed fractal: aftermath targets per the book's reversal map.
+        # The aftermath is a reversal AGAINST the fractal direction; a target
+        # the tail after (v) has already traded into is stale -- drop it.
+        ad = -d
+        tail = p[fr.end_v + 1:]
+
+        def reached(price):
+            return any(ad * (q.price - price) >= 0 for q in tail)
+
         b5_lo = min(p[fr.end_iv + 1].price, p[fr.b5_end].price)
         b5_hi = max(p[fr.end_iv + 1].price, p[fr.b5_end].price)
-        targets.append({"label": "span of (b) of (v)",
-                        "zone": [_fmt_price(b5_lo), _fmt_price(b5_hi)],
-                        "basis": "first reversal after (v) targets the (b)-of-(v) span"})
-        targets.append({"label": "prior (iv) extreme",
-                        "price": _fmt_price(p[fr.end_iv].price),
-                        "basis": "first/second reversal after (v) reaches the prior (iv)"})
+        b5_near = b5_lo if ad > 0 else b5_hi  # zone edge the reversal reaches first
+        if not reached(b5_near):
+            targets.append({"label": "span of (b) of (v)",
+                            "zone": [_fmt_price(b5_lo), _fmt_price(b5_hi)],
+                            "basis": "first reversal after (v) targets the (b)-of-(v) span"})
+        if not reached(p[fr.end_iv].price):
+            targets.append({"label": "prior (iv) extreme",
+                            "price": _fmt_price(p[fr.end_iv].price),
+                            "basis": "first/second reversal after (v) reaches the prior (iv)"})
         invalidations.append({"label": "(v) extreme",
                               "price": _fmt_price(p[fr.end_v].price),
                               "rule": "a new extreme beyond completion falsifies the reversal reading",
@@ -195,10 +262,26 @@ def analyze_series(series: Series, ticker: str, run_date: str,
     }
     if hz_meta:
         report["meta"]["horizon"] = hz_meta
-    if pivots and pivots[-1].bar == len(series.closes) - 1:
-        report["warnings"].append("right-edge pivot is provisional (can move with new bars)")
+    # The zigzag's last pivot is ALWAYS the unconfirmed running candidate
+    # (elliott/pivots.py appends it without a confirming reversal), so flag it
+    # unconditionally -- stronger wording when it sits on the final bar.
+    if pivots:
+        if pivots[-1].bar == len(series.closes) - 1:
+            report["warnings"].append("right-edge pivot is provisional and still forming "
+                                      "on the last bar (very likely to move with new bars)")
+        else:
+            report["warnings"].append("right-edge pivot is provisional (can move with new bars)")
 
     if len(pivots) < 12:
+        # Too few monowaves for a full impulse, but a corrective reading of
+        # the recent move may still be possible (a zigzag needs 8).
+        corr = _corrective_fallback(pivots, series.closes[-1]) if len(pivots) >= 8 else None
+        if corr is not None:
+            report["no_clean_count"] = False
+            report["message"] = (f"Only {len(pivots)} monowaves -- too few for an "
+                                 "impulse; corrective reading of the recent move.")
+            report["preferred"] = _corr_entry(corr, pivots)
+            return report
         report["message"] = (f"Only {len(pivots)} monowaves in this window -- too few "
                              f"for a HEW five-wave fractal (needs >= 11 legs).")
         return report
@@ -227,13 +310,28 @@ def analyze_series(series: Series, ticker: str, run_date: str,
         }
 
     if best is None:
+        corr = _corrective_fallback(pivots, series.closes[-1])
+        if corr is not None:
+            report["no_clean_count"] = False
+            report["message"] = ("No HEW impulse count; corrective reading of the "
+                                 "recent move (corrections of larger degree are not "
+                                 "impulses -- see DESIGN.md).")
+            report["preferred"] = _corr_entry(corr, pivots)
+            return report
         report["message"] = ("No HEW five-wave fractal survives the six hard rules "
-                             f"({len(candidates)} structural candidates tried). "
-                             "Honest refusal.")
+                             f"({len(candidates)} structural candidates survived initial "
+                             "structure). Honest refusal.")
         return report
 
     best_sc = next(sc for fr, sc in ranked if fr is best)
     if best_sc["harmony"] < harmony_floor:
+        corr = _corrective_fallback(pivots, series.closes[-1])
+        if corr is not None:
+            report["no_clean_count"] = False
+            report["message"] = (f"Best impulse candidate scores {best_sc['harmony']:.2f} "
+                                 f"< {harmony_floor}; corrective reading of the recent move.")
+            report["preferred"] = _corr_entry(corr, pivots)
+            return report
         report["message"] = (f"Best HEW candidate scores {best_sc['harmony']:.2f} "
                              f"< {harmony_floor} harmony floor -- structure present "
                              "but ratios do not confirm. Honest refusal.")
@@ -242,6 +340,14 @@ def analyze_series(series: Series, ticker: str, run_date: str,
 
     report["no_clean_count"] = False
     report["preferred"] = _entry(best, best_sc)
+    # Aftermath: a completed fractal with a tail gets its corrective reading
+    # (zigzag/flat/... with C=A projections), upgrading the bare aftermath zones.
+    if best.complete and best.realized_end < len(pivots) - 1:
+        tail = pivots[best.realized_end:]
+        corr_dir = "down" if best.direction == "up" else "up"
+        m = match_correction(tail, 0, corr_dir)
+        if m is not None and m.score >= CORR_FLOOR:
+            report["preferred"]["aftermath_correction"] = _corr_entry(m, tail)
     seen = {(best.direction, best.start, best.end_ii, best.realized_end, best.stage)}
     for fr, sc in ranked:
         if fr is best:

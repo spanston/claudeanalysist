@@ -65,6 +65,13 @@ def score_fractal(fr: Fractal, pivots) -> dict:
     # Rare (iii) band 172-176.4%.
     if "iii" in L and L["iii"] < R.W3_MIN * L["i"]:
         penalties["iii_rare_band"] = 0.85
+    # (iii) structurally complete at the provisional edge but ratio-deficient
+    # (< 172%): a three-leg "impulse" that fails the projection requirement is
+    # corrective per the book -- don't let it outrank a corrective reading.
+    # (Mid-leg (iii)s are exempt: a partial r3 below the floor is normal.)
+    if not fr.complete and fr.realized_end == fr.end_iii and "iii" in L:
+        if L["iii"] < R.W3_RARE_FLOOR * L["i"]:
+            penalties["iii_below_floor_unproven"] = 0.70
     # Sub-equality (c) inside (i)/(v) (tolerated 85.4-100%, penalized).
     for a, c, tag in (("a1", "c1", "c1_sub_a1"), ("a5", "c5", "c5_sub_a5")):
         if a in L and c in L and L[c] < L[a]:

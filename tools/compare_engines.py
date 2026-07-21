@@ -102,15 +102,6 @@ def v2_summary(rep: dict) -> dict:
     }
 
 
-def dir_agrees(engine_dir: str | None, manual_dir: str | None) -> str:
-    if not engine_dir or not manual_dir:
-        return "-"
-    # manual "down" = topped, expecting decline; engine direction is the trend
-    # direction of the counted fractal. A completed UP fractal and an
-    # in-progress DOWN fractal both agree with manual "down".
-    return "?"  # filled by caller with fuller context
-
-
 def main() -> int:
     syms = sys.argv[1:] or symbols_from_cache()
     today = date.today().isoformat()
@@ -132,11 +123,11 @@ def main() -> int:
             row = {"symbol": sym}
             try:
                 row["v1"] = v1_summary(v1_run(sym, HORIZON, fetcher=cached)["report"])
-            except BaseException as e:  # SystemExit from too-few-bars guards, etc.
+            except (Exception, SystemExit) as e:  # SystemExit from too-few-bars guards, etc.
                 row["v1"] = {"status": "error", "message": str(e)[:100]}
             try:
                 row["v2"] = v2_summary(v2_run(sym, HORIZON, fetcher=cached))
-            except BaseException as e:  # noqa: BLE001
+            except (Exception, SystemExit) as e:  # noqa: BLE001
                 row["v2"] = {"status": "error", "message": str(e)[:100]}
             row["manual"] = MANUAL.get(sym)
             jf.write(json.dumps(row) + "\n")

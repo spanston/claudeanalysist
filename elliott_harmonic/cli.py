@@ -30,6 +30,25 @@ def _print_summary(report: dict) -> None:
         return
 
     pref = report["preferred"]
+    if pref["status"] == "corrective":
+        print()
+        print(f'PREFERRED (corrective reading)  score {pref["harmony"]}')
+        print(f'  {pref["position"]["text_en"]}')
+        for name, leg in pref.get("legs", {}).items():
+            print(f'  {name}: {leg}')
+        for tgt in pref["targets"][:5]:
+            if "zone" in tgt:
+                print(f'  Target ({tgt["label"]}): {tgt["zone"][0]:,.2f} - {tgt["zone"][1]:,.2f}  [{tgt["basis"]}]')
+            else:
+                print(f'  Target ({tgt["label"]}): {tgt["price"]:,.2f}  [{tgt["basis"]}]')
+        for inv in pref["invalidations"]:
+            print(f'  Invalidation ({inv["label"]}): {inv["price"]:,.2f}  {inv["rule"]} <-- binding')
+        for note in pref.get("notes", []):
+            print(f'  ! {note}')
+        for w in report.get("warnings", []):
+            print(f'  ! {w}')
+        return
+
     print()
     print(f'PREFERRED ({pref["status"]}{"" if pref["status"] == "completed" else ": " + pref["stage"]})'
           f'  harmony {pref["harmony"]}  aspects {pref["aspects"]}')
@@ -46,6 +65,14 @@ def _print_summary(report: dict) -> None:
     for inv in pref["invalidations"]:
         marker = "<-- binding" if inv["binding"] else ""
         print(f'  Invalidation ({inv["label"]}): {inv["price"]:,.2f}  {inv["rule"]} {marker}')
+    ac = pref.get("aftermath_correction")
+    if ac:
+        print(f'AFTERMATH: {ac["position"]["text_en"]}  (score {ac["harmony"]})')
+        for tgt in ac["targets"][:4]:
+            if "zone" in tgt:
+                print(f'  Target ({tgt["label"]}): {tgt["zone"][0]:,.2f} - {tgt["zone"][1]:,.2f}  [{tgt["basis"]}]')
+            else:
+                print(f'  Target ({tgt["label"]}): {tgt["price"]:,.2f}  [{tgt["basis"]}]')
     for alt in report["alternates"]:
         print(f'ALTERNATE: {alt["direction"]} {alt["status"]} '
               f'{alt["start"]["date"]} -> {alt["end"]["date"]}, harmony {alt["harmony"]}')

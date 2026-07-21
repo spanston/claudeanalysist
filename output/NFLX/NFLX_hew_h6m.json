@@ -9,7 +9,7 @@
     "monowaves": 51,
     "pivot_k": 2.8788,
     "run_date": "2026-07-21",
-    "last_close": 67.61,
+    "last_close": 67.6,
     "horizon": {
       "input": "6m",
       "target_bars": 126,

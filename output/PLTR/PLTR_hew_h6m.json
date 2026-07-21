@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "ticker": "PLTR",
+    "engine": "hew-v2",
+    "window": [
+      "2022-07-13",
+      "2026-07-20"
+    ],
+    "monowaves": 47,
+    "pivot_k": 3.3106,
+    "run_date": "2026-07-21",
+    "last_close": 134.85,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "fit": "fixed-8x"
+    }
+  },
+  "no_clean_count": false,
+  "message": "",
+  "preferred": {
+    "direction": "down",
+    "status": "in_progress",
+    "stage": "iii",
+    "harmony": 0.532,
+    "aspects": {
+      "s3": 0.5,
+      "s5": 0.5,
+      "sc": 0.670860005053533,
+      "salt": 0.5
+    },
+    "penalties": {},
+    "start": {
+      "date": "2025-11-03",
+      "price": 207.52
+    },
+    "end": {
+      "date": "2026-07-07",
+      "price": 138.9
+    },
+    "waves": {
+      "i": {
+        "span": [
+          {
+            "date": "2025-11-03",
+            "price": 207.52
+          },
+          {
+            "date": "2026-02-13",
+            "price": 126.23
+          }
+        ],
+        "len": 81.29,
+        "retr_ii": 0.461
+      },
+      "ii": {
+        "span": [
+          {
+            "date": "2026-02-13",
+            "price": 126.23
+          },
+          {
+            "date": "2026-06-01",
+            "price": 163.7
+          }
+        ],
+        "legs": 5
+      }
+    },
+    "position": {
+      "text_en": "In wave (iii) of a down five-wave fractal (started 2025-11-03 at 207.52)."
+    },
+    "targets": [
+      {
+        "label": "(iii) 176.4% proof level",
+        "price": 20.31,
+        "basis": "rule 6 minimum"
+      },
+      {
+        "label": "(iii) 176.4% cluster",
+        "price": 20.31,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 185.4% cluster",
+        "price": 12.99,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 190.2% cluster",
+        "price": 9.09,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      }
+    ],
+    "invalidations": [
+      {
+        "label": "high of (ii)",
+        "price": 163.7,
+        "rule": "rule 1 ratchet: (ii) extreme is the binding support",
+        "binding": true
+      }
+    ]
+  },
+  "alternates": [],
+  "warnings": []
+}

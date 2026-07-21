@@ -20,7 +20,7 @@ Hard gates (the six HEW rules + supporting rules, see harmonic-elliott-core):
   4. (iv) never breaches the (b)-of-(iii) extreme
   5. (v) normally exceeds (iii)               (soft -- penalty, not a gate)
   6. (iii) >= 176.4% x (i)  (172-176.4% rare-tolerance band, flagged)
-plus: (c) of (iii) >= (a) of (iii); (c) >= 76.4% of (a) inside (i)/(v);
+plus: (c) of (iii) >= (a) of (iii); (c) >= 60% of (a) inside (i)/(v);
 (b) never beyond start of (a); (b) of (iii) capped ~90% of (a).
 """
 
@@ -122,8 +122,10 @@ def check_hard_rules(fr: Fractal, pivots: list[Pivot]) -> list[str]:
     L = wave_lengths(fr, p)
     v: list[str] = []
 
-    # Rule 1: (ii) never beyond start of (i).
-    if L["ii"] >= L["i"] - 1e-9:
+    # Rule 1: (ii) never beyond start of (i) -- the extreme over EVERY pivot
+    # of the (ii) span counts: an interior leg that breaches and recovers
+    # invalidates the count just as much as the (ii) endpoint would.
+    if min(d * q.price for q in p[fr.end_i:fr.end_ii + 1]) <= d * p[fr.start].price + 1e-9:
         v.append("r1_ii_beyond_start_of_i")
 
     # (b) never beyond start of (a), inside every realized a-b-c.
@@ -134,16 +136,16 @@ def check_hard_rules(fr: Fractal, pivots: list[Pivot]) -> list[str]:
     if "b5" in L and L["b5"] >= L["a5"] - 1e-9:
         v.append("b5_beyond_start_of_a5")
 
-    # (c)/(a) floors: hard 76.4% everywhere. (c) of (iii) >= (a) of (iii) is
+    # (c)/(a) floors: hard 60% everywhere. (c) of (iii) >= (a) of (iii) is
     # gated on a CONFIRMED (iii) (a reversal leg exists after it); at the
     # provisional right edge the (c) leg may still be extending.
     confirmed_iii = fr.complete or fr.realized_end > fr.end_iii
     if L["c1"] < R.C_HARD_MIN * L["a1"]:
-        v.append("c1_below_76pct_of_a1")
+        v.append("c1_below_60pct_of_a1")
     if confirmed_iii and "c3" in L and L["c3"] < R.C_OF_III_MIN * L["a3"] * 0.99:
         v.append("c3_below_a3")
     if "c5" in L and L["c5"] < R.C_HARD_MIN * L["a5"]:
-        v.append("c5_below_76pct_of_a5")
+        v.append("c5_below_60pct_of_a5")
 
     # (b) of (iii) positional cap (~90% hard edge of the 76.4-85.4% band).
     if "b3" in L and L["b3"] > R.B_OF_III_MAX * L["a3"]:
@@ -158,10 +160,13 @@ def check_hard_rules(fr: Fractal, pivots: list[Pivot]) -> list[str]:
             v.append("r6_iii_below_172pct_of_i")
 
     # Rule 4: (iv) never breaches the (b)-of-(iii) extreme -- checked both for
-    # completed (iv) and for the realized edge while (iv) is unfolding.
+    # completed (iv) and for the realized edge while (iv) is unfolding. The
+    # extreme over EVERY pivot of the (iv) span counts: an interior leg that
+    # breaches and recovers invalidates the count just as much as the (iv)
+    # endpoint would.
     if fr.realized_end > fr.end_iii and "b3" in L:
         deepest_iv = fr.end_iv if fr.realized_end >= fr.end_iv else fr.realized_end
-        if d * p[deepest_iv].price <= d * p[fr.b3_end].price:
+        if min(d * q.price for q in p[fr.end_iii:deepest_iv + 1]) <= d * p[fr.b3_end].price:
             v.append("r4_iv_breaches_b_of_iii")
 
     # Rule 3 (the part not implied by rule 6): (iii) not shorter than (v).
@@ -207,7 +212,7 @@ def enumerate_fractals(pivots: list[Pivot],
     lo = min(p.price for p in pivots)
     min_span = min_span_frac * (hi - lo)
 
-    for s in range(0, n - 6):
+    for s in range(0, n - 5):
         direction = "up" if pivots[s].kind == "L" else "down"
         d = 1 if direction == "up" else -1
         for c2 in CORRECTION_LEGS:
