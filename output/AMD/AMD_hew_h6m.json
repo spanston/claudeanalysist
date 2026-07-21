@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "ticker": "AMD",
+    "engine": "hew-v2",
+    "window": [
+      "2022-07-13",
+      "2026-07-20"
+    ],
+    "monowaves": 54,
+    "pivot_k": 2.8788,
+    "run_date": "2026-07-21",
+    "last_close": 503.57,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "fit": "fixed-8x"
+    }
+  },
+  "no_clean_count": false,
+  "message": "",
+  "preferred": {
+    "direction": "up",
+    "status": "in_progress",
+    "stage": "iii",
+    "harmony": 0.5507,
+    "aspects": {
+      "s3": 0.5,
+      "s5": 0.5,
+      "sc": 0.7702021951022803,
+      "salt": 0.5
+    },
+    "penalties": {},
+    "start": {
+      "date": "2025-11-25",
+      "price": 194.28
+    },
+    "end": {
+      "date": "2026-07-17",
+      "price": 460.21
+    },
+    "waves": {
+      "i": {
+        "span": [
+          {
+            "date": "2025-11-25",
+            "price": 194.28
+          },
+          {
+            "date": "2026-01-23",
+            "price": 266.96
+          }
+        ],
+        "len": 72.68,
+        "retr_ii": -2.343
+      },
+      "ii": {
+        "span": [
+          {
+            "date": "2026-01-23",
+            "price": 266.96
+          },
+          {
+            "date": "2026-06-09",
+            "price": 437.23
+          }
+        ],
+        "legs": 5
+      }
+    },
+    "position": {
+      "text_en": "In wave (iii) of a up five-wave fractal (started 2025-11-25 at 194.28)."
+    },
+    "targets": [
+      {
+        "label": "(iii) 176.4% proof level",
+        "price": 565.44,
+        "basis": "rule 6 minimum"
+      },
+      {
+        "label": "(iii) 176.4% cluster",
+        "price": 565.44,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 185.4% cluster",
+        "price": 571.98,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 190.2% cluster",
+        "price": 575.47,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      }
+    ],
+    "invalidations": [
+      {
+        "label": "low of (ii)",
+        "price": 437.23,
+        "rule": "rule 1 ratchet: (ii) extreme is the binding support",
+        "binding": true
+      }
+    ]
+  },
+  "alternates": [],
+  "warnings": []
+}

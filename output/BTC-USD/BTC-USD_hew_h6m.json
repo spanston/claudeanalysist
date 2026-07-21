@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "ticker": "BTC-USD",
+    "engine": "hew-v2",
+    "window": [
+      "2023-10-17",
+      "2026-07-20"
+    ],
+    "monowaves": 44,
+    "pivot_k": 3.3106,
+    "run_date": "2026-07-21",
+    "last_close": 65232.93,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "fit": "fixed-8x"
+    }
+  },
+  "no_clean_count": false,
+  "message": "",
+  "preferred": {
+    "direction": "down",
+    "status": "in_progress",
+    "stage": "iii",
+    "harmony": 0.5789,
+    "aspects": {
+      "s3": 0.5,
+      "s5": 0.5,
+      "sc": 0.92087538062083,
+      "salt": 0.5
+    },
+    "penalties": {},
+    "start": {
+      "date": "2025-10-27",
+      "price": 116273.31
+    },
+    "end": {
+      "date": "2026-07-20",
+      "price": 65703.08
+    },
+    "waves": {
+      "i": {
+        "span": [
+          {
+            "date": "2025-10-27",
+            "price": 116273.31
+          },
+          {
+            "date": "2026-02-06",
+            "price": 60074.2
+          }
+        ],
+        "len": 56199.11,
+        "retr_ii": 0.128
+      },
+      "ii": {
+        "span": [
+          {
+            "date": "2026-02-06",
+            "price": 60074.2
+          },
+          {
+            "date": "2026-06-15",
+            "price": 67248.13
+          }
+        ],
+        "legs": 5
+      }
+    },
+    "position": {
+      "text_en": "In wave (iii) of a down five-wave fractal (started 2025-10-27 at 116273.31)."
+    },
+    "targets": [
+      {
+        "label": "(iii) 176.4% proof level",
+        "price": -31887.1,
+        "basis": "rule 6 minimum"
+      },
+      {
+        "label": "(iii) 176.4% cluster",
+        "price": -31887.1,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 185.4% cluster",
+        "price": -36945.02,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 190.2% cluster",
+        "price": -39642.57,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      }
+    ],
+    "invalidations": [
+      {
+        "label": "high of (ii)",
+        "price": 67248.13,
+        "rule": "rule 1 ratchet: (ii) extreme is the binding support",
+        "binding": true
+      }
+    ]
+  },
+  "alternates": [],
+  "warnings": [
+    "right-edge pivot is provisional (can move with new bars)"
+  ]
+}

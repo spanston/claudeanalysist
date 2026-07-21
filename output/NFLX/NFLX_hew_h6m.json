@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "ticker": "NFLX",
+    "engine": "hew-v2",
+    "window": [
+      "2022-07-13",
+      "2026-07-20"
+    ],
+    "monowaves": 51,
+    "pivot_k": 2.8788,
+    "run_date": "2026-07-21",
+    "last_close": 67.61,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "fit": "fixed-8x"
+    }
+  },
+  "no_clean_count": false,
+  "message": "",
+  "preferred": {
+    "direction": "down",
+    "status": "in_progress",
+    "stage": "v",
+    "harmony": 0.6941,
+    "aspects": {
+      "s3": 0.8287978735251527,
+      "s5": 0.5,
+      "sc": 0.8647097207671306,
+      "salt": 0.9243008958175717
+    },
+    "penalties": {
+      "c1_sub_a1": 0.9
+    },
+    "start": {
+      "date": "2025-06-30",
+      "price": 134.12
+    },
+    "end": {
+      "date": "2026-07-17",
+      "price": 65.08
+    },
+    "waves": {
+      "i": {
+        "span": [
+          {
+            "date": "2025-06-30",
+            "price": 134.12
+          },
+          {
+            "date": "2025-10-02",
+            "price": 113.4
+          }
+        ],
+        "len": 20.72,
+        "retr_ii": 0.553
+      },
+      "ii": {
+        "span": [
+          {
+            "date": "2025-10-02",
+            "price": 113.4
+          },
+          {
+            "date": "2025-10-21",
+            "price": 124.86
+          }
+        ],
+        "legs": 1
+      },
+      "iii": {
+        "span": [
+          {
+            "date": "2025-10-21",
+            "price": 124.86
+          },
+          {
+            "date": "2026-02-23",
+            "price": 75.01
+          }
+        ],
+        "len": 49.85,
+        "r3": 2.406,
+        "retr_b3": 0.536,
+        "c_over_a": 2.381
+      },
+      "iv": {
+        "span": [
+          {
+            "date": "2026-02-23",
+            "price": 75.01
+          },
+          {
+            "date": "2026-04-16",
+            "price": 108.95
+          }
+        ],
+        "legs": 3,
+        "retr_iv": 0.681
+      }
+    },
+    "position": {
+      "text_en": "In wave (v) of a down five-wave fractal (started 2025-06-30 at 134.12)."
+    },
+    "targets": [
+      {
+        "label": "(v) 66.7% of (i)+(iii)",
+        "price": 61.88,
+        "basis": "|(i)+(iii)| x ratio from (iv) extreme"
+      },
+      {
+        "label": "(v) 76.4% of (i)+(iii)",
+        "price": 55.04,
+        "basis": "|(i)+(iii)| x ratio from (iv) extreme"
+      },
+      {
+        "label": "(v) 85.4% of (i)+(iii)",
+        "price": 48.69,
+        "basis": "|(i)+(iii)| x ratio from (iv) extreme"
+      },
+      {
+        "label": "(v) 223.6% of (i)",
+        "price": 62.63,
+        "basis": "same-degree projection"
+      }
+    ],
+    "invalidations": [
+      {
+        "label": "high of (iv)",
+        "price": 108.95,
+        "rule": "rule 4 ratchet: (iv) extreme is the binding support",
+        "binding": true
+      }
+    ]
+  },
+  "alternates": [
+    {
+      "direction": "down",
+      "status": "in_progress",
+      "stage": "iv",
+      "harmony": 0.6225,
+      "aspects": {
+        "s3": 0.8287978735251527,
+        "s5": 0.5,
+        "sc": 0.8647097207671306,
+        "salt": 0.5
+      },
+      "penalties": {
+        "c1_sub_a1": 0.9
+      },
+      "start": {
+        "date": "2025-06-30",
+        "price": 134.12
+      },
+      "end": {
+        "date": "2026-07-17",
+        "price": 65.08
+      },
+      "waves": {
+        "i": {
+          "span": [
+            {
+              "date": "2025-06-30",
+              "price": 134.12
+            },
+            {
+              "date": "2025-10-02",
+              "price": 113.4
+            }
+          ],
+          "len": 20.72,
+          "retr_ii": 0.553
+        },
+        "ii": {
+          "span": [
+            {
+              "date": "2025-10-02",
+              "price": 113.4
+            },
+            {
+              "date": "2025-10-21",
+              "price": 124.86
+            }
+          ],
+          "legs": 1
+        },
+        "iii": {
+          "span": [
+            {
+              "date": "2025-10-21",
+              "price": 124.86
+            },
+            {
+              "date": "2026-02-23",
+              "price": 75.01
+            }
+          ],
+          "len": 49.85,
+          "r3": 2.406,
+          "retr_b3": 0.536,
+          "c_over_a": 2.381
+        }
+      },
+      "position": {
+        "text_en": "In wave (iv) of a down five-wave fractal (started 2025-06-30 at 134.12)."
+      },
+      "targets": [
+        {
+          "label": "(iv) alternation zone",
+          "zone": [
+            87.31,
+            107.25
+          ],
+          "basis": "(ii)+(iv) sum in (0.8, 1.2), capped by (b) of (iii)"
+        }
+      ],
+      "invalidations": [
+        {
+          "label": "(b) of (iii) extreme",
+          "price": 116.73,
+          "rule": "rule 4: (iv) must not breach (b) of (iii)",
+          "binding": true
+        }
+      ]
+    },
+    {
+      "direction": "down",
+      "status": "in_progress",
+      "stage": "iii",
+      "harmony": 0.5925,
+      "aspects": {
+        "s3": 0.5,
+        "s5": 0.5,
+        "sc": 0.9932946963687982,
+        "salt": 0.5
+      },
+      "penalties": {},
+      "start": {
+        "date": "2025-10-21",
+        "price": 124.86
+      },
+      "end": {
+        "date": "2026-07-17",
+        "price": 65.08
+      },
+      "waves": {
+        "i": {
+          "span": [
+            {
+              "date": "2025-10-21",
+              "price": 124.86
+            },
+            {
+              "date": "2026-02-23",
+              "price": 75.01
+            }
+          ],
+          "len": 49.85,
+          "retr_ii": 0.681
+        },
+        "ii": {
+          "span": [
+            {
+              "date": "2026-02-23",
+              "price": 75.01
+            },
+            {
+              "date": "2026-04-16",
+              "price": 108.95
+            }
+          ],
+          "legs": 3
+        }
+      },
+      "position": {
+        "text_en": "In wave (iii) of a down five-wave fractal (started 2025-10-21 at 124.86)."
+      },
+      "targets": [
+        {
+          "label": "(iii) 176.4% proof level",
+          "price": 21.01,
+          "basis": "rule 6 minimum"
+        },
+        {
+          "label": "(iii) 176.4% cluster",
+          "price": 21.01,
+          "basis": "|(i)| x cluster from (ii) extreme"
+        },
+        {
+          "label": "(iii) 185.4% cluster",
+          "price": 16.53,
+          "basis": "|(i)| x cluster from (ii) extreme"
+        },
+        {
+          "label": "(iii) 190.2% cluster",
+          "price": 14.14,
+          "basis": "|(i)| x cluster from (ii) extreme"
+        }
+      ],
+      "invalidations": [
+        {
+          "label": "high of (ii)",
+          "price": 108.95,
+          "rule": "rule 1 ratchet: (ii) extreme is the binding support",
+          "binding": true
+        }
+      ]
+    },
+    {
+      "direction": "down",
+      "status": "in_progress",
+      "stage": "iii",
+      "harmony": 0.5551,
+      "aspects": {
+        "s3": 0.5,
+        "s5": 0.5,
+        "sc": 0.7940655700126548,
+        "salt": 0.5
+      },
+      "penalties": {},
+      "start": {
+        "date": "2025-09-05",
+        "price": 126.71
+      },
+      "end": {
+        "date": "2026-07-17",
+        "price": 65.08
+      },
+      "waves": {
+        "i": {
+          "span": [
+            {
+              "date": "2025-09-05",
+              "price": 126.71
+            },
+            {
+              "date": "2025-11-05",
+              "price": 107.34
+            }
+          ],
+          "len": 19.37,
+          "retr_ii": 0.083
+        },
+        "ii": {
+          "span": [
+            {
+              "date": "2025-11-05",
+              "price": 107.34
+            },
+            {
+              "date": "2026-04-16",
+              "price": 108.95
+            }
+          ],
+          "legs": 5
+        }
+      },
+      "position": {
+        "text_en": "In wave (iii) of a down five-wave fractal (started 2025-09-05 at 126.71)."
+      },
+      "targets": [
+        {
+          "label": "(iii) 238.2% cluster",
+          "price": 62.8,
+          "basis": "|(i)| x cluster from (ii) extreme"
+        },
+        {
+          "label": "(iii) 261.8% cluster",
+          "price": 58.23,
+          "basis": "|(i)| x cluster from (ii) extreme"
+        },
+        {
+          "label": "(iii) 276.4% cluster",
+          "price": 55.4,
+          "basis": "|(i)| x cluster from (ii) extreme"
+        },
+        {
+          "label": "(iii) 285.4% cluster",
+          "price": 53.66,
+          "basis": "|(i)| x cluster from (ii) extreme"
+        }
+      ],
+      "invalidations": [
+        {
+          "label": "high of (ii)",
+          "price": 108.95,
+          "rule": "rule 1 ratchet: (ii) extreme is the binding support",
+          "binding": true
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

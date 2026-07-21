@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "ticker": "META",
+    "engine": "hew-v2",
+    "window": [
+      "2022-07-13",
+      "2026-07-20"
+    ],
+    "monowaves": 54,
+    "pivot_k": 2.8788,
+    "run_date": "2026-07-21",
+    "last_close": 645.85,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "fit": "fixed-8x"
+    }
+  },
+  "no_clean_count": true,
+  "message": "No HEW five-wave fractal survives the six hard rules (0 structural candidates tried). Honest refusal.",
+  "preferred": null,
+  "alternates": [],
+  "warnings": []
+}

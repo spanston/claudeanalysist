@@ -1,0 +1,5645 @@
+Merged_All_PDFs_Part2.pdf
+Source guide
+This technical guide details the application of Harmonic Elliott Wave theory, focusing on the mathematical relationships and structural markers used to identify market fractals. The text emphasizes retracement and projection ratios, such as the critical 176.4% minimum extension for Wave 3, to calculate price targets and validate the completion of specific trends. By utilizing case studies from stocks like Microsoft and Gilead, it demonstrates how corrective and impulsive waves interact through a series of Fibonacci-based percentages. Rather than using the traditional, exhaustive bottom-up counting method, the author advocates for a more efficient Top-to-Down process, which involves zooming out to recognize distinctive visual markers before verifying them against core rules. This systematic approach serves as a practical framework for traders to predict future price levels and maintain structural integrity when labeling complex market cycles.
+
+
+
+
+
+
+
+
+
+
+
+Retracements Wave 4 down
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+3D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+2
+a
+b
+c
+a
+b
+a
+b
+c3
+1 a
+b
+c 4
+c
+You Should Remember The Most Common Retracement Ratios:
+50%58.6%41.4%38.2%
+61.8% 66.7%23.6%
+Less Common Retracement Ratios:
+critical support for wave 4
+a b
+c
+a
+b
+c
+a
+b
+c 3
+1 a
+b
+c 4
+a
+b
+Retracements Wave B down
+Reminder: When five wave structure gets completed we say that a wave of a larger degree gets completed
+c 5 A
+a b
+c
+a
+b
+c
+a
+b
+c 3
+1 a
+b
+c 4
+a
+b
+Retracements Wave B down
+Note: Completion of a wave of a larger degree gives birth to a correction of a larger degree
+c 5 A
+a b
+c
+a
+b
+c
+a
+b
+c 3
+1 a
+b
+c 4
+a
+b
+Retracements Wave B down
+Note: Completion of a wave of a larger degree gives birth to a correction of a larger degree
+c 5 A
+a
+b
+c B
+a b
+c
+a
+b
+c
+a
+b
+c 3
+1 a
+b
+c 4
+a
+b
+Retracements Wave B down
+Note:
+c 5 A
+a
+b
+c B
+Big corrective wave B down is a reaction to action in the preceding big wave A
+a b
+c
+a
+b
+c
+a
+b
+c 3
+1 a
+b
+c 4
+a
+b
+Retracements Wave B down
+Note:
+c 5 A
+a
+b
+c B
+Big corrective wave B down is a reaction to action in the preceding big wave A
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e A
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e B
+critical support for wave B
+Retracements Wave B down
+You Should Remember the Most Common Retracement Ratios:
+61.8%
+50%58.6%41.4%
+66.7% 76.4% 85.4%
+38.2%23.6% 91.2% 98.2%
+Less Common Retracement Ratios:
+Unusually shallow Unusually deep
+Retracement Ratio of Wave B = Wave B / Wave A %* 100%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGVIV8paxfN9PwAuB_LdJR-2hZYVV9Vs2-w3lmcoI5CLBKRwSJjsKEPbOtqYHxx09-IdSv4nKRUgQ_YwpdDjEyvGno-P_vkhUw0GYZ-EiZsuSap2nFeJ2DyMQsmqwXsHdNDedomgA=w1280-h609-v0
+CASE STUDY
+GILD, daily chart, Jun’94 - Sep 2000
+Retracements Wave B down
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e B
+Retracement Ratio of Wave B = Wave B / Wave A %* 100% = 61.8%
+61.8%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFvVhCDlANkuCbaw2jSnQXAscvLO8RH0spwWg_R0Fz4HaKqbmi8S-dkGTFNZAQwIuGRishCiT1QauQzLaDXlkzuXGx9tEU4_JPf5kiJA-_Ip8Qg57-p4dvBKzKi1GtJmJz-1SA1HA=w1280-h643-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Corrective Waves Wave ( B ) down
+The first impulsive looking drop in wave (a) of A of (B) stopped at 44% retracement of the preceding rally in wave ( A ) up!
+Please note:
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGZd5lOEzxoKZOCPJPDjybsMj44sFof1lj1_s1CrT-MaTgMinDqT_CE-9FXnPortL1oEtzBGbaUA9zPsHS947lAE3dwCcw1RWwwbTMucYyuExbSPSob71eyTBTEKGjAtwah7NWjMA=w1280-h643-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Corrective Waves Wave ( B ) down
+The second drop in wave (c) of A of (B) had ugly structure and missed any major retracement fib
+Please note:
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEWQIKh2fxD1B64K9-cWXPj5p3zp_lA0pyRxcvtwMBtMFxtxn-I9EOZk8KTypZJTSmolVgBWdHGzMha_kAAm7ry4j00XBaJq1Pw_JqfzY75-8dHShsEO0Sp5BGFiovS9GXFu5SC=w1280-h643-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Corrective Waves Wave ( B ) down
+The final drop in wave C of (B) had ugly structure but almost nailed 76.4% retracement of the preceding rally in wave ( A ) up
+Please note:
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGgmSI7SUz3UStaS2Nzwxjh9PvkHvFg9pMd5l1TspkdAsFdg7QG56yf_a3qjy6R1k5bHrPPNQGt2zrzoGG7v8izkU6KvG4z4hQwmNCqieWyr11xjetSiWI2BDoJvRDaL7PJ6sArmQ=w1128-h949-v0
+CASE STUDY Retracements Wave ( 4 ) down
+Index Russell-2000, daily chart, 1988 - 2008
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e ( 3
+)
+di st
+an ce
+c ov
+er ed
+b y
+co rr
+ec tiv
+e w
+av e
+( 4 )
+61.8% retracement
+Retracement Ratio of Wave ( 4 ) = Wave ( 4 ) / Wave ( 3 ) * 100% = 61.8%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGLsVO02RC4O2vCWP1XL7jRApNUs9CJEeV2ujv5e-aioeXuxhe1PVlEeOCiTKyjqdg5d19BnyGpkPNVIKZmEJh43NA8I8oSVl3gMb2ewgI4n_obib8tT5wIzU0qcAi9ZpsAxPVhxQ=w1280-h782-v0
+CASE STUDY Retracements Wave 4 down
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e 3
+di st
+an ce
+c ov
+er ed
+b y
+co rr
+ec tiv
+e w
+av e
+4
+76.4% retracement
+Retracement Ratio of Wave 4 = Wave 4 / Wave 3 * 100% = 76.4%
+XBI, daily chart, May ’06 - Nov ‘08
+76.4%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEa4kfhWwGmoOBegSdF36yZAu5mFBwB5IpJ3Ng-KES4CxWSGeAl_kdnrpXZxblqRtEWhyk8hP9BzkZKdiCVfiq_C9_oDqnxLzo2yDZE_HffPvJKvYW8gLY4jc0vKH1XnucK3yYFTg=w858-h693-v0
+A B
+C
+ac tio
+n
+reaction
+re so
+lu tio
+n
+Projections Wave C up
+When we studied a simple a-b-c fractal we mentioned that wave c reacts to both preceding waves a and c
+In fact Wave C directly relates to wave A and keeps following a number of specific ratios we will study next!
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e A
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e
+C
+Example:
+Wave A starts at $10 and completes at $20. Its length is $20 - $10 = $10.
+Wave B starts at the top of wave A at $20 and drops to $15.
+Wave C starts at the bottom of wave B and goes up to $25. Its length is $25 - $15 = $10.
+Wave C relates to wave A as $10/$10 = 1 or
+$20
+$10
+$25
+$15
+You Should Remember The Most Common Projections Ratios:
+109.2% 114.4% 123.6%
+144.4%
+Less Common Projection Ratios:
+Projections Wave C up
+100.0% 176.4%
+85.4%
+Uncommon Projection Ratios:
+76.4% 138.2%
+A B
+C
+ac tio
+n
+reaction
+re so
+lu tio
+n
+Projections Wave C up
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e A
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e
+C
+Example:
+Wave A starts at $10 and completes at $20. Its length is $20 - $10 = $10.
+Wave B starts at the top of wave A at $20 and drops to $15.
+Taking into account one of the most common projection ratio we can easily compute a potential level where wave C will complete in advance!
+$20
+$10
+?
+$15
+123.6%Projection Ratio of
+A B
+C
+ac tio
+n
+reaction
+re so
+lu tio
+n
+Projections Wave C up
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e A
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e
+C
+Example:
+Wave A starts at $10 and completes at $20. Its length is $20 - $10 = $10.
+Wave B starts at the top of wave A at $20 and drops to $15.
+Taking into account one of the most common projection ratio we can easily compute in advance a potential level where wave C may complete!
+Wave C = Wave A x Projection Ratio
+$20
+$10
+?
+$15
+123.6%Projection Ratio of
+A B
+C
+ac tio
+n
+reaction
+re so
+lu tio
+n
+Projections Wave C up
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e A
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e
+C
+Example:
+Wave A starts at $10 and completes at $20. Its length is $20 - $10 = $10.
+Wave B starts at the top of wave A at $20 and drops to $15.
+Taking into account one of the most common projection ratio we can easily compute in advance a potential level where wave C may complete!
+Wave C = Wave A x Projection Ratio Wave C = ($20 -$10) x 123.6% = $12.36
+Wave C starts at the bottom of wave B at $15. Then it may complete at $15 + $12.36 = $27.36!
+$20
+$10
+$27.36
+$15
+123.6%Projection Ratio of
+A B
+C
+action
+resolution
+Projections Wave C down
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e A
+di st
+an ce
+c ov
+er ed
+b y
+w av
+e
+C
+Example:
+Wave A starts at $50 and drops to $35. Its length is $50 - $35 = $15.
+Wave B starts at the bottom of wave A at $35 and pushes price up to $42.
+Taking into account one of the most common projection ratio of 109.2% we can easily compute in advance a potential level where wave C may complete!
+Wave C = Wave A x Projection Ratio Wave C = ($50-$35) x 109.2% = $16.38
+Wave C starts at the top of wave B at $42. Then it may complete at $42 - 16.38 = $25.62!
+$50
+$35
+$42
+$25.62
+109.2%Projection Ratio of
+re ac
+tio n
+Projections Wave 3 up
+action reaction
+re so
+lut ion
+When we studied a simple a-b-c fractal we mentioned that wave c reacts to both preceding waves a and c.
+a
+b
+c
+Projections Wave 3 up
+action reaction
+re so
+lut ion
+When we studied a simple a-b-c fractal we mentioned that wave c reacts to both preceding waves a and c.
+a
+b
+c
+Then we found out that Wave C directly relates to wave A and keeps following a number of specific ratios
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+1
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+3
+a
+b
+c
+a
+b
+c
+a
+b
+c 3
+1
+Projections Wave 3 up
+action reaction
+re so
+lut ion
+When we studied a simple a-b-c fractal we mentioned that wave c reacts to both preceding waves a and c. Then we found out that wave c directly relates to wave a and keeps following a number of specific ratios
+The same principle applies to waves 1 and 3 inside a five wave pattern!
+a
+b
+c
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+1
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+3
+a
+b
+c
+a
+b
+c
+a
+b
+c 3
+1
+Projections Wave 3 up
+Wave 3 directly relates to wave 1 and keeps following a number of specific ratios we will study next!
+Distance covered by wave 1 x Projection ratio = Distance covered by wave
+3
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+1
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+3
+a
+b
+c
+a
+b
+c
+a
+b
+c 3
+1
+Projections Wave 3 up
+Distance covered by wave 1 x Projection ratio = Distance covered by wave
+3
+Example: 176.4%Projection Ratio of
+Wave 1 starts at $40 and tops at $55. Its length is $55 - $40 = $15. Wave 2 starts at the top of wave 1 at $55 and pushes price lower to $45. Taking into account one of the most common projection ratio of 176.4% we can easily compute in advance a potential level where wave 3 up may complete! Wave 3 = Wave 1 x Projection Ratio Wave 3 = ($55-$45) x 176.4% = $17.64
+Wave 3 starts at the bottom of wave 2 at $45. Then a target for wave 3 is:
+$55
+$45
+?
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+1
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+3
+a
+b
+c
+a
+b
+c
+a
+b
+c 3
+1
+Projections Wave 3 up
+Distance covered by wave 1 x Projection ratio = Distance covered by wave
+3
+Example: 176.4%Projection Ratio of
+Wave 1 starts at $40 and tops at $55. Its length is $55 - $40 = $15. Wave 2 starts at the top of wave 1 at $55 and pushes price lower to $45. Taking into account one of the most common projection ratio of 176.4% we can easily compute in advance a potential level where wave 3 up may complete! Wave 3 = Wave 1 x Projection Ratio Wave 3 = ($55-$45) x 176.4% = $17.64
+Wave 3 starts at the bottom of wave 2 at $45. Then a target for wave 3 is: $45 + $17.64 = $62.64!
+$55
+$45
+$62.64
+You Should Remember The Most Common Projections Ratios:
+176.4% 200.0% 223.6%
+Projections Wave 3
+323.6%
+Less Common Projection Ratios:
+276.4%
+Main Rules defining the Five Wave fractal:
+Wave 2 never goes beyond a starting point of Wave 11 Wave 3 always travels beyond the top of Wave 12 Wave 3 can not be the shortest wave, should be longer than wave 13 Wave 4 never travels beyond bottom / top of b of 34 Wave 5 normally goes beyond the top of wave 35
+REVIEW
+Now after we are introduced to concept of projections we can add one more rule
+Main Rules defining the Five Wave fractal:
+Wave 2 never goes beyond a starting point of Wave 11 Wave 3 always travels beyond the top of Wave 12 Wave 3 can not be the shortest wave, should be longer than wave 13 Wave 4 never travels beyond bottom / top of b of 34 Wave 5 normally goes beyond the top of wave 35
+REVIEW
+The minimum length of Wave 3 is 176.4% of length of Wave 16
+Projections Wave 5 up
+a
+b
+c
+a
+b
+c
+a
+b
+c 3
+1 a
+b
+c 4
+a
+b
+c 5
+W
+av es
+1 a
+nd 3
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+5
+Distance covered by waves 1 and 3 x Projection ratio = Distance covered by wave
+5
+You Should Remember The Most Common Projections Ratios:
+76.4% 85.4%
+Projections Wave 5
+Distance covered by waves 1 and 3 x Projection ratio = Distance covered by wave
+5
+50%
+Less Common Projection Ratios:
+41.4% 61.8%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHS8Ock4MN4xmjQdfyQTk_T5FwrIhrLLUAqpAFSazJL1h0z-PrRjq8R_26oEqWIY7nXIpXhzWzpS5W8_zNq4isHrzC5iWDwA9bHtftGLF4fslQYSRlaqbqGXoO5WD-MjUip7ziv2g=w1280-h672-v0
+CASE STUDY
+GILD, daily chart, Jun’94 - Sep 2000
+Projections Wave 3 up
+Distance covered by wave 1 x 214.4% = Distance covered by wave 3
+Start projection from the bottom of wave 2 and start of the wave 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEb1bom3Mg7mIOAG3pYySju0ckLYYNIJc9tPQAOpPhGEnNUKPKEjYVQkHK1gumgSQuZUenSbBIlhfOmbuTERJGZCTuFxDrvAUv5wBENmJQwJga4O-02MyTWuGhzHUN98gi_FP3TMA=w1280-h857-v0
+Projections Wave 3 upCASE STUDY
+GM, daily chart, Jul ‘12 - Dec ‘13
+Distance covered by wave 1 x Projection
+ratio = Distance covered by wave 3
+Projection ratio = 223.6%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE0MJFWO_2ZET5x-OIIhcI6em1fcPRoia6C21oR4xx03zWO77ovqvqmCl37H0P-el-sw0UrBUjHuGFTEjXm6BK7J1JE4JA7RaGxxnHR_-lrGbFSw12CwvYoKJMpzlDr_GMzJ6UCzQ=w1061-h793-v0
+Projections Wave C of 5 up
+Distance covered by wave ( A ) of ( 5 ) x Projection
+ratio = Distance covered by
+wave ( C ) of ( 5 )
+Projection ratio = 223.6%
+CASE STUDY
+MSFT, daily chart, Apr - Dec 2000
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE7gs0mKCXXVbiizMrgj3FCrPztWdJ45L0KI3rfeRbeSdsmiWs_mx8tu5GxA5Df1uH8JaOlpzfFSW-BcuR8HrDpKLZD2deNhB5GK6BthSXFD0hugL_QUCqHjPNc3lsQgeMh6akxAA=w1280-h627-v0
+CASE STUDY Confluence of targets for wave 5 down
+TWTR, daily chart, Dec’13 - Feb’16
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFMRfIuNKmN2Q4WA5ndw1bQnWmus3JBBIcIT1P-fXwGidvz_iDtkO-rmTloiY3PNCSYaAyE1JQe4OA74UqSgDvx2uMpSETw1qj2AL8ZDN84AGNVP2tIw3Dz16TuGPj0Jq3UCBcG=w1280-h627-v0
+CASE STUDY Projection for wave 3 down
+TWTR, daily chart, Dec’13 - Feb’16
+Projection ratio = 200.0%
+Distance covered by wave 1 x Projection ratio =
+Distance covered by wave 3
+Project from the top of wave 2
+Projections Wave 5 up
+a
+b
+c
+a
+b
+c
+a
+b
+c 3
+1 a
+b
+c 4
+a
+b
+c 5
+W
+av es
+1 a
+nd 3
+D is
+ta nc
+e co
+ve re
+d by
+w
+av e
+5
+Distance covered by waves 1 and 3 x Projection ratio = Distance covered by wave
+5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG_Q-cFQMt7DJa29mCT5u87H-PLFdlM4ctl1QkFqhxjAjGULZa39mQdI9GRik_VuR1i_poNsjuXATTAsmMtD-iuRQfAY50EJvH6JTVjzyOvYWG5JD425P2FyklRiUQYqkaLG4aMog=w1280-h662-v0
+Projections Wave C of ( B ) downCASE STUDY
+MSFT, weekly chart, 1991 - 2014 Distance covered by wave A of ( B ) x
+Projection ratio =
+Distance covered by wave C of ( B )
+Projection ratio = 61.8%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGw0edIgmknHbPH61RDtZexMEEjkEPYBpIhCWRRn3zYClOwSR4kCc_cQ9Luw4beZFokwX5q6qctYj17Bd2ElHrlMzqLCFfPcHWYFgWbkW3mq0WJ03zRNqb0vtohKXGTUrVkx2zK9Q=w1280-h853-v0
+CASE STUDY
+GILD, daily chart, Jun’08 - Aug ‘08
+Projections Wave ( Y ) of 2 down
+Distance covered by wave ( W ) x 100.0% = Distance covered by wave ( Y )
+Start projection from the top of wave ( X )
+100.0%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFFOwubpSBqdwvAGfZ39sKrfYKh71HpqXZJDrHj82AVrKo03yeou6Ajm9-qDToAASaEDeJbcTN7YW2G5PXn4LmkbeJMT5aV8nQQBKm7YWQBP-rWFPa_ELCs8MmJK8VM7GhgNoHNRg=w858-h693-v0
+The Structure of the Basic A-B-C Fractal under Harmonic Elliott Waves
+a
+b
+c i
+a
+b
+c ii
+a
+b
+c iii
+a
+b
+c iv
+a
+b
+c v
+(a)
+a
+b
+c (b)
+a
+b
+c i
+a
+b
+c ii
+a
+b
+c iii
+a
+b
+c iv
+a
+b
+c v (c) ( i )The classic way to count waves is the
+Down-to-Top process of identification the smallest wave of the lowest degree on that specific timeframe and then literally counting five waves to identify a wave of one degree higher
+It can be very mentally exhausting and lengthy process
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+Under the classic way to count waves you start from identifying the smallest wave of the lowest degree
+Down-to-Top Process of Identifying Five Wave Up Fractal
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+Then you watch waves of the lowest degree to complete larger waves of one degree higher
+Down-to-Top Process of Identifying Five Wave Up Fractal
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+… And larger waves complete even larger waves of one more degree higher
+Down-to-Top Process of Identifying Five Wave Up Fractal
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+… And larger waves complete even larger waves of one more degree higher
+Down-to-Top Process of Identifying Five Wave Up Fractal
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ]Waves of the highest degree
+Doing those iterations you label all the squiggles on chart rom the lowest to the highest degree.
+It can be very mentally exhausting and time consuming process.
+Down-to-Top Process of Identifying Five Wave Up Fractal
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ]Waves of the highest degree
+Doing those iterations you label all the squiggles on chart rom the lowest to the highest degree.
+It can be very mentally exhausting and time consuming process.
+Down-to-Top Process of Identifying Five Wave Up Fractal
+Please note!
+The main problem with the classic approach of counting waves is that you may be counting a chart up to wave ( 3 ) going through numerous iterations of micro waves counting only to realise that wave 3 is too short and violates the rule. At this point you have to start all over again!
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGvp3BnXCR5MwFL7HOw82S0pnPDbAYfwBdTQrnuDyfp6DTmlf2gEosSKfuwFwx79X1Odr-Sv4Z-hffgF8EFWKohb7POTkzm189bGL5JJWCdLpOKPVDYs70QaqWKjaFBTIE6VH7esw=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+c
+5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGjNvKGPRpq3XmjaGdpWYEsN7jdNonZcWtaMLV7mzOe9q-ZxQ1Mv-DSx7ZsW1Eg_Ft5V7H9azIUyYqyhi86o1w52Dl83SEPOGhs9fw25WSqIgmcecqVCt1dlWnAHmNzU3A4MBHiyg=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+I always start from Top-to-Down process because it is much more efficient way of applying Harmonic Elliott Wave theory
+Under the Top-to-Down process you make a step back, zoom-out the chart to weekly or at least a daily timeframe and visually inspect the tape in order to recognize familiar distinctive patterns
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEdg_9MXydYXuq3mTqvLpMUP6gSXLGrsENRnXfkK1r7YudvE5HWhkAb839g2dj6suMdj_gjiARqj-IEaeJ7ty02ZUxQot3m8DuTYiniSJph1mIAgoevt15XSNh12BHBWA-ZjVCPMQ=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Under the Top-to-Down process you make a step back, zoom-out the chart to weekly or at least a daily timeframe and visually inspect the tape in order to recognize familiar distinctive patterns
+You look for the markers, parts of any five wave fractal that have distinctive patterns
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGhoj3s1agDdsLinNUbI4TLh8BAj27ODmJhIjHaA5ndKqPTCO533Z8G8fHKgfIUHCISa3cXSsvzIQMeAVjFwbe37mNQL1r9YjzO4YkBLcacjGA3yYUKDJF75DEEkcjlPdpBMm4btw=w1068-h696-v0
+Top-to-Down Process of Identifying Five Wave Up Fractal
+You look for the longest A-B-C move located in the middle of the trending structure.
+Marker 1 Marker 1Step 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG7qYezoSIZIoVIinDFZU5nz3hdrYB5VPdJpubh5TWviORie7atvW0Zt5zqrxF40biRh_Ik929iXp0XxKAULbI62cIiWKXj9xLzstpHu31CQYFK08TWSdeNtNlft6uHoKLWnXMELA=w1068-h696-v0
+Top-to-Down Process of Identifying Five Wave Up Fractal
+You look for corrective A-B-C down and the following A-B-C up making a new higher high of the structure. That Marker 2 should follow the Marker 1
+Marker 2 Marker 2
+Step 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHQkD539o7bEXpSdLu6QlbkCSfyFahsdxGFIKLqmVGDY5DGX4ajpodGb45z4bO_IuztYxt0bs4wgJsAdtJl1SwBjKy_DRlW-TtnyTnaczFhvAS1gRbdnYzD5CmcuBrqDiPhJ8KQIg=w1068-h696-v0
+Top-to-Down Process of Identifying Five Wave Up Fractal
+You look for starting A-B-C up off the significant low and the following corrective A-B-C down making a new higher low. That Marker 3 should precede the Marker 1
+Marker 3
+Marker 3
+Step 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHe11_dPr2IFK7GY9tDOFl9UoQ0-PXFvlFejzU6xEd7V6IudgcazsyPEaHoCuxyU-1qyPt0iB4GitdriXs2iO0WN6zZtxgeKF9vq_teWDwJLmGMccjG5ay6nj0G1l1hjV9aA5fG=w1068-h696-v0
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 1
+Marker 3
+Marker 2Marker 1
+Marker 2
+Marker 3
+V V V
+When you find all the three markers you should then cross check them for following of the rules for the Five Fave Fractal
+Step 1
+Identify the “markers” - important parts of Five Wave fractal with distinctive shape1
+Step-by-step guide Top-to-Down Process of Identifying Five Wave Up Fractal
+V
+If test 1 passed then continueIf test 1 failed then come back to step 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFs54xI8QF2yLGbOMU4BG1INMFHRwgziUl2dRvLmcDOXrC9n1UVv3TbRmXLb1Vv4CtHW8dx7wlRFhiYvZtcTPcSjewvNp_CoLNm8gkjmKhCdeAxVRbwuDRRiO6S_pYjrd9tSsFoKA=w1068-h696-v0
+Measure the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 3
+Marker 2Marker 1 Confirm wave 3
+1
+2 Project 176.4% of wave 1 from
+the bottom of the wave 2 down
+Minimum 176.4% extension
+3
+di st
+an ce
+tra
+ve lle
+d by
+w
+av
+e
+1 17
+6.
+4% o
+f t he
+d is
+ta nc
+e tra
+ve lle
+d by
+w
+av
+e
+1
+176.4%
+Step 2
+Identify the “markers” - important parts of Five Wave fractal with distinctive shape1
+Step-by-step guide Top-to-Down Process of Identifying Five Wave Up Fractal
+Confirm wave 3 by measuring the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+2 V
+If test 2 passed then continueIf test 2 failed then come back to step 1
+V
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHu4tee4H5F-dxVTOrXrmN5ta9GmJ5e-UUSgGFLcd1VROzudsggVOPn4xVdkI4Xwc7N2FKeBtHJ4HEP7E9ktxb1prLGbiMxGG3qHFRIIEZBRFhE0HrCsg1yY2qjSVf0wwqaTiebSg=w1068-h696-v0
+Confirm wave 5 by checking if it managed to make a new higher high over the top of the preceding rally in the wave 3 and check if it is subdivided into A-B-C
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 3
+Marker 2Marker 1 Confirm wave 5
+1
+2
+New high over the top of the wave 3
+3
+A
+B
+C
+4
+A
+B
+C
+5
+New high over the top of the wave 3
+Step 3
+Identify the “markers” - important parts of Five Wave fractal with distinctive shape1
+Step-by-step guide Top-to-Down Process of Identifying Five Wave Up Fractal
+Confirm wave 3 by measuring the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+2
+Confirm wave 5 by checking if it managed to make a new higher high over the top of the
+preceding rally in the wave 3 and check if it is subdivided into A-B-C3
+V
+V
+V
+If test 3 passed then continueIf test 3 failed then come back to step 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEjUuxnKDxj-eF2uX5FsC_MWFt-mbW7wbckK4_no1o9FcC-vLBSW-iWbu8AMHd3VVNSm-89X1z7sDkDz10fstPT-gFOXVayk0mFwN2TVa_74XvTZ13Wo6uvqVHUpEd2DYscbuxaKQ=w1068-h696-v0
+Low of the corrective wave 2 should not violate the starting point of the wave 1 up
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 3
+Marker 2Marker 1 Cross Check 1
+1
+2
+Violation of critical support
+Step 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGouPJfqBPIlV5TJxKA6SMrHB5snPxOz0DNGOLTIP5o2tZ4fVtn9-YTPsTlZLX-JD2QWXpBA6CeeL2nGL5J6HPYpmr9Bz5QS6edSpjORwm580-nKPxXzvQSu5tSOzGoGD7-2NBv8w=w1068-h696-v0
+Low of the wave B of 3 should not violate the low of the wave 2
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 3
+Marker 2Marker 1 Cross Check 2
+1
+2 Critical support for wave B of 3
+Violation of critical support
+A
+B
+C
+3
+Step 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHVXvyE3Pxkk13OuStX3QUeqi8DXe7b5wy2uya-wdzBwKohGWgYfezfbmcFIQtyC1IVosjzBi2pyJf-J3SJUvN7l3YQETtykdOb6od9kNXvrWvfAZYCan9kXi6REhBHZyGdWG6e6A=w1068-h696-v0
+Low of the wave 4 should not violate the low of the wave B of 3
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 3
+Marker 2Marker 1 Cross Check 3
+1
+2
+Critical support for wave 4
+Violation of critical support
+A
+B
+C
+3
+4
+Step 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHriQwZvqlCSvHoTZEgGbnllUGMOfryF_9yPNXM6i7cYEUXgOVmnpFqI7BUyj69bJRAzMB7KE82J7HK1zL5xojEoczsjjBz5KOKPGonf4rdIDpOawmnhrpDp5UQGDxkkhJeaM_Z2A=w1068-h696-v0
+Low of the wave B of 5 should not violate the low of the wave 4
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 3
+Marker 2Marker 1 Cross Check 4
+1
+2
+Violation of critical support
+A
+B
+C
+3
+4
+A
+B
+Critical support for wave B of 5
+C
+5
+Step 3
+Identify the “markers” - important parts of Five Wave fractal with distinctive shape1
+Step-by-step guide Top-to-Down Process of Identifying Five Wave Up Fractal
+Confirm wave 3 by measuring the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+2
+Cross-check for violation of critical supports by corrective waves 2, B of 3, 4 and B of 54
+Confirm wave 5 by checking if it managed to make a new higher high over the top of the
+preceding rally in the wave 3 and check if it is subdivided into A-B-C3
+V
+V
+V
+V
+If test 4 passed then continueIf test 4 failed then come back to step 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGqZ6h1e1LZ9nLWOeqY6bcATFtOL2ZE-3gFhozJALqmfu3DX97W5Pnqnlz-c68GCLi7yfQ0Di1TUwQ_jr3hemZDdEnPOxSLoHCuFY6Y4mCqMzNWR7kxizA0fRx2CbyGg8zdG-woXQ=w1068-h696-v0
+Measure the distances travelled by wave A of 3 and wave C of 3. Wave C of 3 can not be shorter than wave A of 3
+Top-to-Down Process of Identifying Five Wave Up Fractal
+Marker 3
+Marker 2Marker 1 Confirm structure of wave 3
+1
+2
+Subwave C >= subwave A
+3
+A
+B
+C
+4
+A
+B
+C
+5
+Step 5
+Identify the “markers” - important parts of Five Wave fractal with distinctive shape1
+Step-by-step guide Top-to-Down Process of Identifying Five Wave Up Fractal
+Confirm wave 3 by measuring the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+2
+Cross-check for violation of critical supports by corrective waves 2, B of 3, 4 and B of 54
+Confirm wave 5 by checking if it managed to make a new higher high over the top of the
+preceding rally in the wave 3 and check if it is subdivided into A-B-C3
+Confirm structure of the wave 3. Check if wave C of 3 is not shorter than wave A of 35
+V
+V
+V
+V V
+Identify the “markers” - important parts of Five Wave fractal with distinctive shape1
+Step-by-step guide Top-to-Down Process of Identifying Five Wave Up Fractal
+Confirm wave 3 by measuring the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+2
+Cross-check for violation of critical supports by corrective waves 2, B of 3, 4 and B of 54
+Confirm wave 5 by checking if it managed to make a new higher high over the top of the
+preceding rally in the wave 3 and check if it is subdivided into A-B-C3
+Confirm structure of the wave 3. Check if wave C of 3 is not shorter than wave A of 35
+V
+V
+V
+V V
+At this point you have collected enough evidence in favor of your count. You may make one more exhausting step father and carefully examine micro structure of waves A and C of 1, A and C of 3 and A and C of 5 to confirm their impulsive structure by micro counting five smaller waves
+Please note!
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFcnv1iibzpOKgV2bwwN8uc6bc0E7e4-u3kS_-CQeo66-wssNFafjr01Q1UcC-AOOYVGgv1_JYnOEIcUgtHWFww6cnGxCu6Zs_cFHtL7MULBF6jRTw-MHP2GfLRf7B-yLcbaJaJVw=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+The Lowest Low
+The Highest High The Latest High
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFRzljClQpDGoMAZ3Ovr27F5HxORdQUGSif87A-K73iSPLDXfOq5PKK9jmetiknZS8hxvbINTb7JE2R4MzCzzHwHZazA_Wm7o1mqoLzmG8SdbRh4cBmwyEISlM6o9QaooO1IUUD=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+The Lowest Low
+The Highest High The Latest HighMarker 1 Wave 3 up?
+Marker 3 A-B-C of wave 1?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH_AP2lREE-6Rt7ZPYRzAaDTDAoccxl5ekfypvnT8SEmmln-QoH5955WVaHGVmi-wvva_bpJ-bzB7SdXGnCYGAlUaHuS1wK6TMJmGNF0A8xBPcogO3yJesvDJ0gbTduImu9Ox7-OA=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+The Lowest Low
+The Highest High The Latest High Marker 1 Wave 3 up?
+Marker 3 A-B-C of wave 1?
+A
+B
+C 4
+3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHIVKnd0dgYprk6h5uVnSbYbmfdGwwGQwkMIEncAlF-WLSfzW6vy_P8J6V1nvnwgkYnP2ovAdPPODp_NXQhsIOtUl-M8DGIkO2Ih_esMCCJxv8P8iUhWwuQ4MgdlFu8FQDk7rxA=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+The Lowest Low
+The Highest High The Latest High Marker 1 Wave 3 up?
+Marker 3 A-B-C of wave 1?
+A
+B
+C 4
+3 A
+B
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHsX2-ogRrJchZ2l-rD_NYDZ9TRdd2CWk5WGgPsdVO1saIAWXHhoexJhj8VDm9cKzl7_GPu5k-DaQCvadut3_qIFqp-Rh5H3fJBAnSIW2XyXvCuZCZSZkweREeFIQcFfqS_gZSx=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 A
+B
+A
+B
+1 C
+2
+Our main hypothesis is that this structure is an unfolding five wave up fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH8BQxg7Ao4us7WWORXBuhSvTV2qcKc2J5UGJnXgVcyqDsILCVnnG9-oihSALuYfFfZvE3IvL_0b6qxgGnwzf-1sRtqKSWp1O8yz4wN33Asa2sA1cl663em6InkVTFFl2uLKpZa9A=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 A
+B
+A
+B
+1 C
+2
+Our main hypothesis is that this structure is an unfolding five wave up fractal
+But first we should check the larger move. We should investigate whether it had a corrective or impulsive structure
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEA_HwR2qYh6jVG8ZoFJVQcFM_q7KmElnMEgvjukPntb0dVNOR2Y8Qmy8biFjSo75MWyZLjBKVejqJqqgUE1zLlR_ieOgk9dK5204DEhi51eJsjTWZG3edUVymliOazrwasxq97=w1280-h847-v0
+Case Study AAL, daily chart, Nov’06 - Jul’08Counting a chart from scratch
+To investigate whether that drop had a corrective or impulsive structure we should zoom-in and switch to a daily timeframe. That would help to check more details of the move and clearly see subdivision
+Five wave down fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGGWX6bWF_iakC0JW9_8pks_mEUl1_CWdGHfEeLie-lAk2pbfRPpNkUgVq9rNfOIV4cj4I7NGM5Z_v32-wJmI_1I_5vIL-RRgkALEEZteSQz-AN7tYsd7GFdFBLgFi3HTHOze01=w1280-h847-v0
+Case Study AAL, daily chart, Nov’06 - Jul’08Counting a chart from scratch
+To investigate whether that drop had a corrective or impulsive structure we should zoom-in and switch to a daily timeframe. That would help to check more details of the move and clearly see subdivision
+Five wave down fractal
+(a)
+(b)
+(c) (i)
+(ii)
+(a)
+(b)
+(c) (iii)
+(iv)
+(a)
+(b)
+(c) (v) A
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEj67tAdZlHDFun28d0kEfmWwSy-8ZjkeD9XZQ8uh-4J6YO_zSSxASUVK0i-zTgbt4Jh-h9NdEDIoZ6ds4rhR_FIFoNol6iPYkvVsiRoFHVAVF6ZZU0cY7NvZfF33q8Rr-_z-JFVg=w1280-h847-v0
+Case Study AAL, daily chart, Nov’06 - Jul’08Counting a chart from scratch
+To investigate whether that drop had a corrective or impulsive structure we should zoom-in and switch to a daily timeframe. That would help to check more details of the move and clearly see subdivision
+Five wave down fractal
+(a)
+(b)
+(c) (i)
+(ii)
+(a)
+(b)
+(c) (iii)
+(iv)
+(a)
+(b)
+(c) (v) A
+B
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFZG0t7AZFbvYCilsB-eA2VgbmHptMiUn-fut9td9V2AecT-RasP01IaLwxekGHDuy7RbOEJMxrsnCoEi-4C2SqeNZf7CwQDgbsGQxHC3RFvsPxOgl29QMiSjW8EwBgLnuoiqRTmw=w1280-h847-v0
+Case Study AAL, daily chart, Nov’06 - Jul’08Counting a chart from scratch
+Five wave down fractal
+(a)
+(b)
+(c) (i)
+(ii)
+(a)
+(b)
+(c) (iii)
+(iv)
+(a)
+(b)
+(c) (v) A
+B
+This second leg down does not follow all the rules of the five wave fractal. But corrective waves quite often do not have ugly structure
+Our task was to investigate whether that drop had a corrective or impulsive structure. And here we perfectly see a corrective A-B-C down structure
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFeKatlejBgnE_iM2yFccTykuvnRWl9zLSRiGcqFHuiwfc4-noiiAw004fb2Cbmnc7kGZyMjXrq4jDdD4uLzdTUSEEUmU7gHvI4XyBWvzjovTdA_3_dVtO9tYZlWDbxXmE6BiB2lw=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 A
+B
+A
+B
+1 C
+2
+Now we can come back to validating our main hypothesis is that this structure is an unfolding five wave up fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHqx-RKCy53P_9E8w4Sxx8ADKlVECLYGgV-Sx6cTbw2XQ-6OujpdtqcFWRiEVlAE7RRC70FE2gvF5fTz0LCeiRFZItKfs4U9hKhbFBcAH2Pi7oT4GBXkynAtSmUCbGl86_-bzwHNg=w1280-h531-v0
+Case Study AAL, daily chart, 2008 - 2015Counting a chart from scratch
+A
+B
+3 C
+A
+B
+1 C
+C 2
+(a)
+(b)
+(c)
+A
+B
+(i)
+(ii)
+(iii)
+(iv)
+(v) Measure the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+Confirm wave 3 Minimum 176.4% extension
+Step 2
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGeONIwbWeTjTfaEWYdnEwMaNNXAy-Vk-hJskyorjzjkQDpMNfWp-6OS6MpKg9cKBdZwRaZ0Zt5LmZJ6RA6Ov-pg-dh5-QBoTQjuOXwgT2sr9bqVm0_uonieLaVfOwm4_q6syvNmQ=w1280-h531-v0
+Case Study AAL, daily chart, 2008 - 2015Counting a chart from scratch
+A
+B
+3 C
+A
+B
+1 C
+C 2
+(a)
+(b)
+(c)
+A
+B
+(i)
+(ii)
+(iii)
+(iv)
+(v) Measure the distance travelled by wave 1 and project 176.4% of that wave 1 from the low of the wave 2 down. Check if your candidate for the wave 3 stretched to that extension
+Confirm wave 3 Minimum 176.4% extension
+Step 2
+485.4% extension of the wave 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHV1W6uvY4lx61hma3yTb8JicnKwgpXSc0hdP1F2NMPv8cXX6BmTdwcu5_XLR7pR0g-klW8DAGdZ1beREpVLrbEsgf_F55OATVeERtmRAfp_vNfdoTFbM65EoJ_LMJ4j3-NDEoAcA=w1280-h531-v0
+Case Study AAL, daily chart, 2008 - 2015Counting a chart from scratch
+A
+B
+3 C
+A
+B
+1 C
+C 2
+(a)
+(b)
+(c)
+A
+B
+(i)
+(ii)
+(iii)
+(iv)
+(v)
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEIW3U5rLAAMO1UirilcToaOz3V2OKeZcNr5nAJyQ-nG4RPpjuNG32gMUl617yugTJB24_ISx3T1d70zs1UdlM_aulIHzo2kjNINsq4VRoVMI2nxF7D384Ar3iw16awc-bFeiGm=w1280-h531-v0
+Case Study AAL, daily chart, 2008 - 2015Counting a chart from scratch
+A
+B
+3 C
+A
+B
+1 C
+C 2
+(a)
+(b)
+(c)
+A
+B
+(i)
+(ii)
+(iii)
+(iv)
+(v)
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGphVgDMEr9Dukb9vJR3iCVWm34FbJvaSEXVfCPR7JYsCX2RQ0x_m1rdsPSOYsOS554dSEXffdOUqymODXP--Gpx94krRZ0CsbDAiH_mJK8oQ_XAy_L8G8p1xFdrTSOE0cZhTiX=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 A
+B
+A
+B
+1 C
+2
+Low of the corrective wave 2 should not violate the starting point of the wave 1 up
+Cross Check 1 Violation of critical support
+Step 3
+Critical support for wave 2 down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEuYAlAvFTj45ShjBScbwcm9_7KdboSo3AZn2UonCPGdaUOt88S3usr23Z-iBPOVD_QLtGBXykSItFabTWAzm_hRSwDoo8f-kBAXbue4JtSBelcTuLTlC-495uRiXsYMRMePJ5Evg=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 C
+A
+B
+A
+B
+1 C
+2 Critical support for wave B of 3 down
+Low of the wave B of 3 should not violate the low of the wave 2
+Cross Check 2 Violation of critical support
+Step 3
+A
+B
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGqAt6g6yAIox7nY5e55qgzJNOnu9B_msDJRyNjhA5II1ylulxTH8-FAtw8CAMo2xCLyLnkEtOwFSItEhtZ9zUJ_swvf0rwbMGFZGvZjbUWXwbcboRJYs7qlXmgjezYPNDggiRu9Q=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 C
+A
+B
+A
+B
+1 C
+2
+Critical support for wave 4 down
+A
+B
+Low of the wave 4 should not violate the low of the wave B of 3
+Cross Check 3 Violation of critical support
+Step 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGz0cma8YFVp_J_GeFrRvUHBXBiEr7GS8NXHtd_tFuuP1MeGEKE4Ms2EZErBd14TMFbxPPq9r-Wo2TLcc__gAwcGdqNwsug3e7GBVccIAhzXAwe1tvrd2cjaDR3y63trakF9eaCYQ=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 C
+A
+B
+A
+B
+1 C
+2
+Critical support for wave 4 down
+A
+B
+Low of the wave B of 5 should not violate the low of the wave 4
+Cross Check 4 Violation of critical support
+Step 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGSWtAx7ac7ODpL5VkZXEtWYk4vVKWSIdDvSfjoWHosUgYWxPKP5rp5qPus2yGrzw4lV7hDLYaSqvhg4p9wutwdG6K1pyMz6Tdv2M8X-TW-HpXBXjAayU4UjUAYzR-BBrAEZyAtvQ=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 C
+A
+B
+A
+B
+1 C
+2
+Critical support for wave 4 downA
+B
+Measure the distances travelled by wave A of 3 and wave C of 3. Wave C of 3 can not be shorter than wave A of 3
+Confirm structure of wave 3 Subwave C >= subwave A
+Step 5
+This particular A-B-C structure of the wave 3 up is far from ideal because of the tiny wave B down. However, that structure does not violate any rules
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEnaYuUHsTfSGBw-qIs8jkXeW40Z2yFb64Y_sDFeExFWz9cgY5aOhPpru4E71S7o7CryuSTlrZgm4ViExwd29YeqJDE6LhMJOYOPaHFxy4WCYc8qcKUfwW195IxI4ZTRFUv79U=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 C
+A
+B
+A
+B
+1 C
+2
+A
+B
+A
+B
+C
+We have collected enough evidence that the move off the major low in July 2008 is an unfolding impulsive five wave up structure
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHaNfxAjvzmrNZYJpN2wOY_v0Kf-9lgKNLgaIuAo_KPK-qpN8u83DhZfxdCRZAp5j1ns79VTcOjtN4EeJl4ZKiUWuokL_XaTuG07ro50Qxo9jh6zsMWLChDxd-oz7WdFz8u7mMYxA=w1280-h812-v0
+Case Study AAL, weekly chart, 2005 - 2018Counting a chart from scratch
+A
+B
+C 4
+3 C
+A
+B
+A
+B
+1 C
+2
+A
+B
+A
+B
+C
+As long as the critical support at the low of the wave 4 down holds we should expect a rally in wave C of 5 to a new high over the top of the wave A of 5
+Critical support for wave 4 down
+Conclusion:
+Important Disclaimer
+The author of this video and the course is not registered as an investment adviser nor a broker/dealer with either the U.S. Securities & Exchange Commission or any state securities regulatory authority.
+Important Disclaimer
+The author of this video and the course is not registered as an investment adviser nor a broker/dealer with either the U.S. Securities & Exchange Commission or any state securities regulatory authority.
+Students of the course, users of the website www.castawaytrader.com, and viewers of the videos are advised that all information presented in this video and on the website is solely for educational purposes, is not intended to be used as a personalized investment recommendation, and is not attuned to any specific portfolio or to any user’s particular investment needs or objectives.
+Important Disclaimer
+The author of this video and the course is not registered as an investment adviser nor a broker/dealer with either the U.S. Securities & Exchange Commission or any state securities regulatory authority.
+Students of the course, users of the website www.castawaytrader.com, and viewers of the videos are advised that all information presented in this video and on the website is solely for educational purposes, is not intended to be used as a personalized investment recommendation, and is not attuned to any specific portfolio or to any user’s particular investment needs or objectives.
+Past performance is NOT indicative of future results.
+Important Disclaimer
+The author of this video and the course is not registered as an investment adviser nor a broker/dealer with either the U.S. Securities & Exchange Commission or any state securities regulatory authority.
+Students of the course, users of the website www.castawaytrader.com, and viewers of the videos are advised that all information presented in this video and on the website is solely for educational purposes, is not intended to be used as a personalized investment recommendation, and is not attuned to any specific portfolio or to any user’s particular investment needs or objectives.
+Past performance is NOT indicative of future results.
+Furthermore, such information is not to be construed as an offer to sell or the solicitation of an offer to buy, nor is it to be construed as a recommendation to buy, hold or sell (short or otherwise) any security.
+Important Disclaimer
+The author of this video and the course is not registered as an investment adviser nor a broker/dealer with either the U.S. Securities & Exchange Commission or any state securities regulatory authority.
+Students of the course, users of the website www.castawaytrader.com, and viewers of the videos are advised that all information presented in this video and on the website is solely for educational purposes, is not intended to be used as a personalized investment recommendation, and is not attuned to any specific portfolio or to any user’s particular investment needs or objectives.
+Past performance is NOT indicative of future results.
+Furthermore, such information is not to be construed as an offer to sell or the solicitation of an offer to buy, nor is it to be construed as a recommendation to buy, hold or sell (short or otherwise) any security.
+All viewers of this video and users of the website must determine for themselves what specific investments to make or not make and are urged to consult with their own independent financial advisors with respect to any investment decision.
+Important Disclaimer
+The author of this video and the course is not registered as an investment adviser nor a broker/dealer with either the U.S. Securities & Exchange Commission or any state securities regulatory authority.
+Students of the course, users of the website www.castawaytrader.com, and viewers of the videos are advised that all information presented in this video and on the website is solely for educational purposes, is not intended to be used as a personalized investment recommendation, and is not attuned to any specific portfolio or to any user’s particular investment needs or objectives.
+Past performance is NOT indicative of future results.
+Furthermore, such information is not to be construed as an offer to sell or the solicitation of an offer to buy, nor is it to be construed as a recommendation to buy, hold or sell (short or otherwise) any security.
+All viewers of this video and users of the website must determine for themselves what specific investments to make or not make and are urged to consult with their own independent financial advisors with respect to any investment decision.
+The user bears responsibility for his/her own investment research and decisions, should seek the advice of a qualified securities professional before making any investment, and investigate and fully understand any and all risks before investing.
+All opinions, analyses and information included in this video and/or on the website are based on sources believed to be reliable and written in good faith, but should be independently verified, and no representation or warranty of any kind, express or implied, is made, including but not limited to any representation or warranty concerning accuracy, completeness, correctness, timeliness or appropriateness.
+Important Disclaimer
+All opinions, analyses and information included in this video and/or on the website are based on sources believed to be reliable and written in good faith, but should be independently verified, and no representation or warranty of any kind, express or implied, is made, including but not limited to any representation or warranty concerning accuracy, completeness, correctness, timeliness or appropriateness.
+In addition, the author undertakes no responsibility to notify such opinions, analyses or information or to keep such opinions, analyses or information current.
+Important Disclaimer
+All opinions, analyses and information included in this video and/or on the website are based on sources believed to be reliable and written in good faith, but should be independently verified, and no representation or warranty of any kind, express or implied, is made, including but not limited to any representation or warranty concerning accuracy, completeness, correctness, timeliness or appropriateness.
+In addition, the author undertakes no responsibility to notify such opinions, analyses or information or to keep such opinions, analyses or information current.
+Also be aware that the author of the course, videos and the web site www.castawaytrader.com may have long or short positions in securities that may be discussed in the course, on the website and/or in the videos.
+Important Disclaimer
+All opinions, analyses and information included in this video and/or on the website are based on sources believed to be reliable and written in good faith, but should be independently verified, and no representation or warranty of any kind, express or implied, is made, including but not limited to any representation or warranty concerning accuracy, completeness, correctness, timeliness or appropriateness.
+In addition, the author undertakes no responsibility to notify such opinions, analyses or information or to keep such opinions, analyses or information current.
+Also be aware that the author of the course, videos and the web site www.castawaytrader.com may have long or short positions in securities that may be discussed in the course, on the website and/or in the videos.
+Important Disclaimer
+Past results are not indicative of future profits.
+Important Disclaimer
+The author of this video and the course is not registered as an investment adviser nor a broker/dealer with either the U. S. Securities & Exchange Commission or any state securities regulatory authority. Users of the website www.castawaytrader.com, students of the course and viewers of the videos are advised that all information presented in this video and on the website is solely for educational purposes, is not intended to be used as a personalized investment recommendation, and is not attuned to any specific portfolio or to any user’s particular investment needs or objectives. Past performance is NOT indicative of future results. Furthermore, such information is not to be construed as an offer to sell or the solicitation of an offer to buy, nor is it to be construed as a recommendation to buy, hold or sell (short or otherwise) any security. All viewers of this video and users of the website must determine for themselves what specific investments to make or not make and are urged to consult with their own independent financial advisors with respect to any investment decision. The user bears responsibility for his/her own investment research and decisions, should seek the advice of a qualified securities professional before making any investment, and investigate and fully understand any and all risks before investing. All opinions, analyses and information included in this video and/or on the website are based on sources believed to be reliable and written in good faith, but should be independently verified, and no representation or warranty of any kind, express or implied, is made, including but not limited to any representation or warranty concerning accuracy, completeness, correctness, timeliness or appropriateness. In addition, the author undertakes no responsibility to notify such opinions, analyses or information or to keep such opinions, analyses or information current. Also be aware that the author of the course, videos and the web site www.castawaytrader.com may have long or short positions in securities that may be discussed in the course, on the website and/or in the videos.
+Past results are not indicative of future profits.
+A B
+C
+ac tio
+n
+The Basic Building Blocks of Any Price Chart: A-B-C Fractal
+Repeating patterns (fractals) on price charts result from the crowd sentiment that goes through the same repeating Sentiment Cycle
+despondency
+hope
+enthusiasm
+optimism
+excitement
+euphoria
+reaction
+despondency anxiety
+denial
+desperation fear panic despondency
+hope
+enthusiasm
+optimism
+excitement
+euphoria
+Key Takeaways From This Lesson:
+All the markets keep playing repeating similar patterns (fractals) because market prices are driven by human beings.
+Decisions of traders and investors alike are affected by emotions in the same they as they were in 1935 when R.N.Elliott first introduced his theory.
+Every price chart displays change in prevailing crowd sentiment about future price of the underlying asset.
+In markets moving up crowd sentiment goes through a bullish cycle: despondency-hope-enthusiasm-optimism-excitement-euphoria
+1 2 3
+4
+In markets moving down crowd sentiment goes through a bearish cycle:
+despondency-anxiety-denial-desperation-fear-panic-capitulation 5
+Alternative Scenarios Analysis
+Please note: Whether you trade intraday or invest for a long term you have to deal with uncertainty every single day. Nobody knows for sure whether price for that particular stock will go up or down. If they tell you they “know” they lie to you
+Bonus
+Alternative Scenarios Analysis
+Please note: Fractal Analysis is a tool that helps us to reduce uncertainty about future outcome by recognizing common patterns that tend to get replied by markets again and again
+Bonus
+Alternative Scenarios Analysis
+Please note: The first step in Fractal Analysis is to find familiar fractals
+Bonus
+A
+B
+C
+Fractal 1
+Alternative Scenarios Analysis
+Please note: The first step in Fractal Analysis is to find familiar fractals
+Bonus
+A
+B
+C
+Fractal 1 Wave 1 or (A)
+Alternative Scenarios Analysis
+Please note: The second step in Fractal Analysis is to explain relationship between recognized familiar fractals. Normally there may be several alternative explanations - hypothesis
+Bonus
+A
+B
+C
+Fractal A-B-C Wave 1 or (A)
+a
+b
+c
+d
+e
+Fractal 2 - triangle
+Wave (B)
+Alternative Scenarios Analysis
+Please note: The third step is to review each hypothesis to check if it follows all the rules. When we try to explain relationship between simple fractals we essentially are reconstructing a bigger fractal.
+Bonus
+A
+B
+C
+Fractal A-B-C Wave 1 or (A)
+a
+b
+c
+d
+e
+Fractal 2 - triangle
+Wave (B)
+Alternative Scenarios Analysis
+Please note: In this example our main hypothesis is that we deal with a large corrective (A)-(B)-(C) down
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+As soon as we get confident that a corrective wave (B) has topped we should expect a wave (C) to start unfolding. And wave C is subdivided into five waves. Then we should check for a-b-c move in wave 1 of (C)
+Alternative Scenarios Analysis
+Please note: To confirm the hypothesis that we deal with a large (A)-(B)-(C) corrective fractal we should confirm that the final leg down in wave ( C ) conforms to rules applied to five wave fractal
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+As soon as we get confident that a corrective wave (B) has topped we should expect a wave (C) to start unfolding. And wave C is subdivided into five waves. Then we should check for a-b-c move in wave 1 of (C)
+a
+b
+c 1
+Alternative Scenarios Analysis
+Please note: At any period of time our main working hypothesis may be invalidated if price manages to violate the critical resistance. That is why we call such levels “invalidation levels”
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+As soon as you find a candidate for a-b-c of wave 1 your next step is to cross check that scenario by finding a corrective a-b-c move in wave 2 that should not violate the starting point of wave 1
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+Alternative Scenarios Analysis
+Please note: At any period of time our main working hypothesis may be invalidated if price manages to violate the critical resistance. That is why we call such levels “invalidation levels”
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+Once you cross-check wave 1 down with a corrective wave 2 up you have a good starting point for counting five wave fractal. Now move the critical resistance (invalidation level) to the top of wave 2.
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+Alternative Scenarios Analysis
+Please note: To confirm the hypothesis that we deal with a large (A)-(B)-(C) corrective fractal we should confirm that the final leg down in wave ( C ) conforms to rules applied to five wave fractal
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+Once you get 1 - 2 down setup you look for extended move in wave 3 structured as a-b-c where c is at least equal to a
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+c
+1 - 2 down setup
+Alternative Scenarios Analysis
+Please note: To confirm the hypothesis that we deal with a large (A)-(B)-(C) corrective fractal we should confirm that the final leg down in wave ( C ) conforms to rules applied to five wave fractal
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+Your first cross-check: the corrective wave b should not violate the critical resistance set at the top of the previous corrective wave 2 up
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+c
+Alternative Scenarios Analysis
+Please note: To confirm the hypothesis that we deal with a large (A)-(B)-(C) corrective fractal we should confirm that the final leg down in wave ( C ) conforms to rules applied to five wave fractal
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+Your second cross-check: wave c is at least equal to wave a
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+c
+Alternative Scenarios Analysis
+Please note: To confirm the hypothesis that we deal with a large (A)-(B)-(C) corrective fractal we should confirm that the final leg down in wave ( C ) conforms to rules applied to five wave fractal
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+Your third cross-check: a-b-c move that is a candidate for the wave 3 down is at least equal to 176.4% of the wave 1
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+c
+Alternative Scenarios Analysis
+Please note: To confirm the hypothesis that we deal with a large (A)-(B)-(C) corrective fractal we should confirm that the final leg down in wave ( C ) conforms to rules applied to five wave fractal
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+When all three tests are successfully passed we can consider waves a and b as most likely correctly counted. And we immediately move down our critical resistance to the top of wave b of 3
+a
+b
+c 1
+a
+b
+c 2
+a
+b
+c 3
+Critical resistance
+Impulsive Waves ( “Five Waves Down” fractal )
+a
+b
+c 1
+a
+b
+c 2
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5
+Impulsive Waves ( “Five Waves Down” fractal )
+a a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5
+breakdown level
+Wave 5 down
+Alternative Scenarios Analysis
+Please note:
+When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+a
+b
+c 2
+a
+b
+c 3
+Both alternative scenarios imply that a-b-c move up
+Critical resistance
+There are times when two alternative scenarios are equally probable. When those different scenarios assume similar outcomes you trade them keeping both alternatives in mind
+a
+b
+c 4 or 1
+This fractal doesn’t look like a textbook wave 5 down
+Alternative Scenarios Analysis
+Please note: There are times when two alternative scenarios are equally probable. When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+Scenario 1: Bearish
+a
+b
+c 4
+We have only seen a bottom of wave 3 down and that a-b-c move up off the low is a strong corrective wave 4 up.
+Critical resistance
+b
+Alternative Scenarios Analysis
+Please note: There are times when two alternative scenarios are equally probable. When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+Scenario 1: Bearish
+a
+b
+c 4
+We have only seen a bottom of wave 3 down and that a-b-c move up off the low is a strong corrective wave 4 up.
+Critical resistance
+b
+Then we move down critical resistance to the top of wave 4 And expect decline in wave a of 5 to retest lows of the wave 3
+To confirm bearish scenario price has
+Alternative Scenarios Analysis
+Please note: There are times when two alternative scenarios are equally probable. When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+c 3
+Scenario 2: Bullish
+a
+b
+c
+4
+We have seen a fully completed wave (C) down. That implies that the a-b-c move up off the lows is the wave 1 up.
+Critical resistance
+a
+b
+Under this scenario we should expect corrective wave 2 down to hold over the lows reached by wave 5 of (C).
+c
+1
+a
+b
+c 2
+critical support for wave 2 down
+To confirm bullish scenario price has to break out through this resistance
+Alternative Scenarios Analysis
+Please note: There are times when two alternative scenarios are equally probable. When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+Scenario 1: Bearish
+a
+b
+c 4
+We have only seen a bottom of wave 3 down and that a-b-c move up off the low is a strong corrective wave 4 up.
+Critical resistance
+b
+Then we move down critical resistance to the top of wave 4 And expect decline in wave a of 5 to retest lows of the wave 3
+To confirm bearish scenario price has
+Alternative Scenarios Analysis
+Please note: There are times when two alternative scenarios are equally probable. When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+c 3
+Scenario 2: Bullish
+a
+b
+c
+4
+We have seen a fully completed wave (C) down. That implies that the a-b-c move up off the lows is the wave 1 up.
+Critical resistance
+a
+b
+Under this scenario we should expect corrective wave 2 down to hold over the lows reached by wave 5 of (C).
+c
+1
+a
+b
+c 2
+critical support for wave 2 down
+To confirm bullish scenario price has to break out through this resistance
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFQVHKpYfu3KnhBoWU5MoZzkU1LTBkpN-jzk13S5rCsd8fd5o_8lWpwa6wR8OG-pDyRHN7SzmHNSyhCg-cpN-QHUJJ__RGiWh_r0lEXDS_iuLYZ7vO1J7bwJ-5s9EUy90_kk8xSKA=w1280-h650-v0
+CASE STUDY
+Crude Oil, weekly chart, Jul’08 - Nov’18
+Alternative Scenarios Analysis
+A
+B
+C (A)
+(a)
+(b)
+(c) A
+B
+C
+D
+E (B)
+1
+2
+3
+4
+A
+B
+C
+A
+$81.13 critical resistance
+B
+C 1
+Scenario 2: Bullish We have seen a fully completed wave (C) down. That implies that the a-b-c move up off the lows is the wave 1 up. Under this scenario we should expect corrective wave 2 down to hold over the lows reached by wave 5 of (C).
+To confirm bullish scenario price has to break out through this resistance
+critical support for wave 2 down
+Bonus
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEHfYSvNpilSdk8JzSSFmUYCX1uN5Y4iOBH1Uis9cj7bw6yxaAhNJCaShB0Th8gkYUH38OuLiwZU9TmUPFMNgq1j502UVoMUXwf9WHO29-QT_uEmXMVvtbUDK0H2Y-zdNlCd2-ctA=w1280-h650-v0
+CASE STUDY
+Crude Oil, weekly chart, Jul’08 - Nov’18
+Alternative Scenarios Analysis
+A
+B
+C (A)
+(a)
+(b)
+(c) A
+B
+C
+D
+E (B)
+1
+2
+3
+A
+B
+C 4
+Scenario 1: Bearish We have only seen a bottom of wave 3 down and that a-b-c move up off the low is a strong corrective wave 4 up. Then we move down critical resistance to the top of wave 4 And expect decline in wave a of 5 to retest lows of the wave 3
+To confirm bearish scenario price has to break down through this support
+Bonus
+Alternative Scenarios Analysis
+Please note: There are times when two alternative scenarios are equally probable. When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+Scenario 1: Bearish
+a
+b
+c 4
+We have only seen a bottom of wave 3 down and that a-b-c move up off the low is a strong corrective wave 4 up.
+Critical resistance
+b
+Then we move down critical resistance to the top of wave 4 And expect decline in wave a of 5 to retest lows of the wave 3
+To confirm bearish scenario price has
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFD78hEenqfLz0ieRDR7-HawZKAUDtQUSZbez-LlitOyVuZbk1T8wv1ZaiJS0dmQO0fxaBdgrQsDl873w64zKFyYtMWpv48FhlBK8YGhxKrDURbz2sjBzOBYOXB69i4UTcxTRhjcA=w1280-h650-v0
+CASE STUDY
+Crude Oil, weekly chart, Jul’08 - Nov’18
+Alternative Scenarios Analysis
+A
+B
+C (A)
+(a)
+(b)
+(c) A
+B
+C
+D
+E (B)
+1
+2
+3
+4
+A
+B
+C
+A
+$81.13 critical resistance
+B
+C 1
+Scenario 2: Bullish We have seen a fully completed wave (C) down. That implies that the a-b-c move up off the lows is the wave 1 up. Under this scenario we should expect corrective wave 2 down to hold over the lows reached by wave 5 of (C).
+To confirm bullish scenario price has to break out through this resistance
+critical support for wave 2 down
+Bonus
+Alternative Scenarios Analysis
+Please note:
+When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+a
+b
+c 2
+a
+b
+c 3
+Both alternative scenarios imply that a-b-c move up
+Critical resistance
+There are times when two alternative scenarios are equally probable. When those different scenarios assume similar outcomes you trade them keeping both alternatives in mind
+a
+b
+c 4 or 1
+This fractal doesn’t look like a textbook wave 5 down
+Alternative Scenarios Analysis
+Please note: There are times when two alternative scenarios are equally probable. When those scenarios assume very different outcome you refrain from trading waiting until picture gets cleaner
+Bonus
+A
+B
+C
+a
+b
+c
+d
+e
+(A)
+(B)
+a
+b
+c 1
+Critical resistance
+a
+b
+c 2
+a
+b
+c 3
+Scenario 2: Bullish
+a
+b
+c
+4
+We have seen a fully completed wave (C) down. That implies that the a-b-c move up off the lows is the wave 1 up.
+Critical resistance
+a
+b
+Under this scenario we should expect corrective wave 2 down to hold over the lows reached by wave 5 of (C).
+c
+1
+a
+b
+c 2
+critical support for wave 2 down
+To confirm bullish scenario price has to break out through this resistance
+https://lh3.googleusercontent.com/notebooklm/AKXwDQESZHEpQCuLVLa2GEzcVPV8VFzTPJ2Ype7u08OtIoN6-g5t3iP4PsRzqmvYI4ZGjP6_kUn-PaormrPOGDPJkeUakNX6COhxax4lcZlTf_Db-xXJW2nZFNlpnA5GMWf14V8DBLnahQ=w1280-h621-v0
+CASE STUDY Alternative Scenarios AnalysisBonus Update
+Rule of thumb! Instead of catching the falling knife wait for a golden ( 1 ) - ( 2 ) - 1 - 2 setup
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHYIVRb9y8HEoDRoVk3_7XWVr7nNUZHThyQwal91wsSzUkPBo5NfSaFve7W2WE9KN0cZc1L2DQN-T5cgjsM5W5fERa2w8b5pY4cNq_i9XasK2YntWnSqB4mm0GqWPniP5K9097AMA=w1280-h621-v0
+CASE STUDY Alternative Scenarios AnalysisBonus Update
+Scenario 2A: Bullish invalidated
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFuvuKTB4OOkT52JYufbaCb9lLvnrkXV2-HAkN0WMT5ym-By5N3aOzDPEcwW3iQgnyH9CvplBARmzzS89wYjHZni0dqTWibikOj17KzSHADJcGTu3eMJvOOaq85xbEBcnrLJmIVMw=w1280-h587-v0
+CASE STUDY Alternative Scenarios AnalysisBonus Update
+critical support
+Scenario 2B: Bullish still valid
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFd4JKNLgL8_6MHKr048WDoIruEVkbJBTTKmLj2HD4NUveQtxbP7TTBL7EJTqemghpwMyBJxbugsvYSZa3Jt1gvJOMRAH7pxYFLz1ndb6qFHTW3DTP85pqADyL1dsEErPrM6g463Q=w1280-h587-v0
+CASE STUDY Alternative Scenarios AnalysisBonus Update
+TARGET FOR THE DROP
+still validScenario 1: Bearish
+( 3 )
+( A )
+( B )
+( C ) ( 4 )
+( A )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEIq_18FUfMeZ6TNwdBMaiPZlNVYGK6tVZv242iPUDDQmd-emyLgFYY1hMqw9Chxt6vwEBaE5v5guofav-fn5RaAGNUtas0_j8L9wVtBP22Bi9SX8r9XcOvLfAgoLcaVvw3kv7B=w1280-h638-v0
+CASE STUDY Alternative Scenarios AnalysisBonus Update
+( A ) of ( 5 )
+Scenario 1: Bearish still valid
+Impulsive Waves ( “Five Waves Down” fractal )
+a
+b
+c 1
+a
+b
+c
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5
+© www.CastAwayTrader.com
+The very last wave c of 5 breaks down support created by the low of the wave 3 down
+support
+Video course” Predict the Market with Harmonic Elliott Wave Analysis”
+We are here
+critical resistance $77.31
+The Lowest low $38.73 made on
+10/03/2018
+Scenario 1: Bearish
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEhCaZ8eyT1VH74PJNkPDwbSQqG5o5K8-LIshzxfc4wIVmKWnfeF2viEpszh38fcBRyKvddQ3zrSsnYz093pGn70qbkcd6wba1JMxkpDINusXkAKZibQQaxUOZNK6Z1FdYYxhz4=w1280-h643-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+When a good count works well and suddenly falls apart
+We got a nice looking rally in wave ( A ) up followed by a corrective looking decline in wave ( B ) down
+Please note:
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFDO6yy7NZSzqYVyECWMZo13L8ulId-1u-SQe6VlrhbyOgWi46IWBETFdsvdXPZQKChtHDpa5EFkf7QR3NI_rv6sDYONCaqTmLxrdp3o4HGw6ut3xZ8ZqpYwmlm_Y_rdvu2HWRveA=w1280-h643-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+When a good count works well and suddenly falls apart
+We got a nice looking rally in wave ( A ) up followed by a corrective looking decline in wave ( B ) down
+Please note:
+From the bottom of the wave ( B ) down we could expect a nice strong rally in wave ( C ) up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEKtz4w3J8Uw72gpItVhlhvGN2S1YL4xoyENvJF4ICDCQ91hbAEpVnp9Tuy9OodxFoBrQxNijd1L-gm81H-Vx3gtuG6bw1tVp7Ds448ysz2cM-TQH6pggJpDMZTUn098xmx02SbWw=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+We got a promising waves 1 up and 2 down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFCYoWfXkOF7KTT4JG64u0OmEKqdq4TbPRxOkvBhfh8RBLbh_flLohzxWe8C4FPVhW-rNa66krrhJflAZNQ_qpMJl5OtANjqacaX3W2Lnu-9yfX_bPA2H5Jp1YU05rdTmjiklHu=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Then we got Wave A of 3 with an acceptable structure where I can count five subwaves inside that rally
+(a)
+(b)
+(i) (c)
+(ii)
+(a)
+(b)
+(iii) (c)
+(iv)
+(v) A
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHpIFiF1QVwV-wPoJ_Eca-UdIVbaBgswFo2AKaukWkKWKZ7Kvn_ST2BHJKBJ90VKKmTJu-vlGnDbn9xooBdqVGZzGWsJAxLCxl6dZmNbqH2Oxqtv9Ihd6xcNBGnJUpAWMCCtczl7w=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Then we got a drop in corrective looking wave B down with ugly structure
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH2qqOq5DCE3NKDpTJ0DOH9v7GkD0kn-NFXWimOMFDC-9P-xfBkaqMeVLbXdfE7y3M5aRvgqgiLDuHJLIMoZnMFF31Z7VKxiHKnwczNEIHPnxixOHGF7upISpBXDEeKTDdVEVjbPQ=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+And then we got a big problem! Wave 3 up failed to reach 176.4% extension of the wave 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGEDHsEErM4R9yIv2cd1Lvedos3Lr6I9wUN3Sgonu0-NuY6FMi8iWVX_sNzbfGY8hO1uHrrHr7U3Qquaa6qFV74c4uIINuLZAAnh0P3bSTbUBpjcR5BU4xHWf7sEHvku4fIE_tczw=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Off the top of that weak wave 3 up we got A-B-C decline that could be wave 4 down. It stopped over the critical support
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEdqn8NUhRXiu8KbqzOT6dbDBTOR-abWrF2t0TFC2paRQM-o13xqeCVCWHmUd0q-PujloExipJfdmb7NcWAy8f6xKOcZxraIngKFL8reH--HbVpKaEq4OAIOhd8bA32UCytNXxM=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Off the top of that weak wave 3 up we got A-B-C decline that could be wave 4 down. It stopped over the critical support
+Off the bottom of the wave 4 down we should expect rally in wave A of 5 targeting the high of the previous rally in wave 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEUjN6lEQSZVhb6wi3iKHmGAvSLLRjiMp9mJZojScnmFPuao0pir2som4zJVru7JrGmMMbEcfQLfCfEwIeBgSmmJN5M4fRjazSK3ltoSjsCEXkvvmvKJbPhUnBykw7Zz1TWTEKB=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+… at this point we expect a corrective move down in wave B of 5 that should hold a new critical support at the low of he wave 4
+We got a nice rally in wave A of 5 that stopped exactly at the high of the previous rally in wave 3
+Raise stop
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEtMYkNXbrubWyKXu5rZSEH-b4GBireFa7I_mMl9Z156UCRvLpQ7u-H3EWFKsby1ntbPZrR_eMkHFAuvSXoeYMUtpm916QOTllRWhevRPRlTvHXYJY2Ispukahai13NtG84ENGpGQ=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Oops!… wave B of 5 breaks down under the critical support at the low of he wave 4!
+Raise stop
+The bullish count is strongly invalidated!
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHcmwZqhlnc1PzyNJLb4obP8Q67pc_WGQmB832X3PCivyMGRwYQ7gu67JAOmzenJbYCEiBx046WjzWSQlBGWcWJIJXo_bYVhfPYfr78MqatDiUXhXd-xM16ursNozy7a-dx0cVi=w1280-h684-v0
+CASE STUDY
+GM, daily chart, Jul’12 - Aug ‘15
+Oops!… wave B of 5 breaks down under the critical support at the low of he wave 4!
+Raise stop
+The bullish count is strongly invalidated!
+But in fact the count was damaged 12 months before in October 2017!
+As soon as any of the six rules of the Five Wave fractal gets violated you have to
+discard the count. If you do not have another count you close your position1
+Your Key Takeaways from this lesson:
+Sometimes after one rule is violated market may keep pretending that the count is
+alive. It will look like nothing serious has happened 2
+The damaged structure will eventually break apart and will hurt those who do not
+follow hard rules3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH9l4BKXe-EAUEtVz8XzSawKUZCeqZmjQzr--lx0_goHpvou4QqoGJDloFJRnYhvGXMFdPEo2P4VyNgR0FhKnHOgl2Vm6QY0iOlfxIjIMH78_KL3McSugjQrRs1vLtqvdrRdreQJw=w1280-h695-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! In waves 1 and 3 subwave C > subwave A
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFuk52x7f0hhsY5AURmCUEkCMC27ysuflp7eR97SAhtSHnlYjQCrAW791ZoKRtSGh1rwuWV6G4oYzL5JNYt2Rofb-KyKYcTziHUx__u3Dy6ndqnWYs2zKqprf7GcVCK2qst5nsS3w=w1280-h695-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you count ( 1 ) - ( 2 ) off an important low You draw projections of the wave ( 1 ) off the low of corrective wave ( 2 ) down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGujK_D4HoMXEkgKK6Y_JUpme7kUupB93fFmhsfHYIJgK3p68pcnrWKPKez_4H1cvVy4vOU7pFbeWFwOBf6qIKa54ICJXoQDK_vB3IqWqwApgd9cVfEf2d5vLxL3n2nFsB12AKkNA=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGUzosoOu3cwDJpRfccuzTQByVbP_4auu_dEgxomB2j76DZUYUCrLFN8QWvW8iMVZ78WtKQkr7qzG-VIO5kLQhP-W4MtD5lD1ZO63uSlMOPRNyA_s8Ko-uLhoBXtQq4RpCIAIYh=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you count ( 1 ) - ( 2 ) off an important low You track for another five wave move up in wave ( A ) of ( 3 )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGr2RUwL-Y5IBAfkl6WX8rK5M5Q9bG9TH-qUKf2F9UHqf1xPRtTZTFZfTJqoYJKPtlxoeYku5xJhonqlkWctGKJQFl-0HXqdh9o689tAvs8GDIyFcC30-0PHNvlKpKKfgU6RPgc=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you count ( 1 ) - ( 2 ) off an important low You track for another five wave move up in wave ( A ) of ( 3 )
+wave ( A ) of ( 3 ) should be structured as five waves up of a smaller degree. Therefore you look for the starting ( i ) up and ( ii ) down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE4ZwiXxnwLnKeg2dskUTNNE6sIX3VU0m0aQX_aM_CGDGCiZka9lsKhJlIMK6WgDn5BCoptPlXo8f8uE1t-jojd-2gav5uuB1cSac0P7hZY9y846N9uQADIcTEVaxGx5JfjwNNkmg=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGXsx3VZO0SfJmpVVxqHnNCXZoFD5__zCOkrHF8-mg6vsU9n9oN-tKIODW31AUGx9CHDpRwXtbPvYbe1AWG80xOwT6LPprE-ok26R-x47LTvmpyoFjW7A5UaYoQSkilBuyd8-iOZg=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! wave ( A ) of ( 3 ) should be structured as five waves up of a smaller degree. Therefore you look for the starting ( i ) up and ( ii ) down
+As soon as you count ( i ) - ( ii ) off an important low You track for another move up in wave ( a ) of ( iii )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFGkbnWdmM4-kr-RhRSvtN6ijydYez7-k9NS0I-xmGQRX9ahKCjuzP35ZwqOTszivdN_HyM2LOFe3mkcNfgZZ6w6ZsVAO2CMGNdRHawTgdL6MW0mHQwarwn7rPTv8a4g-x1M-Ti=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGy6TC9o4wGALOWSxev3rh-5gajbfoUU3sc9Qi6AIc5LgJC3nWkFARXCLyNa_vnjcNWGFRsuxsTGJ32KC0YRH1X02I6g8rcgOVTShepOTo-68VMEKraF2uieSfd_9Rkq_oMFwLiIA=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! wave ( A ) of ( 3 ) should be structured as five waves up of a smaller degree. Therefore you look for the starting ( i ) up and ( ii ) down
+As soon as you count ( i ) - ( ii ) off an important low You track for another move up in wave ( a ) of ( iii )
+As soon as you count ( a ) of ( iii ) up you look for a corrective wave ( b ) of ( iii ) down that would hold the low of the previous correction in the wave ( ii ) down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHGy3js2qKv74Csfz0ibVdGOh4p3jSD3dEaUNe2Rw3rQ7bKjc1HsxuxDSN5GBdXouwfp-dCDveLZlMOpxKv4SosvXw6ba5G5nunAp_qDiF397ndeB3wazX9ZA4NVXPfqoam72bAMQ=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEo6Knbe1UsTTaxzAnVBrllYyKZQtXbxZyapAtDAaR1fx2BkCcEaOTANlKJFXD25D6qgUjkx5Ck872wfrMO975EFSehRVKmVUwlzHv1I4m8AC3GkHD2HrkvQbnuIISpETjaeTt_xg=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you count waves ( a ) of ( iii ) up and ( b ) of ( iii ) down you expect the “heart of the rally”, the strongest move with shallowest pullbacks
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFTZfZGYfrEbeR2aItUoGHUZaxWMJ1vOsuI2CgfP8pFyqU0Isya-dX_2aCeW_mV13UOuXiGckyFgX_A0kRY-Fo8HkKFNWH7rD4RTOrtojHwc-bAvvo-fpqsIW5agxSMGhh2gZ6O=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you count waves ( a ) of ( iii ) up and ( b ) of ( iii ) down you expect the “heart of the rally”, the strongest move with shallowest pullbacks
+In theory that wave ( c ) of ( iii ) of ( A ) of ( 3 ) should be clearly subdivided into five waves up of a smaller degree. In practice though quite often waves A of 3 do not have clear subdivision while waves C of 3 almost always have clean subdivision easy to count
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHJ2QYPfRnYYYo7YGAv3b37P579EntfE1fftVuBNn9I7nE_qVYX0-VSQbG-fDh4-XLDEcayjYEQ3v_iZoa7rBk6r3Od0XMGHUulclpUCD4IX8xx5gr6sBgbSlhkOdeTzeKNLaFOVA=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFyyqSV3G58YvdRJ5z7dpAcLzrio-PsXrnUQBhCg2cJDQuphnehnC8i75dZUIlyjK2hHrwkhUgKTgy3EeXu_DgCyWe5aVVKl8_bMr1o61T-_ksEFhO3AjBv9HZh4Coylg7wc_-Oqg=w1280-h611-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you count wave ( iii ) you have to validate it checking if it stretched at least to 176.4% of wave ( i ) up starting from the low of wave ( ii ) down
+wave ( iii ) upProjections
+Wave (iii) = 200% x wave ( i )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEXKzxhm1SWFhCe77NbK0ZaGI3Hwh1Ou-fLWXfaYcCmDgHN2mbdqN70Fy1GVrRjmExvIsUWChgyn9wYOC1fnVPkwgQfVnxUCG3UvmKGpTjNb-XNFqhGnzdkohvYE6w_AfNnbwg5DQ=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you confirmed wave ( iii ) up you start looking for a corrective looking decline in wave ( iv ) that holds the low of the previous corrective wave ( b ) of ( iii )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFbILqwd7WY_7va4lXnNMe8JEySTJIHlkugodbq07cldfAyVO5G67e3SVxHIctLLr0S29cKD5Q7SYvd_pimMxrxF7_yT_czACl4-2A-pVb81DkhOJVaP8ySuOrLY7PDyFWQrr925w=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQESshEO7q14AfegV-wMhJIxFxcaldm_rxhXD0-ZJ79Q6SmZ8LQ7y6DWvnKexrJI-Tpwe1NWiVygT0gV2pCYr6xaLmJnQxqzCfCOjDt3FnTugkZ9oSxTXKzVuS-RpGzrV3k9K1eu=w1280-h621-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18
+Note! As soon as you count wave ( iii ) up you start looking for a corrective looking decline in wave ( iv ) that holds the low of the previous corrective wave ( b ) of ( iii )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHEyR8YIesWMtxLMejMHoDunxD9fmZ3emrRhiIJSjnPJ98d-AULa5gBj3jY87asu7dmRUxXrPRIeOSeaQgPwcqxR-Lut2KSBkZvJEA32ehgrfR1TfeOL7A0PGFgsXzm0Nfc9FLR7A=w1280-h636-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( v ) upSubdivision
+Note! As soon as you count wave ( iii ) up and wave ( iv ) down you start looking for the final rally in wave ( v ) structured as ( a ) up, ( b ) down and ( c ) up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEZrUZvGG7GGRXjyijkTxkfpyaIhGNgAdqQ7bo0uNX7gewCuep8a2uAA_XcVN80_e5UF0xbJ57Z_iHGrYgM3gkdctMOas4cdqtlrzHjOCLWAmJ51_CuOgKvLkDD0FysKjVu8ZXw=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGI4jw-OqoRVXR_P0hYaemmUjzsNeGwtyAokcKUCeU_hPTvviEorOSaoFN4FNKAA5h8gxn3jFgNR-0cM_WmlVyAgYqD3K1GWzIY_nQG0SXM-kBgRmyCVqQbf1ddlcul6l3xKPAZ4w=w1280-h636-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( v ) upSubdivision
+Note! ( c ) of ( v ) = 76.4% of wave ( a ) of ( v )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQETCRT4B4Z9u9vIvgRLKabmNjbZbelE1GsXfJKGGNdb60gvap6WDKvbZbXcY2I0TSsXFY4ro1POduRiRA8zrjNrRpwHvcRokmdulb9lxc69-Qa-AW_FcOFGPuvynlDzaYE1T0kwlg=w1280-h636-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( v ) upSubdivision
+Note! We keep projections of the wave ( i ) up on the screen. We use them not only for targeting a top of wave ( iii ) but also for targeting the top of wave ( v ) up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHYRIxyUd0K4hjRa7TSFGYJLPMP2TKxY36HnJIWFyHcdWjIuj5c4Wgkc--MQx06hdvkkflTi9_b5ln-_ibr4FZHod-jTeIG8rR_a2rMPlbUG1lA3bCyb20cpLUull24oDLcXkYfIw=w1280-h636-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( v ) upSubdivision
+Note! We keep projections of the wave ( i ) up on the screen. We use them not only for targeting a top of wave ( iii ) but also for targeting the top of wave ( v ) up
+Wave ( v ) = 223.6% x wave ( i )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFNYcNYkOenDlqQc1T68_j0-HbNq4uOrxwZiBxQurMuLh6aN7141jLLHdItGmdOGqKI83hw_yob5xCVcZzpGMlF-AWpm66z68PgDhFiKEgiALYw8fzSoB5HOOOHDljT7hfFWuUk=w1280-h738-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave (B) of (3) downCorrective waves
+Note! As soon as we counted five waves of the wave (A) of ( 3 ) up having completed we start to expect a corrective wave ( B ) of ( 3 )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF43_37F8q4stiD29u3APvRUXQABExBVZsNYeHF72Rm3MUjW_gqaCN4dCBuzFzXQ4jaS6iuTgKavEO0h2cXbFBNCA-GnLJiRJrIu19jXTw4ERDfmHL-21gEhpdiIqPSIEzFbY1AyQ=w1280-h738-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave (B) of (3) downCorrective waves
+Note! The corrective wave ( B ) of ( 3 ) should have (a)-(b)-(c) structure. We add retracement levels for the full wave ( A ) of ( 3 ) up
+The corrective wave ( B ) of ( 3 ) retraced 50% of the preceding rally in wave ( A ) of ( 3 )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGo2fUwiXwaFx9WNdR6y9FWYdsREudNv5gVgwsSd5KPsKXnGYOf-A3TurQ916mTRoVKLS2VivKi_wvXjLgMdDQheSu6eYF0UMAKglCZAuPH7rZMvVCLcsSRtF1iPITPbQEGGIkyLA=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHoRQCYXN_IfFBSmwDlCL4NOZ0jlbh4vHmly9-k1dF26od9D7320nq9nr7SPpiJpNEegK9OGZ0QdmpndzsYh6digoTHnNOIZC-7Rh3woUjPGXIncgCSzRuScIrMskZV6Yl6oqXx_g=w1280-h738-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave (B) of (3) downCorrective waves
+Note! The corrective wave ( B ) of ( 3 ) should have (a)-(b)-(c) structure. We add retracement levels for the full wave ( A ) of ( 3 ) up
+The corrective wave ( B ) of ( 3 ) retraced 50% of the preceding rally in wave ( A ) of ( 3 )
+The corrective wave ( B ) of ( 3 ) was shaped as a simple zig-zag correction where subwaves ( a ) and ( c ) had impulsive five wave structure
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF9Q_Je-8l6lG0Q2zZ6IXTFJWZqmouTic37gv38Y-2mys9u7_XfsNeFZ4xFTnfVz9JwHNG5B-eyC3njn9gnUeC5pLJHj4IFkCJsMa_WCxZWcLwAylqjow4HZrUtiVWT1MItpIwCbA=w1280-h738-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave (B) of (3) downCorrective waves
+Note! The corrective wave ( B ) of ( 3 ) should have (a)-(b)-(c) structure. We add retracement levels for the full wave ( A ) of ( 3 ) up
+The corrective wave ( B ) of ( 3 ) retraced 50% of the preceding rally in wave ( A ) of ( 3 )
+The corrective wave ( B ) of ( 3 ) was shaped as a simple zig-zag correction where subwaves ( a ) and ( c ) had impulsive five wave structure
+Inside that corrective wave ( B ) of ( 3 ) subwave ( c ) = 114.6% of subwave ( a )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEzEHfam6ZIwWXmXevKiiJZ22iqgWflOISFjraE9x60Dm1eQYoiR5fdD1PW0RHXiRpq6THWFGj4FM_qOanKqz6KiecNLHpJjjIWleY6pZcRT23Po53DCC5c45FluJUgzELHHx1vkA=w1280-h586-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Off the bottom of the wave ( B ) of ( 3 ) we should expect another rally in wave ( C ) of ( 3 )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEKhhRjP-3WVsk_SNag3LF5bPTPSqUOhucP-TdO5o2AeDBP64OBtRR3LnD8l6gx6AjjII3WaNQE9mR_AwH6-C4XYpuWr_wbIWE8JA7j0CT8ptnUf0bqme-JT-UniUljoDs2396x=w1280-h586-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Off the bottom of the wave ( B ) of ( 3 ) we should expect another rally in wave ( C ) of ( 3 )
+The rally in wave ( C ) of ( 3 ) is the strongest part of the wave ( 3 ) up and should have a steeper upside look than preceding rally in wave ( A ) of ( 3 ) up. Moreover, that wave ( C ) of ( 3 ) should exceed wave ( A ) of ( 3 ) in length
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGZJGxpjwNEsYJG1X9f6AlnlMKq_FvthzU1UiWbHBgaweyudp6p56gV7onl_nR7ClrbjUx0uwU4hTkebEQivY8HsKNal7xee_AjU65_IHACWjkfiEEV6-UlFAsZIHxBARJ2QYRW=w1280-h586-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Off the bottom of the wave ( B ) of ( 3 ) we should first identify starting A-B-C move which we count as wave 1 of ( C ) of ( 3 )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHTr5CIUEsfYW8CBn2FWmTavA5ZCfmkpqQhB_Rxm5PC_uuytwXiFQdk2lr4O8DopBqmY6dVvok4aa7IgII_JUT6ND4t4JVwUW-lHxlzpWrkxMlzTGmA4fFzxDx9hv2OIFj3ydMJ=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQETsjpaFz7sJK2LKxDUgHHorzXDufagnPDGU84YDJ2LGFh1u-gaYGxBvELZTpRNTZkTB81j9mdJshCs-b91njTy3Ncjgkv4sPWlLbRHmh5aqv5ocMQc9ygdxPM_Yp_XPpf63QAk=w1280-h586-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Off the bottom of the wave ( B ) of ( 3 ) we should first identify starting A-B-C move which we count as wave 1 of ( C ) of ( 3 )
+Wave C of 1 = 85.4% of wave A of 1. I hate when wave C is shorter than wave A but sometimes that happens
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFWLpjtCLpo3bvUln9mL-x4-9CcqlgZI3Mu7NSkx128GtWETUHkhB61Ztdar4J0C6zhD7nci0RInpFGnHzDzK5JUsp1YYb99l3PBmqLLWcaZKKFDJD3kAr1RddeEBPXtdJc9acXPw=w1280-h586-v0
+Note! This corrective wave B of 1 is a great example of a corrective Expanded Flat structure
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave B of 1 downCorrective waves
+Expanded flat
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHVdot-FqCAvoJS06eZdfzCwznQ_UPIIo20BfGqPRsld6nFBlNRtYq0St1ovo2YKHgDL7Hkmnua8yAnt2seCu646Qpzxsv93iH7T36enBgM88Kym32AY-uXbJJXmLl7uynoH0V1_Q=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEvm9MS9zh8Udyb60GYBeeyT4kmZPWVP1_Jc_XIcYreeNTO8shXB9H4AsfUTrQq1Oe6APKT6AuCxAhaWjr2U6g84lDlhJNcfba7HAofntG4YcAuY5LRNORCW53Stqz0LoenDXzLuw=w1280-h586-v0
+Note! As soon as you identified starting A-B-C move up counted as wave 1 of ( c ) of ( 3 ) you start expecting a corrective wave 2 down.
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave 2 downCorrective waves
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG4Ru9Ac4ogHXfFA_5k_H1rAaYBJ-Tn0F-3fgjRhwlpcQoAMhCSbGOvOxQF5aj_lchvgRvdiYMcGrbMlpGMZlO-be2FRTMttXz1eAbxl-SdZ21aH6DlZY6BRZmwuJJau3QvORkefg=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFqJn-mKIJhsKCKg6o4o5brRn2edDcKGdsyjaklv6_ttFGjOJKkXmNHk4v3-3ouqncOkZUY4uvWNX9O3LtuQUtqw0pPy6zKNcnW4Sb6iZsZzEdagzfc-FX9zkKByaeqd-fRBY0Lyg=w1280-h586-v0
+Note! As soon as you identified starting A-B-C move up counted as wave 1 of ( c ) of ( 3 ) you start expecting a corrective wave 2 down.
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave 2 downCorrective waves
+This corrective wave 2 down retraced only 33% of the preceding rally in wave 1 up. That is a shallow retrace and 33% is not any repeating Fibonacci ratio
+-33%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGlD0ZRps1HVC2sLaDXQonrgBuBzgiSwEMUp7ehDARTxZ5PwGSZQwRq-CajuOevAIfce09rFSUVOy7agAYHkMlT3gSen3s_9Wu_Fb-kJFNvo-waOYxzImy-WnEBMd-n_QVoDxzksw=w1280-h586-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! As soon as you counted waves 1 -2 off an important low you look for another move up in wave A of 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH3q0u-0lzNEGKU9yNu8RGtq3FK8XnIzkvsnNInoqxoj0bN5q0hRFS6_h8hWChsd9cF_IlDJlWs64zVc8IntQjUxWmj65NghZ-DicESRbjvcRKJvnSPW0R9hukWmNYJJ5hWcYha1w=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFIORuSKeGS5qQ8PxmA7dTcQVEeDVYlLAM6QjnrBbqUioFPDd4W6QSu1hG6Ia7W4t04sUxYtxU-WuRl55cFMn-8trkfler2j6v49mrXbCEid7Sgq5Vkg1ADuw3EwNRXU-jz1iXe=w1280-h586-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! As soon as you counted waves 1 -2 off an important low you look for another move up in wave A of 3
+wave A of 3 should have an impulsive structure and get subdivided into five smaller waves. Very often it is very difficult to have a clean micro count of wave A of 3. And this one is a good example of that
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHwAa8bgP77nQIu2OlK8WZhlrlM5oYr0iP4HEpz7ChA5IXwnPPQxkdFLJofYb7_R2D94ta5BfIt--OJcs6K2-bGY-SQQpqtemXa9y3Ahc7pWsnD-QemsKOHnieJyctJhAv2r08u=w1280-h618-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Inside the wave ( C ) of ( 3 ), the most powerful part of the rally of the wave ( 3 ), all pullbacks tend to be shallow. This B of 3 down is a miniscule pullback
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHemdJZ-jFXMUDyskEBWP-vBWKsHp41ed2zibfC-nym-BSnrycskCTJTgc_YcGFmel7ie2ZCLkOyIkt3O_9KY-CJpYNpJNEfWqW4ffI45IkpdsuJRTx88-xm-ZQL4A6FUePe8WLYA=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGO-pDllwBwjO8f0agJsXB8bqV2PC_vFV9sCAUKwcNYSF12LW67Yjd1xqC6G_lwrFTiDwxWwhhnEfT-CxQAk6zzEH5IntdUdUdQLq9MY--CUdhziwr3zuth8DjUVv6_rzOpap5MOA=w1280-h618-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Off the bottom of that tiny corrective wave B down we should count five waves up in wave C of 3
+Five waves up of C of 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFsnM2AGWzFU-ui1VgdJ4JBgfGIgOnTDH6VxbQ-ZQmSQkmXR4-YpTj3rnwM8f6jlrZr_OmqWRuH19JvBu-FEdO4l32Xlh_8pqNQFF568sexQMTPJgCGhsC1ItBMx8gCYmDncp-5XA=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHs-qCCUOd3nh1Hxev2yKk4X64Sj5YmueSkL8dUSq2cH5S6dxyabPjzj6lsei1IJxsmOc2GdzDZS3X57sMNqXxjb4sHdZRbo06jY5eKc1ES4Vd68pYQfsZFHHtpvXi3t1DJwhzA=w1280-h618-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Off the bottom of that tiny corrective wave B down we should count five waves up in wave C of 3
+That wave C of 3 should have an impulsive structure and subdivide into five waves of lower degree (i),(ii),(iii),(iv) and (v)
+Five waves up of C of 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGF8o6qRN2eSYlOpK1Fzr_bl-DGPduWBb7VbM0gefgk8x45gBN4Uy5Rh8E48jjAw6weAHF55wELqqsVNPNJy66KvtbFHNUqlu8yK2EPswDmuRX0sb1A9H5n8oqSqjUmPM1-WfLqIA=w1280-h618-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! Off the bottom of that tiny corrective wave B down we should count five waves up in wave C of 3
+That wave C of 3 should have an impulsive structure and subdivide into five waves of lower degree (i),(ii),(iii),(iv) and (v)
+That wave 3 should stretch at least to 176.4% of wave 1
+Five waves up of C of 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEaI2ry3Y3fPRcfeWzI2IYt1_Vq7gHKmScl3mK3ypnnawb1L1M3kWfr007rWU9ijA3qjC_-QJ0O4JIgjjBm_p5CHdQogqjWyiXezQiR7PBimfeFtDArjqxEWpbIpBRpHEQdUsQ4tQ=w1280-h618-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Note! If the top on 8/29/2018 was the top of wave 3 of ( C ) of ( 3 ) Then the current drop may be all of wave 4 down. Because that means that we are still have not completed wave ( C ) of ( 3 ) up, we are still in the heart of the rally. And inside ( C ) of ( 3 ) wave 4 down is structured as a sharp drop without nice (a)-(b)-(c) structure.
+Scenario 1: Bullish: we need one more rally to complete wave ( C ) of ( 3 )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFJUPStBJPSTrnnrm6rdJl_Kj7MvoxR7SzpKa64-77II80L5ZVn1WwEkdrqHkxTXmTCT-T5jQhZ6IgCDmipj7GxRoCxRW7pGOE5TrT946vrfswM9hJ12uxx1ADBK1oKU8rZycfAIA=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF2Wqv11MzGEC6aHn2pMd-0XURQKpddJ__HBdWutZQPvSyWg0uX_PDvtDg9QEpX4gFbqIDFIwcyYvvzh6xofCe4zOJyI26NeMxmFukbCPGLXDMqhRVqvX7kH8X4sBAGyR7vnsw6mw=w1280-h623-v0
+CASE STUDY RUT, Daily chart, 2011-2017wave ( A ) of ( 3 ) upSubdivision
+Let’s Zoom-Out!
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFNscTKoFhNH7qoo-7K_Vc58Pclohk8ME9i_yNBqB7uAe3YBtRWJjZu8uFdkldlITeS1Wh9IczymTE3IPSqILf8DDChnIQeVgXOXgKxiHeOsvR6o_t4gZYnuxLt2BkMkUyngGqxQw=w1280-h614-v0
+RUT, Daily chart, 2011-2017wave ( A ) of ( 3 ) upSubdivisionCASE STUDY
+And we should see a larger correction in wave ( 4 ) Down structured as A-B-C or a triangle
+Scenario 2: Bearish: the major top of the larger wave ( 3 ) is in
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF4kkacfV1JtDO1PgFSl8zhabFh7jsqHXPF8Y0hqDEkUhHdtoybiZiCZKzT6_3sCGaX1T_C7UxwneA0fBt3zZTsGKlF639HyCnJUklOc7fJbuXe0_YhhymLzM9xmjHHCnjE4Gj5JA=w790-h606-v0
+A B
+C 1
+B
+C
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+( A )
+A
+B
+C ( B )
+A
+B
+C
+A
+B
+C 2
+B
+c 3
+A
+B
+C 4
+A
+C 5
+( C )
+1
+A
+B
+MODEL wave ( 3 ) upSubdivision
+A
+B
+C ( 4 )
+(B)
+(A)
+You are here
+Scenario 2: Bearish: The August top was top of wave ( 3 )
+Scenario 1: Bullish: The August top was top of wave 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHdeqnPCHMWL_FsSNWpjg70Rkna2HbrGeQ0X6Lo2y9T8tMA6eqhDJjgx0sq95ZZNdLvr71cJFfMj64RhCe8Ty3-c5TiuOUjpTs1mN8N6SyFNbqMtRxRMHmBIWisH24hQJQv5GRMQA=w1280-h614-v0
+RUT, Daily chart, 2011-2017wave ( A ) of ( 3 ) upSubdivisionCASE STUDY
+And we should see a larger correction in wave ( 4 ) Down structured as A-B-C or a triangle
+Wave ( 3 ) at 214.6% ext of wave ( 1 )
+Scenario 2: Bearish: the major top of the larger wave ( 3 ) is in
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH8NFbA_J8uJ8NZGRFeh9Zu75kF1kzGhtzO5ypWdUdzkBARbXlYMeHHKVjcRRf2ZgrxRZJA_rgLsuCF4BfUSTG2DFiykSqI4eDMSSm9NyxeqLDvM6GhuQWa0qGyXImCODOT0Qi3=w1280-h614-v0
+RUT, Daily chart, 2011-2017wave ( A ) of ( 3 ) upSubdivisionCASE STUDY
+And we should see a larger correction in wave ( 4 ) Down structured as A-B-C or a triangle
+Wave ( C ) at 114.6% of wave ( A )
+Scenario 2: Bearish: the major top of the larger wave ( 3 ) is in
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHiSs_-DRQKIZoHp0TI7U2D2My07a5yZdxUiOPPP0cmjy3RSN84pHMVfE9iTGP6KtC4s45p0Q5GhwR7pa4ofwGj3JDSuCvzFicsD0HTVQ8dohWmjgOUIRwzggZFbOEDJ8ebE29Y=w1280-h612-v0
+RUT, 4 hour chart, Jun’15 - Nov’18wave ( A ) of ( 3 ) upSubdivisionCASE STUDY
+Let’s Zoom-In to see the major problem of the bearish count!
+Scenario 2: Bearish: the major top of the larger wave ( 3 ) is in
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGGZZYtwl_acRVVB9DfH8hEmT7OdgnwDQMBbOtxFmjWdoaHNDucGtjkXoX9nzLHYIgT5wcfQHZqvVuP9X9I7uig3KSh_FXQ_o4QVEW7h15V028raRI2gF3yu4M-XaQB58YDiKQL9Q=w1280-h612-v0
+RUT, 4 hour chart, Jun’15 - Nov’18wave ( A ) of ( 3 ) upSubdivisionCASE STUDY
+Scenario 2: Bearish: the major top of the larger wave ( 3 ) is in
+Let’s Zoom-In to see the major problem of the bearish count!
+Wave 3 had to stretch at least to 176.4% ext of wave 1
+Min target for 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGByXuS1IM0dHSebVSc-QORJR-B251MQ62DktgHdBQFG3PPi-CTVlGe1vn2j3AtZf2wOqxCM11utxcTRG4cIQRNpljg-spwg8tZsKaiDWh5NHsIrraz-XYDcuf8-0fncR6iuEXh6g=w1280-h618-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Scenario 1: Bullish: we need one more rally to complete wave ( C ) of ( 3 )
+Wave 3 topped at 185.4% ext of wave 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG7g6fHCrrF_fLhtRoIpwigCS1Qa6gS7nGg5_ipDSzrA0NjQ2QbL_lVSOMITcAAv9GrC5kP6khUjpp2KqTa4wKoaJeAdN4yLei8UL-t7AwcPXNybKwAsfo92YuMTIdW3_3IfQVgmA=w1280-h618-v0
+CASE STUDY RUT, 240 min chart, Mar’09 - Nov’18wave ( C ) of ( 3 ) upSubdivision
+Scenario 1: Bullish: we need one more rally to complete wave ( C ) of ( 3 )
+Wave 3 topped at 185.4% ext of wave 1
+Conclusion:
+I still consider this bullish scenario as the primary. That wave 4 down may get lower but should hold the major support if 1,345 ( the low of wave B of 3 ). Wave 5 should be shaped as A-B-C up where A should target the previous high reached by wave 3 in August and wave C of 5 should make a new all time high
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE3lLnxPOBV3kTmdQs6fLKsSMF44zSUQyWeqzctXJjdOwDJ1hLXlu_qQrO6a2q3y8tCZX7SLf0UaePCFH8vank2lMlONMDzWFGAc13CKR3aLafB-8G5b_E5pInurk3M7T_aVwuY=w1280-h778-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+© www.CastAwayTrader.com, 2019
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGNwj3sWk4_jwBk1kcZz7snpfdDIuNi69mORq8aV87M8-WZw4XlKdSpyXL1xxRysvlAuDTs1fW8QRy1crIVWk-n26slV1b14LfVtRV4pqQfkD-ryWE21uFmiIuFQWfHSOzNQq4Tsg=w1280-h778-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+© www.CastAwayTrader.com, 2019342.59
+04/29/2011 859.08
+601.71
+08/31/2018 1,742.09
+05/23/2015 1,296.00
+943.10 02/11/2016
+1,267.20 12/24/2018
+Corrective Waves
+A
+B
+C
+Simple Zig-Zag
+Overview
+A
+B Regular Flat
+A
+B
+C
+Expanded Flat
+C
+A
+B
+C
+Running Flat Triangle
+A
+B
+C
+D
+E
+3 3
+3
+3
+3
+4 4
+4 4
+4
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEY9YiGv5XL9sRue7OVn2u0x8GxtQRUiTmqSttf1vQGBfWC6H-bscYoRJ9fcP2cfdE07if7TQNOaHToJPBEIPnFSCIHuAPNlu2fr8OgXqpscSW0auAd6_0SApU-3mwb_Nahn-xs=w1280-h586-v0
+A B
+C
+Simple Zig-Zag 3
+4
+RUT, 240 min chart, 2015-2019
+“Bullish” scenario
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGeSDlxEy3HXj_ZgSEsTeKugIbYifcz2k1Rlfs-p0XfSE5jBp-hzXVU-ZpyYld8QqDraF9-REkP0QLbLCfTC6MeBzgkVWnZgoyRLY00lFFyU9htfwaSoz96pzc2H4KPwGW4XgO-JQ=w1280-h586-v0
+RUT, 240 min chart, 2015-2019
+“Bearish” scenario
+A
+B
+C
+Expanded Flat
+3
+4
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGNT7Rxs-paUxh1D-4-jzsFkb2-k_d-jUDnbF83vunhUZh1HbuA1nfODmlCfeaq6HlDr06If_AsbQgHaCcxzb0-0Lsb4D9P2vziwAPQnxijmnrk_1jJjMa3rgBXtmNo6QTD4E_Pcw=w1280-h586-v0
+RUT, 240 min chart, 2015-2019
+“Bearish” scenario
+A
+B
+C
+Expanded Flat
+3
+4
+“Complex” type of correction
+Corrective Waves Overview of alternative flat structures
+A
+B Regular Flat
+A
+B
+C
+Expanded Flat
+C A
+B
+C
+Running Flat
+33 3
+44 4
+Wave B of 4 is a wave in the direction of the main trend UP
+- such corrective waves B up quite often do not have clear subdivision
+- they may either retest the previous top or even make a new higher high
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF-Vdz8vyEVpaZTtfM8q9xxQr6pABBnIrD918Pf8vE8sXC1hCkNoH7YyMUaACSMLmwswHNUDarLT1Edhc8n5FMm-w-oX16RZUrRR58lZ5As7mzhuakgad2qzhRg7clVc70NmOA-Gw=w1280-h584-v0
+Triangle
+A
+B
+C
+D
+E
+3
+4
+RUT, 240 min chart, 2015-2019
+“Neutral”, the most frustrating scenario
+A
+B
+C (A)
+(3) (C)
+Corrective Waves Overview These four patterns represent “correction through time”
+Each of those types of corrective waves starts with wave A subdivided into three small subwaves
+A
+B Regular Flat
+A
+B
+C
+Expanded Flat
+C A
+B
+C
+Running Flat
+33 3
+44 4
+Triangle
+B
+C
+D
+E
+3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH0wz_xVJp8xV816je2v_ZYNTi9bEK_4xns67aC1aW6POdMMd-ycgUa3l8L8FRfw-LslDs_kvW5r0GPalPpoXHmwKJupuegG34aNFBgOwtAXUdqz5bXqK6BZhJjJqQj5Fpo49KRrA=w701-h876-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE0_92UkLw43RNbZz1wU5lg1rDnvf7kt7gnbv0_Mv8C8IgJeuISnknKWk53dWv2MqyV-74ByxArYqLfQOd3w5nauCTahfC-6r4nLDG_z50Nf3Da0Go3_g5o8OP-bCyqztPn3b6pjw=w1000-h627-v0
+CRITICAL JUNCTURE
+Your Key Takeaways from this lesson:
+- Analysts who keep changing their wave counts often make you think that every single move in the market can be successfully predicted with high certainty.
+- That isn't true. In every five wave fractal and every corrective pattern there are fragments that from time to time give strong hint to what will come next.
+- However, there are moments when too many alternative scenarios are on the table.
+- At those moments you only take a trade when two or better three main alternative scenarios suggest the next move in one direction.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFckvnwb41yBugh7jYjf28DkHjG8hkVTyD3ZohsG7Yx7GwgoiS5-ZZx18uTfvq4cx669xx0WzhroYNbt8rukCug5kVoJNSl17GsG8ey7Iq0E-DDn-zL6JXhhRJPnzRCSuZkdYkGmA=w1280-h716-v0
+Counting a Chart From ScratchCase Study
+SOXL, 60 min chart, Mar - Nov 2019
+We can attempt counting that move up off the August 2019 low as an impulsive wave...
+A A
+A
+B
+B
+B
+B
+A
+A
+C
+C
+C
+C
+C 3
+5
+1
+2
+4
+Inside the Five Wave Fractal there are waves with impulsive structure: A of 1, C of 1, A of 3, C of 3, A of 5, C of 5
+The Five Wave Up fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGIeJn8P6e_QyTEJ03U-QV0uz3rK1rk4rCVWb2k2ZHbpzhlNlTcBQWAg-LEYlghRDLhtbV7ntuY2UY-IYWEF8HoI4Lk8NgLWmUVKOzG0u1c9OK0ZN8fko4MTn8LPnzqyo47SAl-9w=w1280-h716-v0
+Counting a Chart From ScratchCase Study
+SOXL, 60 min chart, Mar - Nov 2019
+.... but we can also count that move up as a corrective a-b-c up structure
+-a-
+-c-
+-b-
+( i )
+(v)
+(v)
+(b)
+(b)
+(b)
+B
+B
+A
+(a)
+C
+C
+( v )
+(v)
+(v) (iii)
+(i)
+2
+4
+( i )
+(i)
+(i)
+(i)
+1
+(iii)
+(iii)
+(iii)
+( iii )
+( iii )
+(v)
+C
+A
+(a) (c)
+(a)
+(c)
+(c) B
+A
+C 5
+C 3
+AA
+B (ii)
+(ii)
+(ii)
+(iv)
+(iv)
+(iv)
+(iv)
+(iv)
+(iv)
+(ii)
+(ii)
+The Five Wave Up fractal
+with subdivision of waves
+Even inside a long term bullish trending move structured as a macro Five Wave up structure there are a number of subwaves that point in direction of the main trend but are corrective ones
+A A
+A
+B
+B
+B
+B
+A
+A
+C
+C
+C
+C
+C 3
+5
+1
+2
+4
+Inside the Five Wave Fractal there are waves with impulsive structure: A of 1, C of 1, A of 3, C of 3, A of 5, C of 5
+The Five Wave Up fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFPdQY73zK4xrzWJ7E0GrxBCJGNXFlYtTYjzR30veH5HmT_YJsWPAPtroN9UeuVAZU5UKs_nPzTij1wYC94O_HqFqlbQMxtPo7gLc1vgRO4a-pnhq9YgkXlx5QjqmzsfkzSdIew=w1280-h609-v0
+Counting a Chart From ScratchCase Study
+The first step is to check a bigger picture and check a weekly chart. Particularly you want to find a major low or top and identify the major direction of a macro trend.
+Step 1.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQElbquUi1raF4lbaFE_jXLDw3nnxC6a_pQI60mI6lkP0ysHl_brh4zlSjEzllLY2_ey_ro9r6NeCnQstotvKSlkeZ1GshJjoh56TUeJhY_43SiQ7II1Rv_Uxbd6J0KkakHz3VWIaQ=w1280-h578-v0
+Counting a Chart From ScratchCase Study
+Now when we know direction of the main trend and a starting point of that trending move up, a major low, we can switch to a daily time frame and attempt to identify A-B-C move up off the low in wave 1 up followed by a corrective A-B-C down in wave 2 down making a higher low:
+Step 2.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHjQ1iXnDKn35nVO4KRBiHGSXnX8vprIcGc3uBLl7E9dU0jug1K98kh8Ffni8vds0yQvjp2eqIsB2eREG0352A_9khUxBoCduAIcVnvN8kVspHj16eYTrF0jGfwB1kZE8PiCxLE-w=w1280-h578-v0
+Counting a Chart From ScratchCase Study
+As soon as you find wave 1 up and wave 2 down you start looking for wave A of 3
+Step 3.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGvfzadnPrtyIwbqxdyKNSyLhwTm7JcobSscEIXNWB1x1F7PFg31j55Wr2GvkqUgkJ5bd0lk4R9TA3rEhqHQMpfY0rjr2S8klNEOnTi_UFa0MhyHSqpUUF6ZBnmWNs1tkqijvL-pw=w1280-h578-v0
+Counting a Chart From ScratchCase Study
+After you get A of 3 up followed by normally a shallow pullback in wave B of 3 you look for the strongest part of the rally in wave C of 3 up:
+Step 4.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGdsaZc3dJQ8oxKXCZvQqXvrxP-OJJSv4-c64ajL8bPyycOluBoXnQ7y7ph6LGLp5mt8F1FjPikb4msfJxggUdFsEFytrnsdHO9WkVf3TS2nDNFOE8NZHQ239V70Oop53a6eJ0R=w1280-h619-v0
+Counting a Chart From ScratchCase Study
+After you get A of 3 up followed by normally a shallow pullback in wave B of 3 you look for the strongest part of the rally in wave C of 3 up:
+Step 5.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG2FXNpN6k0g_-KxmbNU_p3Cac23YlyGLXj8YcsNgxq7gLFKc-VzlCw1xnYBzL1iHxG7-EWPny2UhFk1rXiNW8YdwuaEX33RJhlLG-m1nKGSl60F5YBCkd597YsWst1MENvBnVazQ=w1280-h650-v0
+Counting a Chart From ScratchCase Study
+When you have a top of wave C of 3 followed by a corrective wave 4 down the best confirmation of your count is wave A of 5 up that retests the top of wave C of 3 but is normally unable to make a sustainable breakout:
+Step 6.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFr4s_OypZAJ2fQle-HkAnjtgjmdwyHoC-57t9PnMu14IKB33l4ZLG442atphFRKUz26JlIV5lBp5smwE47V8jmc6LfQPeN2XemaXnOREwk21vDgSxnLbLDrOz49u8_sTwjLHpJ0w=w1280-h650-v0
+Counting a Chart From ScratchCase Study
+When you have a top of wave C of 3 followed by a corrective wave 4 down the best confirmation of your count is wave A of 5 up that retests the top of wave C of 3 but is normally unable to make a sustainable breakout:
+Step 6.
+And here we get that confirmation! Wave A of 5 looks exactly how it is supposed to look. It looks like an impulsive rally and it topped right at the top of the previous rally in wave C of 3 up!
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFk5zbaXGPkyCuxdL9tNg6ma41W0tBVWbmEknxrROxrN_JiWKFoAGLUFWD9Nl3LcveU2-hKz27ti01FjLwoefTOO9DrVWdoqh8LvYOKrAfrZ4ZqBHSfrAfR-P4FI9LptuLVrLQO3A=w1280-h621-v0
+Counting a Chart From ScratchCase Study
+After confirming a macro Five Wave up fractal we can finally drop down to 60 min chart
+Step 7.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGXivY2aQ80wmxYuHnL0MtSI4dbnSbjQon6vXiH1BCTkRFl5eeO32quIYwY0fkaRKKRwhSrAcuyTd10CIfXvirdepO_60xO6oaDbIsq4qh7QK3QOkmVsva0I09Y31kJBOsqZbcW4Q=w1035-h655-v0
+The top of wave A of 5 up you have just confirmed on a macro Daily chart becomes your starting point when you deal with a micro structure of a corrective wave B of 5 down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFJsoX_VOCebcgb9YZHVvo-goQ23NXUDu70NYovgu2mQ7jvGBiAZyv9vYF0prG1gfRq0ycfcVEVUUJdmYPNOosV539KexACgq9xXtkt7iqYveSW2DS1JN984YgcZhy4q5aE1NND0g=w1280-h621-v0
+Counting a Chart From ScratchCase Study
+A of 5
+B of 5 ( c )
+Alternative Count 1.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGbu5sMonJMD1xuZXRXwzwvT7gLLdPURQg4-clTH5ewPeGcgYY0ZRxj9RjHBU3_6ocb5xT6WAiGrlmsrrB-Q1eHBOmOm7H-rd3gQ2kkRieSk4QiUiTYnZSiC4vwd74Ii3S9fHgUlw=w1280-h725-v0
+Counting a Chart From ScratchCase Study
+A of 5
+Alternative Count 1.
+(v) (b)
+(a)
+Wave B of 5
+with subdivision of waves
+(c) B of 5
+A of 5 b
+a
+c ( a )
+a
+b
+c ( b )
+a
+b
+c i
+a
+b
+ii c
+a
+b
+c iii
+A of 5
+b
+iv c
+a
+a
+b
+c v
+( c ) B of 5
+© www.CastAwayTrader.com, 2019
+Alternative Count 1.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFFfFreR7V08xGr9K8AOjGUfLP2eos0Fjg3bc9b_0eeugSwQ_Lf1g72q2KSInrQiD_-6JJlejZv9p58HKeunhlYACxPM8BLuUpBmUXRDS5H7q-Ooo0t79sZGLEHlDqzlCx-oC0sSQ=w1280-h716-v0
+Counting a Chart From ScratchCase Study
+Alternative Count 2.
+(v) (b)
+(a)
+Wave B of 5
+with subdivision of waves
+(c) B of 5
+A of 5 b
+a
+c ( a )
+a
+b
+c ( b )
+a
+b
+c i
+a
+b
+ii c
+a
+b
+c iii
+A of 5
+b
+iv c
+a
+a
+b
+c v
+( c ) B of 5
+© www.CastAwayTrader.com, 2019
+Alternative Count 2.
+Alternative Count 1.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEJnOrOY64jq_Lx2g7pZsR4iZYGO6-UCWHkZ_xBXFYfc3Tyh_amXWqyruh5lhQnNGa1z6E-iDNwq1ZWsOHC5GsDErnul4MYbbd1Wzif6ABh9c_rR12PRVDKzRLTBk0Zk9VllJc1Zg=w1280-h725-v0
+Counting a Chart From ScratchCase Study
+A of 5
+Alternative Count 1. I favor Alternative Count 1.
+if you look at the rally counted as blue wave ( b ) up you will never get five wave fractal inside that move! It has an ugly structure. And this is how typically wave b looks like!
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGoUnQcrpNmLh2wa7Q6tQZLfY6WgMjmQSnSKjvnBbYDHLFNtyy5OFzfg_Vzyx6tj06DUjeQSqFi0eXUSKz7ikKCrqO5FFqC5CzeoNzE95S-pb8CkTZfmgJBMUpNpNSHXI5BSkiU=w1280-h716-v0
+Counting a Chart From ScratchCase Study
+you can’t count five wave structure inside subwave a of ( b ) in this count
+Alternative Count 2.
+KEY TAKEAWAYS
+1 You should never attempt to count a micro chart without checking a bigger
+picture. You always start from looking for a starting point of macro structure, either a major low or a major high on a weekly chart
+Counting a Chart From Scratch
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFTQYAnM7CP9EDRLdeGo4DSlQ8TS-eJyfVtW3ir8cSzZMNyP3vaBU6tbdJ8r6gRzDeLvohUg6ry-jZA3rgMZXnkyMZKZiFBjXFQt878__YaAaAv56v8d287FmBQxe5e2c8RKjx_xw=w1280-h609-v0
+Counting a Chart From ScratchCase Study
+The first step is to check a bigger picture and check a weekly chart. Particularly you want to find a major low or top and identify the major direction of a macro trend.
+Step 1.
+KEY TAKEAWAYS
+1 You should never attempt to count a micro chart without checking a bigger
+picture. You always start from looking for a starting point of macro structure, either a major low or a major high on a weekly chart
+Counting a Chart From Scratch
+2 You can get two or more alternative micro counts that both should be aligned
+with your primary macro count. Then you start collecting evidence in favor of some of them. Or, alternatively, you rather wait when all those alternative micro scenarios will point in one direction.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFAgxOJP_guj86oHMKhhvvvOLBDPGWY26VNQt1L-KS1WofSGvXF1rEd2ErbgHrBSWT3LzcMNiNTlzdCV1fkU8znX9GXhPTIPBaHCVm5MEDU9fXtuqUB1S4euBSsLTsDPZZGMDLL=w1035-h655-v0
+The top of wave A of 5 up you have just confirmed on a macro Daily chart becomes your starting point when you deal with a micro structure of a corrective wave B of 5 down
+(v) (b)
+(a)
+Wave B of 5
+with subdivision of waves
+(c) B of 5
+A of 5 b
+a
+c ( a )
+a
+b
+c ( b )
+a
+b
+c i
+a
+b
+ii c
+a
+b
+c iii
+A of 5
+b
+iv c
+a
+a
+b
+c v
+( c ) B of 5
+© www.CastAwayTrader.com, 2019
+Alternative Count 2.
+Alternative Count 1.
+Important Disclaimer
+The author of this video is not registered as an investment adviser nor a broker/dealer with either the U. S. Securities & Exchange Commission or any state securities regulatory authority. Viewers of this video and users of the website www.castawaytrader.com are advised that all information presented in this video and on the website is solely for informational purposes, is not intended to be used as a personalized investment recommendation, and is not attuned to any specific portfolio or to any user's particular investment needs or objectives. Past performance is NOT indicative of future results. Furthermore, such information is not to be construed as an offer to sell or the solicitation of an offer to buy, nor is it to be construed as a recommendation to buy, hold or sell (short or otherwise) any security. All viewers of this video and users of the website must determine for themselves what specific investments to make or not make and are urged to consult with their own independent financial advisors with respect to any investment decision. The reader bears responsibility for his/her own investment research and decisions, should seek the advice of a qualified securities professional before making any investment, and investigate and fully understand any and all risks before investing. All opinions, analyses and information included in this video and/or on the website are based on sources believed to be reliable and written in good faith, but should be independently verified, and no representation or warranty of any kind, express or implied, is made, including but not limited to any representation or warranty concerning accuracy, completeness, correctness, timeliness or appropriateness. In addition, I undertake no responsibility to notify such opinions, analyses or information or to keep such opinions, analyses or information current. Also be aware that the author of the video and owners of the web site www.castawaytrader.com may have long or short positions in securities that may be discussed in this video or on the website.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFaejoMbj1Hg743ejFOGX3QfohV5lncRXcshrVZAbdunSCGa9MPIwStWpPfvYBH2P9s0Loj-5XqYTEpYWtwO3fh-TM0e20elWB78sSwFrHxbVL63ebzo6TtPWL89O1A0hAPHzWL=w1280-h619-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQET_x_e5Lz-AbgOqgNakX5Mm4I5z0xZgoA0-OJp88WNG3sNqMuYiFd-dt-_vnO5sEbHltIFOYWGZADd68NxBLV9qUb8MYOdWZij_Ri-GKhvw1IK1qH-DGiqEu1eq7H6P-u1A8nZOw=w225-h241-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF2mbfzmThWDooT9kErQhz7TBMFRJGTPoGHmDMBwGysfi1Hcqj1cQLgxMY35rJ5LsjEgOwrDqG-XjZd5Vmm1ue1Uw58R_vCpvZbx_f9iNF3k_Ck12r2UcmonykfRrREk0fUWzsazg=w78-h79-v0
+When you haunt for a top of a corrective wave you look for confluence of a projection fib and retracement fib
+BONUS
+RTY, 120 min chart, Sep’18-Feb’18
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGllH9Ma6-SHEMkF7p473Idok_y9CvJcwf2DDLjY-p9kyvI_pHS-BHw69XD2riDgsP-jAXdp8YSAv_JvGzltdoc086wz6G_FCTIbdcF1nmrB5_JNhkkuRDaY7zcZdANb5Ot1ou52Q=w1280-h619-v0
+Stay away from obvious solutions. That down trend line was on the mind of many traders, too obvious to be a resistance
+RTY, 120 min chart, Sep’18-Feb’18
+BONUS
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF3WxadlKajohf2AGti6zGrBnMRWm-4v8tqcT7Ses7O5nEcazm0DsJZBOkv4aYj0A6NP9m_idS_J-Ywk5c4cKO4nPKRtLbnObnvJi7hSxKO7OsEeTWfIUYzOodrjMvzdbv-c1J4NQ=w1280-h588-v0
+RTY, 45 min chart, Dec’18-Feb’18
+BONUS At major 50% retracement
+Wave (c) = 176.4% of wave (a)
+Good but not great, I want more!
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave b of 5 becomes a new critical supportc
+a
+b
+c
+a
+b
+Subwave c of Wave 5 up
+c 3
+1 breakout level a
+b
+c 4
+breakout level a
+b
+Please note:
+Subwave C of the wave 5 almost always reaches the highest high of the whole five wave fractal. Sometimes it goes parabolic and gets as wild as subwave c of the wave 3. The reason is that at this point the vast majority of bulls feel euphoric. They are happy to see the price flying higher and do not even think of selling their holdings. In contrast, those who were unlucky to be short finally capitulate when price makes a new high. Last bears have to close they shorts driving price to its highest point. c
+5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGj9W3qqJ8tGj27wpLyUQUjKTeV9aSbmGjuI8ee3uqH-wkJF14wVz4OWD543Yci9DuNnmm8DSSCq557AIkzsyQ1tkJp5RAmGmmugmVbmJjNTLJTEpMvo0vSCCOnesfMREntARdd0Q=w1280-h588-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQESX_EpM1k-GW4CGDu20F6ogNdzWcs2xZy_vj38Mt6THvjnrw-TYkd5BHXBqzo51gHSfogRqt0_5Rww5n5964Q_TOEZeT4c8feU7vFZ0b74CXyGhAoaWw4aJJYl3NvcDFsYHbavPA=w270-h290-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFuQtVxoJP58Hhvc6cE4DGXuSWIDm6ruIcIYtXzRubBiHiUn5Ma4nABduCXCIGXFiYIbFEiRDafilLW8Iy4DilJYvK6S1W9KDPJp0TQwxFQmiPTzgPgrR2JAaVqU3K6o0mWW4hE=w78-h79-v0
+RTY, 45 min chart, Dec’18-Feb’18
+BONUS At major 50% retracement
+Wave (c) = 176.4% of wave (a)
+223.6%
+176.4%
+123.6%
+Wave C of 5 loves to stop at 123.6% or 223.6% of wave A of 5. Another less common extension is 176.4%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF3RQOsn19c_Qm6CZjK9Jp9_jQhZCakqDabFQOzCl1y55D0KDm7ZVplQwcJTWYp7e1ihqefRIaM7Kcvg3D2HOf9q5x0Kxu7OkW59ZDndNQiZdJJKUg6Po79VxqDWQHfWWaxRXXuGA=w1280-h601-v0
+BONUS You have a potentially completed structure, a confluence of fibs so now comes the question of execution. This is when you HAVE TO “zoom-in”, focusing on a lower time frame, 3, 5 or 15 min
+RTY, 45 min chart, Jan19 - Feb’18
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHjJEUBvFlIVf0hv6xhHIRWI-MXirvSY44XqREPAiKS38DlWkvKw3-7HyjraRMkEXZQ09CBXFa0-1eaTnJyMEq8qkPbPuFvquZ3qWYa4ZMWEO8UDTe14gybYCp_KAUkKAR2lBKBVQ=w1280-h601-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGaHiw6zMM5fpgAd540sZQ93pP0_hae5OpE7nR5yRpME78ksQGdUlkfJZlqy-IY3HB_yYj3I6-NMJaYFHzJEVhpg4paUTjyPWfb0HVQprLCPGeTO6ejPr-NogmV1Aew1WDAgCW2=w1280-h599-v0
+VVIX, Daily
+https://lh3.googleusercontent.com/notebooklm/AKXwDQESGwJbu5XR6_IqVT60m_hDHPExE1dQpJPQr-2B3KBqqXtbHJnLXPJRj6DZGiIiT1DuyEbQQ5kZbYYRGbBPHbboNAlnHShSUGgUp1ra6Rwn7za39ufR183COoHlIfgmNB03d15apg=w1280-h601-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFkobmSy7FdxF3fxE9qAD09o223QX7Ihdd7Vbi-qgCMaf8XziFXYujwWyu_sAPFFyNCEfcdw5BpcdDtsbUAiAINvR6_jg7DV-PHUaNvhYx5eba8XI5PYHQBdloHiuDPNWBha4OD=w225-h241-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHmbZDszqAKvW-yOSelNLRW_mfwaV2E5dr07DReOUpxz7GeFHS2n8hrTRT1kljJgmirgHkP2CanBJRXh45UdRrc5g99ElVn4OkBscuNIyvV4l2UDCXCuQ75MWCszVJi5kzZQTRItA=w78-h79-v0
+When you want to pick an ideal moment to short the top of the market you need to track volatility. The lower volatility is the cheaper puts you can get
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEepxrbiNvcLskyqdYGzs17gfyaFnoWq11FkbUCjAvqcKwTeEDmQ9sAh5phCrJ3JcGnQ7MlalU4i6lIQt3GJBXRTIN7bzgb3Sq_KzWCAA7qVTTdq2GiZ3Uw0MlicTlFurpgZZIIYg=w1090-h77-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHZiYK56tRn6tWcz8vFZqXOwFuwG1P0DL38GHDh9eTE7nmIlaiPLmh2P9m2t1OqA1kfeeLuCtYY3u86N1lSVl68LlfByaW2hhDOKZJntHS4wFtvRAwhI_X0nusYyAFC4g7rMHWzvQ=w1088-h83-v0
+Actual trades
+When I posted my tweet I added a bunch of “stinky” bids for puts. I deducted 20% - 25% from the current bid prices. That was at noon. And this is when I called it a day.
+Buying puts with “stinky bids”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGnuBhnhocykSuyY8sleyIQaocpP622fEvf87JT3JusBcz6yyb50n2gVeQ-GJcecr7L3VtKLWgGvMMyT0UwuOc7xbYNr2hptTv1_dthTjCFhOjNtlLYXkKWOoIgg-Vtb6JGKDveDw=w1280-h686-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGuNEZVlVkOy8fTvKe_RvzVqkDAh-IbC0dnndQVcmgh4XK6VaTvLoDLOdgvU1Gl8iGaNFhkmLcRo9rkMECGtnttL60puFvMLhpKP71wxOu2gswWBfXyQCnR3cAHYQ282RYsm8ymcw=w1000-h99-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFX4ysaK9bhAVoye__mZdCdHkrv0GyopZ8vFJm45gCnsK5MkaT498kWoP20k-e0X7eV0q6dzYIFLW53ayZLTndcmvSoczszbmU5Kpma3O2I_6XsFEckil3ZM8YriD37oUA6C1Sl=w1000-h203-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGtGyzkKROcxppCr-CH3i4yZo7xM_syxVMRA5af3lPpVMotZyEmd7fu3juKeLhu9nP3x04rNKV8wJF_3fJvURR_ML4Mo_umDB2F_NQNiaIdBuaJoktrGTtL2N__Q_A5g9a-AK4aTw=w713-h218-v0
+It’s Sick It’s Dirty It’s their job to sell you overpriced options
+Revenge is sweet and surprisingly easy
+But you should also play dirty!
+Published on YouTube on April 7, 2018
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHFGkXkLWH-9_77tuFd7JxKKXQudp8l0pKpuofBxEG3uFHWFEZOnY9Je4KS5ileRHa-PWScsjmpCaHMNBrD6pQg0S88v5iVVRlibHjRzzS6ugEsRext-o_8VEaSYnXL9Id9LH8T=w1090-h77-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQESmIkoPYBXlAK611mR9k36r4hYmqdUXVFjG7lVbAc2o1KzVHpyuKWg8Dj_WmLa8Zr7XxdAybsgB5NG7OmYvUbAqOLq9OjGW0FQssJUiIGUTgqW2kYh1Hyt1RS-aWfYq-i_vwfkeA=w1088-h83-v0
+Actual trades
+When I posted my tweet I added a bunch of “stinky” bids for puts. I deducted 20% - 25% from the current bid prices. That was at noon. And this is when I called it a day.
+Six out of eight bids got filled at close around 4 PM Two more got filled the next morning
+Buying puts with “stinky bids”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEWgb1EVQRVJn2AJGV47QYkV7YkIgopsXqqmEe-hlrF4RMdRYCb5OAeA3F661fBYAinXzTWmYeAkRT_bk7qGtqun5IVeg0IqNFzayA9ca_oKNtel2inhNMq2eB0WWUo84Of_MNc_Q=w1280-h200-v0
+Actual trades
+You have got to liberate yourself from pressure of getting into a trade. Those are my “stinky” bids that were left unfilled. You see the yellow color and order status “expired”. If they were filled I would have made x2 or x3 times more. But I do not care. I am grateful for the money I made.
+Buying puts with “stinky bids”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEAOFAAanjeNzvv-iyZbtIgHTq8IPzgVjgzWlXN6PD87t0OmoPA8kLC4PNVomUOclKjfpMlHEdxChvQ9671pcCqPKjKL4NG259kgZNpuO-g_RbXU2k9GbcwKJpinWuzDa5EzW33IQ=w1090-h77-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEgL8ziGoE_BXD8Kc6-2NuRZs4Hs_5Wa3GWZj8wpYUjMwbeGsymNJhPEaIhdtqvCa1cFU9uH94w7bHUfh84PId5uZp01xYhEZZGWAQOe5k9GPwycqS7wm1lmrnjVzW1R2EDMHT9VQ=w1088-h83-v0
+Actual trades
+When I posted my tweet I added a bunch of “stinky” bids for puts. I deducted 20% - 25% from the current bid prices. That was at noon. And this is when I called it a day.
+Six out of eight bids got filled at close around 4 PM Two more got filled the next morning
+At some point on Feb 5th my puts were 20% under the water. That means that the perfect strategy would have been buy them in two tranches
+Buying puts with “stinky bids”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHTk5sxACHuBeE9M8GLRRzxgjjXrbOFwpdMMCIx-DUjyyOhwH5KueRWjDvM2cwANfhgfj0ZKve7BnjZESAJdzrYisNiUfRI2_WVsfKknYPqMcyOE2nNTnIaze27U3jClF6daMZjGA=w1280-h602-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEDDKiIBcCZ31xwnN0j9_zmq0-Wofam9D0Rx7bi1TtnPSXmr25b1dvUqng4jdr8N7HZ4TC1urxRuVpdSsVGWLUjEhnulIJTKMl06OzfofQA8XHauTTt7nx_viKZu_e0M_QHjQX3cg=w1280-h599-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFvpSxpv7fu-KUJj36KSrWrqJHCOTSdCFct_gD8zbO4iBavu7XZtQMKu5ACZ2PwwDkbUau6JjSHu-nze9Ptiu-QBzrj1a9XsMMm8igsGD8YSNCA8ZKEdTvH8tns-oS7VONnnWxcaA=w1280-h603-v0
+Sold puts here
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEkAyUnQN6CPgnqf9ALc1qDS7er9zvrmJEgUUorTradGq0vsF9ge8qEnay3pTB41jfV9sNHywaekIlr2rgePNN0gk-2Rwlbo0xEe6jEh0xPGSkgFXdEkLhltyUitGtE6CV2F7hh3g=w1088-h77-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEfrNTzqiH8nbWzUs-1pHdgi8rSg0JJYg99i8MkDdkbz9S-MsWjybQI0aEWSF4tp9VNYlnFcyZPyubPUyrVuUhfKj9E-Ungwi7xdcwrCuI8-IMmglNo8aElHYeHqy-GXK6RjOmnOw=w1088-h78-v0
+Actual trades Selling puts at 176.4% extension of wave 1 down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHa63FIpS8RF2nelIWdPjSESK0ogUsonXghL2aZT15JgXc7JTWau15XKgNbdieWc6TN0nbtuZ5aP5epqSpqMI9LhgQYbCiog7riL4PxIIyRhVY0cZ02bSzfCPuTlr_UjVCwvK8WiQ=w1280-h608-v0
+7 Feb 2019
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG4UBLEQmN0y5n4lgzKgDkzLICXf6KFvCHZshClFw2EpXzAgSuhpbW3id3RdaJL2aknskdEQ5sg-0KVrznBbnGCjw3ngZlpw5xjfEK5QW4oCqzERzvWygrq67UQ-FFWM1KPs0oAew=w1280-h603-v0
+8 Feb 2019
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEkkfSYF40voMH4OxTCNZQTE4C2bgj85D02hRkV4MMbdYUMZQ9_-gx6_xV51olFEo5N3EWlEvnPG7pT0irH7n2wejgCGT4QjdnT0Q8IocdChBCxuAVmuEdV5NVXUD3d_VhyLF0U=w1280-h612-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEfOhSXEQGGqeLFBBnUdQJ3PjoQQ8IEhaHl__oM1Uhw9cj--7DTWw-8sMK7YyYWVQuspk53StmQn4ns2fIHDsa-8RpUAfnN-97YY0KKoMwonB2w2Ir3ZAw3Gp_H0RICavjJQdmxFg=w1176-h662-v0
+CASE STUDY Looking for dense clusters of projections by waves of different degrees
+BONUS LESSON: “How To Nail a Top of Wave 3”
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c )
+( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c )
+( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+Typical targets for wave ( a ) of ( iii ):
+Extensions of wave ( i ) up projected from the bottom of wave ( ii ) down: 100%, 109.2%, 114.6%, 123.6%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFKYArRhOzWkDOGn7SMWdXW9AtnjCtU_f_N9kdhW1YFMKS2D6_FK7hFFqqMwoJe7DpoPe39bzwGDpqtY5guvxuaKeTXSRv4QxwNxa9SofvesojaJCSPG6Lp7OzqF0xDaI8WGUtD9w=w1280-h597-v0
+Typical targets for wave ( a ) of ( iii ):
+Extensions of wave ( i ) up projected from the bottom of wave ( ii ) down: 100%, 109.2%, 114.6%, 123.6%
+ES 45 min, Aug - Oct’ 2019
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c )
+( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+Typical targets for wave ( a ) of ( iii ):
+Extensions of wave ( i ) up projected from the bottom of wave ( ii ) down: 100%, 109.2%, 114.6%, 123.6%
+123.6%
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c )
+( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+Typical targets for wave ( c ) of ( iii ):
+123.6%
+?
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c )
+( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+Typical targets for wave ( c ) of ( iii ):
+123.6%
+?Extensions of wave ( i ) up projected from the bottom of wave ( ii ) down: 176.4%, 200%, 223.6%, 250%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH_rysgZ-AlNH-SKD_Hvz053OFVuEdCIkssSItqHVfdCXnqctofL1A3qzwfPRwSPfzDXeGxjx1kwtzfeZ820y47ZAJR-MXuxi-7GvsCMSJuKsUuBm5rQCd0j7POHNPYpOqs4ZvxnQ=w1280-h696-v0
+Typical targets for wave ( c ) of ( iii ):
+Extensions of wave ( i ) up projected from the bottom of wave ( ii ) down: 176.4%, 200%, 223.6%, 250%
+ES 45 min, Aug - Oct’ 2019
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c )
+( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+Typical targets for wave ( c ) of ( iii ):
+?Extensions of subwave ( a ) up projected from the bottom of subwave ( b ) down: 100%, 123.6%, 176.4%, 200% 223.6%
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFWGpeCdCPLAjIqK3d1ywD-Ul49QTYcResdY7DkPH1UoQkgNwFPvSAiKZmTeq5Ns3Y362dDOUoTPOd21il_fHlRu52B5kKCW-Ef5JFhRvr8de_wXJJZsKM_hznb_GT-j9Yva8id3A=w1280-h632-v0
+Typical targets for wave ( c ) of ( iii ): Extensions of subwave ( a ) up projected from the bottom of subwave ( b ) down: 100%, 123.6%, 176.4%, 200% 223.6%
+ES 45 min, Aug - Oct’ 2019
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c ) ( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+Typical targets for wave ( c ) of ( iii ):
+?Extensions of micro wave i up inside subwave ( c ) up projected from the bottom of micro wave ii down: 200% 223.6%, 250%
+i
+ii
+iii
+iv
+v
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGGxMbS8wbXV6qd5SPsMgs1ou5IMToj7pBYr45Q3PkvsoY7oDT8Gj9h1m_WP6KBOxEtGfg27uz549snMmc1m8LCMkTdozU850Dh3_rils0gSlHNHuAWeCmhzhY45i7u0Q3Irs-4nQ=w1280-h636-v0
+Typical targets for wave v of ( c ) of ( iii ): Extensions of micro wave i up projected from the bottom of micro wave ii down:
+ES 45 min, Aug - Oct’ 2019
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHWQ61CAzUlkSLHoHpLjFCieJw_Ot8MfP405Ng-p40TTSnOhvT4uE6RiDX1J77tJmlcfbhFTmBSrUD5JhUZOpie771qY3ubjJCWzbCZI1v1OYjBv0nHBsAND18mGXWBFCvNPIMH3A=w1280-h608-v0
+Typical targets for wave iii of ( c ) of ( iii ): Extensions of subwave -a- up projected from the bottom of subwave -b- down: 100%, 123.6%, 176.4%, 200% 223.6%
+ES 45 min, Aug - Oct’ 2019
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHWWC6xioNEOD3m7Fw1i-aQ20jWTC027kYk_yuZZtQ7-vzAkJERdBTfg_iGQ3TRAFnxhOwnb05RMSbCop7j65rye0zQFNhkctUQbnNwYJG5n56zlmevLg4inNxUJyS8DTtyVfol1g=w1280-h620-v0
+Typical targets for wave c of iii : Extensions of subwave a of wave iii projected from the bottom of subwave b of wave iii: 100%, 123.6%, 176.4%, 200% 223.6%
+ES 45 min, Aug - Oct’ 2019
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH48_DT-YimV5hglzBLRD-bes3OJ-5BJyM4Dv69OuPRzroWmSe6gBRsegfBvOi5fMp_3teLKxhMHMVqanUOxiqIL13JTxBZvKRH6uezyCG8MEHW1-sMpnxjwYL40yErxEZbNH_ENw=w1280-h656-v0
+Typical targets for wave C in any A-B-C structure
+Extensions of wave A projected from the bottom of wave B: 100%, 123.6%, 176.4%, 200% 223.6%
+ES 45 min, Jun - Aug’ 2019
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEGR6aoJQGhltRY77CQU2mUfvdOK8eT1lTCj8Vsm3KBxXHzlxwRW0YSsjhCHmPxeEB4xjVI1ChivGM8ltoS6E5jOZGJr8EmbZ56T8Y4YzMEamcdsjzjquOedHxWzjOKf9epvs5pSw=w1280-h598-v0
+Target for wave ( c ) of ( iii ): We look for dense clusters of projections by waves of different degrees
+cluster 1: 3,100 cluster 2: 3,115-3,120
+cluster 3: 3,130-3,140
+( a )
+( a )
+( a )
+( b )
+( b )
+( b )
+( b )
+( b )
+( a )
+( a )
+( c )
+( c )
+( c )
+( c )
+( c ) ( iii )
+( v )
+( i )
+( ii )
+( iv )
+The Five Wave Down fractal with subdivision of waves
+Typical targets for wave ( c ) of ( iii ):
+cluster 1: 3,100 cluster 2: 3,115-3,120
+cluster 3: 3,130-3,140
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEx_AytuISU9qz0xQTcGRPS2V-nJ2VQEwdgKiENbluZ-65qJ-2uudd82igryxiZqtxirgnZ67tMoUrQ_wTLW5fLiNUe3lJSiPQreKBBEVgWEsqicoWdk8kVsZtGvOi9hzXZJaxvvA=w858-h693-v0
+A B
+C
+ac tio
+n
+reaction
+re so
+lu tio
+n
+- Starting point of A should not be breached by B
+- Completion point of wave C should either reach a new extreme or
+- at least to retest the extreme of A
+Main support
+The Basic Building Blocks of Any Price Chart: Up A-B-C Fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEEUl-tqchMP4q2eUAITRn3ljwMI8xg8top51FyQo7WJMWHlQNE53L0L9Fprxeyd0yMEKqktWDj5ejr0jQejob68fhTE2T2y9KNIT0HmvxziOI6iMvYAkaJ8wtSJEDs5qXKO0kEXw=w858-h693-v0
+A B
+C
+action
+re ac
+tio n resolution
+- Starting point of A should not be breached by B
+- Completion point of wave C should either reach a new extreme or at least to retest
+Main resistance
+The Basic Building Blocks of Any Price Chart: Down A-B-C Fractal
+A-B-C fractals: Your Key Takeaways from this lesson:
+Price never travels in a straight line for too long, it travels in zig-zags shaped as A-B-C
+Wave A is Action, Wave B is reaction to the first move, Wave C is resolution to both preceding waves A and B
+In up looking A-B-C fractal the starting point of the wave A is the main support for the whole A-B-C up fractal. Reactionery Wave B down may come back up to the lowest point of A but never should violate it
+In down looking A-B-C fractal the starting point of the wave A is the main resistance for the whole A-B-C down fractal. Reactionery Wave B up may come back up to the highest point of A but never should violate it
+1 2 3
+4
+In up looking A-B-C fractals Wave C either retests or more often makes new higher high over a high made by Wave A. In down looking A-B-C fractals Wave C either retests or more often makes new lower low under a low made by Wave A.
+5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGIaC8_SHTEY1rbZCLsiYwmHCWcTodeRefVjXo0WX4UE1_i5hevQ3KMgVdQoJUlPNCXjrBKKXgDvY7HpLnJPsaPHVlRhvGUnHKFMIO4HrabC1yheQk1ASCQFJ8I0ETgqGptuqGBFA=w911-h793-v0
+A B
+CCase Study
+MSFT, monthly chart, 1986 - 2018
+ac tio n
+reaction
+re so lu tio n
+Main support
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHIt0iXjCfs4Q5lUOvfITbYj6CUJnB2insWGwpCjVAJ1KLng2cHbu4tvIMhXZ6ZsaLkRYjGDIxkGdxP22WW5oxZt55tFEjDLcsdiERXYHaBMaxOIHK27WG5R5y_5ucblno4qfx5qQ=w1280-h562-v0
+CASE STUDY
+TSLA, daily chart, Jun ‘10 - Feb ‘13
+The Basic Building Blocks of Any Price Chart: Up A-B-C Fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGXCrXj_piM66fi0dE9b8IX5Ot3Yohv6SOQQWwo5qJba0-r-Df9gl5QJyVfl16wXw5qgCE0RI8Gd0AR8KIqdsPaK4_6TgAELeGG34GHC9holHsD4yXMHe2owvie30nnuHvIISdtfw=w1280-h562-v0
+CASE STUDY
+TSLA, daily chart, Jun ‘10 - Feb ‘13
+The Basic Building Blocks of Any Price Chart: Up A-B-C Fractal
+A-B-C
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHGbSkPLTi1ZbRgxT2HgNzeRAJhArDcTbr_60e7gB39lob2Faaezu_fQ-wHWzKEsX2s6w8ICwpLCYaT2SPqhHqiJWLUvii0JCXYvAXh1vblbFdtVvlcz47pjhqarPggRAKWzKhR8A=w1280-h562-v0
+CASE STUDY
+TSLA, daily chart, Jun ‘10 - Feb ‘13
+The Basic Building Blocks of Any Price Chart: Up A-B-C Fractal
+Bearish (a)-(b)-(c) of B down
+Bearish (A)-(B)-(C) of wave (2) down
+Byllish (a)-(b)-(c) of wave 1 up
+Please note: Bullish A-B-C fractal pointing up is followed by bearish A-B-C fractal pointing down
+(a)
+(b)
+(c)
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHw_6p_7xmAU3PSs2rxEFPTBi2H5fnyzh_tE0W9gqEuIJ4t5Si_Qk-cCv83ocXllNQLtOXePDP2W3taoTpBXVLYBn9jEXd3LQmBeg4uvaShFRtn1Oy1VOXEzxYgE6ncojGe9UDXHQ=w1280-h806-v0
+CASE STUDY
+Russell 2000 Index, weekly chart, 1992 - 2001
+The Basic Building Blocks of Any Price Chart: Up A-B-C Fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHdsaHK0n--lHuz91-RxCkabLMc0m2TctDqpHvphKva9L2Nw2qZKwRiZhJA5L3TT9cU-eX3EJnhEZEXQwMkmYKGNCKMI-bTq0rawPzGklUNhRvVT_reuGWP-FN_2H_mtCKwSmq9XA=w1280-h806-v0
+CASE STUDY
+Russell 2000 Index, weekly chart, 1992 - 2001
+The Basic Building Blocks of Any Price Chart: Up A-B-C Fractal
+(A)-(B)-(C)
+(A)-(B)-(C)
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHDZ9yjq1xIk77Wn9hvYgXq3TDO8GLaaAmGsOCyjJlBPRH2NTbKZYYui4QPzoM20LRR2iByZE5KL5pu1wAq2TG9vFFtZwQ4wIqeB0qEc1_6JySLgobuM1ExONp1Y1wtxe2Ie31-_Q=w1280-h806-v0
+CASE STUDY
+Russell 2000 Index, weekly chart, 1992 - 2001
+The Basic Building Blocks of Any Price Chart: Up A-B-C Fractal
+(A)-(B)-(C)
+A-B-C
+A-B-C
+A-B-C
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGMkEoN1h1qntKc3Q6bAMd_QQY5tn4MfoQqyhHU11RhKP-ER-z2nfBQIxFwW7iMETcGW74IU03-f5T7QrBzFekdRYQlYNcDMvEwfU-BFDckahfVfUeFQawpaNJWoAoF3oOEZyORpg=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+Fractal a-b-c
+up
+Fractal a-b-c down
+Fractal a-b-c
+up
+Fractal a-b-c down
+Fractal a-b-c
+up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHW19PxEEcpp53A9VGlei_ia0lH5m-8ocaZUqT9aJj54TIlNS7eioBAj1bwvsW84OBi7BdofTwhtf5RHM3QF0aK05sSSt6HaizfKZt96MUJ252GIdq2buRjhndNNwSvgxJuo_Q3=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEpEPTzmRGo5SLL3rnT_xV_gVkubJ4vetkZKDimAv0xtnZyunZNvc0eZBMW_582n-FJytNGycW6IkoCC3Gddb0nWIC6owW0l0SxAEmOerIPphOxibY0dzb6lzF49OkNmdsX5Nuemg=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 1: Wave 2 never goes beyond a starting point of Wave 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHgIA8Ne6YHrqzHhWApyqqdQLt70PcwbvjTxUpJ50R9dskRqRTxv9KXaqvoBaMa9-1W6BUdY6NAsheLYrPoeaq38RoMqErPlFQupKCnvLprO822bwYXznrpPa105ECiFe-O7GklcQ=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 2: Wave 3 always travels beyond the top of Wave 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHLvMCQBP3BHiEwWa75JOwJoXWyD1TgTCX6p6DD6XfuqYm6ZSSXDrcPq7upFS3IgA2ULYXv1LCuGAemLUkGunYGn_hUOTjN732MbHlp4A_eezAZdhn_Pb_4scVOqM3WwKFmjTq-tw=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 3: Wave 3 can not be the shortest wave, should be longer than Wave 1
+Le ng
+th o
+f 1
+Le ng
+th o
+f 3
+Le ng
+th o
+f 5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF3txFGwpmmx3fXDbIDMHDdIjHOJurzl0iibnCzOPyPWLKyy9Jq1srUx_JeA6GpqVMCmXLOi-WEw9XafigNr_bIs2Rh0pYktb5tp1iwYewWhhnOa78NQLRhf4Rpj1Ml1Jn25sdNzQ=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 4: Wave 4 never travels beyond bottom of wave b of 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGuNW4cVSm9wsrLjEquLAABJ1cpXHYWC8CssGbQq5jL96fEIezuoefKXekTvMVWEUKuJUbn8d90aCe9j9JWT9JFBsU7s-Hp69u-9ubcnip67cC3Evr7nwf9ZGzptEDxDK_spZf18g=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 5: Wave 5 normally goes beyond the top of Wave 3
+In Up moves prices reach new higher highs
+In Down moves prices reach new lower lows
+Main Rules defining the Five Wave fractal:
+Wave 2 never goes beyond a starting point of Wave 11 Wave 3 always travels beyond the top of Wave 12 Wave 3 can not be the shortest wave, should be longer than wave 13 Wave 4 never travels beyond bottom / top of b of 34 Wave 5 normally goes beyond the top of wave 35
+Your Key Takeaways from this lesson:
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG7IIll_tgu11ywzdST_S-e9SdWc-vh_O39J5bJWMxko0ZdLcip_--nyYiD3XbKrSw-9MNdkqNNavXFFOsdQrfrZvpBNkTeiQ8mZSesL2Y6mFG4krMIj7KeHh6qaT9FdM_pqMGDSw=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 1: Wave 2 never goes beyond a starting point of Wave 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEnRkviPgDAB6oDEh0_O5UwrYnZrSutx7rkqiOQ7hIFC2aqOz01ZEE3-3lTjvhO_RPphs_FzuDN20sMaz8FBuwcFDLhjDqFia80B4IlWbgwiZfa6q2EHGQmkdwJ4_ZVxGIdGOReMw=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 2: Wave 3 always travels beyond the top of Wave 1
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEZWwxBlbOGIbF3Q38V-r5BkkIgnnLtxZeN3IQ8vt5luedZCMhhe039Fl7LTzbAQ17KAt84RPq7iVvqeHZypTP1MDKxfG7F98MgbGs23Cqa30XFF84miKoWt5B2Yu7mUL9jcdF8=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 3: Wave 3 can not be the shortest wave, should be longer than Wave 1
+Le ng
+th o
+f 1
+Le ng
+th o
+f 3
+Le ng
+th o
+f 5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEG5kcdHY3e-IxhEi8WW-vPW1JGiy2p8eXIdVHn0KgzUEuc03qf8MmxYOMU7SeyW5uLKOyootxxkWho9szKbqc5-7JB0HQBEUnjSyy3s1DxC1e81EU_5fI2SSs76aK0P19QN04LFA=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 4: Wave 4 never travels beyond bottom of wave b of 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHtFJ99rZ6cztVjLkYnRs_JouVzTLoVsjbov1TyI1E3lIErR3bdoBa07Qvd9RiFUpaLYmpdeuRkI8BLTS1Wyxw7PnRUGvnE3k2ypRocI3wJJRhZJh7bP9lli5rUdDv7tiDIPXVFIQ=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Rule 5: Wave 5 normally goes beyond the top of Wave 3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFWxHND2LT78WWiVxIMP1aaoB-lkJxp1-cGPSQlj7ka_drh7yXMs2jOpQe16jIS-n1XMU8r2lzmaDqWwDqqbRN1qWjgYj34tVObnZmrL4sjLXkdr4q0m5ErXAxKTiwmthvvW22O2Q=w1280-h867-v0
+CASE STUDY
+MSFT, daily chart, 1993 - 2000
+Impulsive Waves ( “Five Waves Up” fractal )
+Higher high Higher lowLower high The first critical support
+breakout level
+breakout level
+breakout level
+breakout level
+Moving support higher
+Mov ing
+su pp
+ort hi
+gh er
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGmd4FKQnQdqo-vEDtKEZjwN22z2bgsS3LDDnGMUy3fAb9m838NIumxazRlIOB0LThwTF8vyZU9cH-O-L9_3wszzhwCOM777wfdFunKM4Buc8fj3KyMAaHJWUKccVZmJ48HoMt-=w1280-h609-v0
+CASE STUDY
+GILD, daily chart, Jun’94 - Sep 2000
+Impulsive Waves ( “Five Waves Up” fractal )
+The first critical support
+breakout level
+Moving support higher
+breakout level
+breakout level
+Moving support higher
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGZbICq-Crr5jf9botDhzrkLkQgue2r-tYN88CJEIaQUxvZvWFifvgz84xESLlBrlDzklFlJpIvuefc3Gd3cL08bCznfVku90__p1_aFVmByVI-k2mur6usMuq2Buc6I3vFuVwPOg=w858-h693-v0
+A B
+C
+The Basic Patterns ( Building Blocks ) of Any Price Fractal: “A - B - C”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH8s3Ova4pwH4tKhJsoB3oD9-9u4Fs-WtruZDUZv9DRuVBdCGGUFoAEYqEnb7zGLurQKMz9B2Ppj4XY5kP7wrqcU33QwVbHRR7ghXHndkV_iB3X3k7YoWqxAfEScHiBcf4bx7f7rQ=w1068-h696-v0
+The Basic Patterns ( Building Blocks ) of Any Price Fractal: “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGIhT2Ht2rjr8ChXXOVRoYWVV-70OfGUiX2WN960Vr0HlgEsQHnL5RKvgW_HuZO5DssZXOHWBPRPyBk7XxWo1LP_KawVlPvRyIfncZMBbumO3Ez9r1zxQTzqvGiqUEMFeuUlz2D2A=w858-h693-v0
+a b
+c 1
+a
+b
+c
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5 A
+a
+b
+c B
+a
+b
+c 1
+a
+b
+c 2
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5 C
+The Basic Patterns ( Building Blocks ) of Any Price Fractal: “A - B - C”
+"Fractals" mean complex patterns that are self-similar across different scales. They are created by repeating a simple process over and over in an ongoing feedback loop.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGwyQ7TpHNepS6he_ixTD9eg6p2fcJeSGTd3cUrGevCvKavSQeMY6QxV7R-CuNlfk3UOAzXXDKQ-r6Q8kJN7wh60bGe_vZ5pIB3yDS0O9VPIjzV9i_3Awgmi6AYtxw55l9qvWzD=w400-h597-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF7tdPwuS9GFMks2k2O_relt_6pFMOPy-Y9thlu0bv4sskcj04ug5O93cByzpJ8a8JKl-9DYVhicn6XIe9piZtGEXf15wecFPUx3XK0PLIZW6VWjgfqRyKkKPpzRJ7mT03Shsfj4g=w270-h357-v0
+The Basic Patterns ( Building Blocks ) of Any Price Fractal:
+“Five Waves Up” “A-B-C Down”
+By combining these two main fractals together we will get the very same fractals of a bigger size!
+https://lh3.googleusercontent.com/notebooklm/AKXwDQG2H57mhUqKOUCj07YDZ_p1QyFsEYYREUNoVPQCX8-sCvsq1tKzvUI-FGf_bsw_Sj30Lng3JiHw_nKo9LsFqji859Yp39J2HikyU9cD0b4Js5-HsB3q7KDUjtWqxYqPfZfaz7GPxQ=w844-h806-v0
+A B
+C
+By connecting two Five Wave fractals ( green) by A-B-C fractal ( red ) standing in between of them we get another A-B-C fractal but of a bigger size!
+Composition of “A-B-C Up” fractal
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHYQ2ZGaU31Ae7CUT0iTYy-BjNrpmDeeNtWwElwU5_f1NE-m6Dzmk67FLFStMe5_PyodtXb6lYdoH469i-MuMIsh4cj_c2x8-0kHzo2agL4y0I2IgynKV7Zdxi_NPBq9Ngphq2yYQ=w1280-h849-v0
+Composition of “Five Wave Up” fractal
+A
+1 C
+3 C
+5 C
+A
+A
+2
+B
+B
+4
+If we connect three A-B-C fractals together we will get Five Wave fractal of bigger size
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGEyELDf5WYwCOJK616eTaq29ptkiFemGbAAVyZ_Kb0o8DhXjr7Or2lDUyboJC3C2msKeqKCJg9xCA0RqW4StUgK1pj72XVwilJoaZtRKNsUNA-vI5q0Xu7wrWSV6FkPS6WPZIF7g=w1280-h625-v0
+A 1 C
+3 C
+5 C
+A
+A
+2 B
+B
+4
+( A )
+A
+C ( B )
+A
+1 C
+3 C
+B
+B
+2
+4
+A
+B
+B
+A
+5 C
+If we put in between of two Five Wave Up fractals one A-B-C down fractal we will get one bigger (A)-(B)-(C) up fractal
+Composition of a large “A-B-C Up” fractal
+"Subdivision" means the division of a wave into three, five or more waves or subwaves of a smaller size ( degree ).
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEQj3YEhAC1NIgH3EUNaR5lmlYfppJOKjhTy4h75JYBkRF6AhWxxMlK-x-9c8PHvqwJ1Nx6GZ5V9ckY8I9tOB8QtNnop--LSzagDY6N1gB7fi9J2PYDNhWD5A43W4F-icV9pTNl=w858-h693-v0
+a b
+c 1
+a
+b
+c
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5 A
+a
+b
+c B
+a
+b
+c 1
+a
+b
+c 2
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5 C
+The Basic Patterns ( Building Blocks ) of Any Price Fractal: “A - B - C”
+A sequence of two Five Wave fractals connected by Three Wave “A-B-C” fractal together comprises another “A-B-C” fractal of a larger size
+"Subwave" is a simple fractal ( five wave or three wave A-B-C fractal ) which itself is a part, or section of another fractal of larger size.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFA8w1z2tycUo4XetNJbhRPvTXSBnP0geLgSmikc69aNtEUK_THoP59E201b0atnu2hhJqfVbFTxK-KCMOcKjUlGQ-Ae7jx1wl6e3XUYvcpkdEHfd6YmvabUXa2-icCNIyGjf3m=w858-h693-v0
+a b
+c 1
+a
+b
+c
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5 A
+a
+b
+c B
+a
+b
+c 1
+a
+b
+c 2
+a
+b
+c 3
+a
+b
+c 4
+a
+b
+c 5 C
+( 1 )
+The Basic Patterns ( Building Blocks ) of Any Price Fractal: “A - B - C”
+Subwave a is a part of wave 1 which is a part of larger wave A, which is a part of larger wave ( 1 )
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEPhxMCzt6i_XwZdrNSvjiLCNOCdUpxq4_vosuAKOGIsUmi7EMYtZFk0dcfUWGxXtkikPBnVTcuOZo4JYQm6M8Vw3Oh-HGMfvY95E0OjG_NrsLPa4TdlJe-e3atFa209MFhzO2B=w1068-h696-v0
+The Basic Patterns ( Building Blocks ) of Any Price Fractal: “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+This fractal is subdivided into five subwaves 1, 2, 3, 4 and 5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEKlirqAYxt_ktwlkqlPzFSdZzwCyhmYuarqOF2u1-mTOPIu6apZZxGX0Gar0TpiGDCPMl-ESQZz1cPOoHG_vtGuSa_h0DWLxjM4afa2WuMGmB0Xsxwf2CpIE-diGjxraeg7pEtTw=w1068-h696-v0
+The Basic Patterns ( Building Blocks ) of Any Price Fractal: “Five Waves Up”
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+This fractal is subdivided into five subwaves 1, 2, 3, 4 and 5
+Each of waves 1, 2, 3, 4 and 5 is subdivided into three subwaves a, b and c
+Waves of smaller degree are parts of the same type of waves of a larger
+degree1
+Any two “Five wave” fractals can never stay together, they are always
+separated by three wave “A-B-C” fractal4
+Any price chart on any timeframe can be broken down into sequence of the
+“Five wave” and “A-B-C” fractals connected to each other 5
+Your Key Takeaways from this lesson:
+Waves 1, 3 and 5 in the “Five Fave” fractal are subdivided into five waves of
+a smaller degree2
+Waves A and C in three wave “A-B-C” fractal are subdivided into five waves
+of a smaller degree3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFfO9r_fxi317WkuOimmAjBtL-EeVQkImm4PpUr3dlDR_NgxrB0MjD39Zq8MTAf1d9caryTrYS6QqeNRrpHDGq4qgPUe0Tpa1F4QfICq1H2uyjslPbQjiGzOslYNT1FyqUO1DiAbA=w1068-h696-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE0Egdtpgij1PqWhwtJrbEqLlRVNIm2TfMfdrQa4CSKp2ddyN3hUHAr0a_eUAXYJxZP5F9MzXAN3wJGq75tiIxAetL0M2ERlw2DxJcfyas7XV6uXEigM0bR-H85hBXSaaUzEAesrQ=w1068-h696-v0
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+a
+b
+c
+i
+a
+b
+c
+a
+b
+c
+iii
+a
+b
+c
+iv
+a
+b
+c
+v
+Degrees of Waves
+A
+B
+C
+1
+A
+B
+C
+A
+B
+C
+3
+A
+B
+C
+4
+A
+B
+C
+5
+Why we label differently two identical structures?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFGZDRmU8WmcVBEeXIHpAxc9WJsgBLKIznl_YyQmHCeqf94EvIkcKMMVEpv-hafmF6HehYdYaLdk5yFJ0Htr8pe17UEjU2K2dTC1mzT7xKe6_bGE3j-BoyyMZXLIvMhMUZ6VckloA=w858-h693-v0
+a b
+c i
+a
+b
+c
+a
+b
+c iii
+a
+b
+c iv
+a
+b
+c v (a)
+a
+b
+c (b)
+a
+b
+c i
+a
+b
+c ii
+a
+b
+c iii
+a
+b
+c iv
+a
+b
+c v
+( i )
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+(c)The smallest waves are labelled “a”, “b” and “c”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHe3hlUIp_XjKQiCaKwfXi5t3I-CqFZRl4BZP-tjhhZtjrA87DtW9dqtKU6xkaanQXH2cS558kfiRTk7gl8lnW8WnS9624HUfMIK6-rgojcyW6LJUkWUNrhry0YvhloHfLTW-Vvog=w858-h693-v0
+a b
+c i
+a
+b
+c
+a
+b
+c iii
+a
+b
+c iv
+a
+b
+c v (a)
+a
+b
+c (b)
+a
+b
+c i
+a
+b
+c ii
+a
+b
+c iii
+a
+b
+c iv
+a
+b
+c v
+( i )
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+(c)The smallest waves are labelled “a”, “b” and “c”
+Waves labelled as “a”, “b” and “c” form waves “i”, “ii”, “iii”, “iv” and “v”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFjLXPgFrdxXYhn5s36i92HjUjybu3ZCxweR68q_UlXhUnB3DpSFM4SWOJuC_7CLcTm7PZZud2n1d5bNLs19wzKqLUwbMYgEGJiBDidH6nKoszT5_vCzpDYwIVSdZod88vjfUAP=w858-h693-v0
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c)
+(a)
+(b)
+(c) (iii)
+(a)
+b
+c (iv)
+(a)
+(b)
+(c) v A
+(a)
+(b)
+(c) B
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c) (ii)
+(a)
+(b)
+(c) (iii)
+(a)
+(b)
+(c) (iv)
+(a)
+(b)
+(c) (v)
+1
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+CWaves labelled as “(a)”, “(b)” and “(c)” form waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHUqSEsXfSzuTELeKIGs7rI63Sfwo5rgm7F3Pf5OX8yhuLLwLxANE41OWUpJD_FaqJ_KobTyzDMxVabW8JI5R8_v3YJEDTV7BMtpzoNDPQkvBSqBOIRBhB75J09TwAm9VArjRm96w=w858-h693-v0
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c)
+(a)
+(b)
+(c) (iii)
+(a)
+b
+c (iv)
+(a)
+(b)
+(c) v A
+(a)
+(b)
+(c) B
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c) (ii)
+(a)
+(b)
+(c) (iii)
+(a)
+(b)
+(c) (iv)
+(a)
+(b)
+(c) (v)
+1
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+CWaves labelled as “(a)”, “(b)” and “(c)” form waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)” are of one degree higher than waves labelled as waves “i”, “ii”, “iii”, “iv” and “v”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEdntaVanjweA9QEUGyp_QJ3Jo7HETYSsQxKNxJgnFl9wO02cb70HaTZB-xumVstcmLyMzU-xunVfBS569dl-sYIIGhN747D7uZ0cYlybWBhW5gV_st-mrGcUJQIDxFj-Iip967xg=w858-h693-v0
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c)
+(a)
+(b)
+(c) (iii)
+(a)
+b
+c (iv)
+(a)
+(b)
+(c) v A
+(a)
+(b)
+(c) B
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c) (ii)
+(a)
+(b)
+(c) (iii)
+(a)
+(b)
+(c) (iv)
+(a)
+(b)
+(c) (v)
+1
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+CWaves labelled as “(a)”, “(b)” and “(c)” form waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)” are of one degree higher than waves labelled as waves “i”, “ii”, “iii”, “iv” and “v”
+Waves labelled as “A” and “C” are subdivided into waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEAPr_Qi2k4irOzXjDLf8TurTJCNGJ6WU2jtuWSlV7zdGo0EOCitShYVzyOquJvV1X0-8m3n0rKUzcUJ1dJsB96zhm9-he2CztCqFpLD60OXjHR5eH8WgQt-42BJS7VekO7IbX0ug=w858-h693-v0
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c)
+(a)
+(b)
+(c) (iii)
+(a)
+b
+c (iv)
+(a)
+(b)
+(c) v A
+(a)
+(b)
+(c) B
+(a)
+(b)
+(c) (i)
+(a)
+(b)
+(c) (ii)
+(a)
+(b)
+(c) (iii)
+(a)
+(b)
+(c) (iv)
+(a)
+(b)
+(c) (v)
+1
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+CWaves labelled as “(a)”, “(b)” and “(c)” form waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)” are of one degree higher than waves labelled as waves “i”, “ii”, “iii”, “iv” and “v”
+Waves labelled as “A” and “C” are subdivided into waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves labelled as “A” and “C” are of one degree higher than waves “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves labelled as “A”, “B” and “C” form waves “1”, “2”, “3”, “4” and “5”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHakUCchzcuxYat2NPv5mM6p6D8G2T5yC2qkF3sLCzrjE8uiOdioRexLaORBOi9FpMRE3s2hywwUzQz9Ieb35kqHWUG6bDhzOqi4p8K6Ky0DTBsBrNtTHML4jaGqc-RJd0Qse-NwA=w858-h693-v0
+A B
+C 1
+A
+B
+C
+A
+B
+C 3
+A
+B
+c 4
+A
+B
+C 5 (A)
+A
+B
+C (B)
+A
+B
+C 1
+A
+B
+C 2
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+(1)
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+(C)Waves labelled as “A”, “B” and “C” form waves “1”, “2”, “3”, “4” and “5”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQElvun6ziamG-Os7-7rUlpTNzgJI_PPO5AgNLuWhSdSVz3_VZlZ68GqAywlk4fbkO5_e5N3jFtQ_fu36O5AgSzxzeK904V08w02UJlOWnZ8Vq96eNA0IZhI3WaiRCONKu_1XrV1=w858-h693-v0
+A B
+C 1
+A
+B
+C
+A
+B
+C 3
+A
+B
+c 4
+A
+B
+C 5 (A)
+A
+B
+C (B)
+A
+B
+C 1
+A
+B
+C 2
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+(1)
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+(C)Waves labelled as “A”, “B” and “C” form waves “1”, “2”, “3”, “4” and “5”
+Waves “(1)”, “(2)”, “(3)”, “(4)” and “(5)” are of one degree higher than waves labelled as “1”, “2”, “3”, “4” and “5”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHpggETSpX1wB318TCMVtcUxZCx2ShXC63P0IcWb5Lvg3mw7OXnqqfRQ7OpvjJjUDZ64sPEv-MbzbXxmT9aB5cT1opgoWNQ1rgG4GteYX8ilPh_JgaDv8x3hVY8cCVXtLUZutnr=w858-h693-v0
+A B
+C 1
+A
+B
+C
+A
+B
+C 3
+A
+B
+c 4
+A
+B
+C 5 (A)
+A
+B
+C (B)
+A
+B
+C 1
+A
+B
+C 2
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+(1)
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+(C)Waves labelled as “A”, “B” and “C” form waves “1”, “2”, “3”, “4” and “5”
+Waves “1”, “2”, “3”, “4” and “5” are of one degree higher than waves labelled as “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves “(1)”, “(2)”, “(3)”, “(4)” and “(5)” are of one degree higher than waves labelled as “1”, “2”, “3”, “4” and “5”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGKjOYRj6RQbunM1toOn6PIuCkAwATE-9gZFkhsvmWv5C5DBLGy8pJskRgQxkFMQpjkJtsspHKgcyenmoqfceM6dgK8tmkMMIm5xMkxxJScw12YJvfpy_cYSlCLyyOm1EcNVh_J=w858-h693-v0
+A B
+C 1
+A
+B
+C
+A
+B
+C 3
+A
+B
+c 4
+A
+B
+C 5 (A)
+A
+B
+C (B)
+A
+B
+C 1
+A
+B
+C 2
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+(1)
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+(C)Waves labelled as “A”, “B” and “C” form waves “1”, “2”, “3”, “4” and “5”
+Waves “1”, “2”, “3”, “4” and “5” are of one degree higher than waves labelled as “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves labelled as “(A)” and “(C)” are subdivided into waves “1”, “2”, “3”, “4” and “5”
+Waves “(1)”, “(2)”, “(3)”, “(4)” and “(5)” are of one degree higher than waves labelled as “1”, “2”, “3”, “4” and “5”
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGRmHIYxUjAU1CA5A1nXn8uS8_gx4UGZjt4DgJ5fN8FrP-iD8e6DK0Q7IwZodhBjlJWo2CpirGbFA_eCl6QrZxcanDwY6p_qp_wg1T9xUftSDQ3Z9aqBUkEYYDFw-FTja9heNz7bQ=w858-h693-v0
+A B
+C 1
+A
+B
+C
+A
+B
+C 3
+A
+B
+c 4
+A
+B
+C 5 (A)
+A
+B
+C (B)
+A
+B
+C 1
+A
+B
+C 2
+A
+B
+C 3
+A
+B
+C 4
+A
+B
+C 5
+(1)
+The Basic Fractal Structure under Harmonic Elliott Waves “Five Waves Up”
+Degrees of Waves
+(C)Waves labelled as “A”, “B” and “C” form waves “1”, “2”, “3”, “4” and “5”
+Waves “1”, “2”, “3”, “4” and “5” are of one degree higher than waves labelled as “(i)”, “(ii)”, “(iii)”, “(iv)” and “(v)”
+Waves labelled as “(A)” and “(C)” are subdivided into waves “1”, “2”, “3”, “4” and “5”
+Waves “(1)”, “(2)”, “(3)”, “(4)” and “(5)” are of one degree higher than waves labelled as “1”, “2”, “3”, “4” and “5”
+Waves labelled as “[A]” and “[C]” are subdivided into waves “(1)”, “(2)”, “(3)”, “(4)” and “(5)”
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c 1 hour
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c ) 4 hours
+1, 2, 3, 4, 5 A B C Daily
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C ) Weekly
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ] MonthlyWaves of the highest degree
+Please note: We need degrees to differentiate waves of different magnitude from lower degree waves that are their components and from higher degree waves that are composed of waves of that degree.
+Degrees measure relative size and position of waves in relation to component, adjacent and encompassing waves.
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ] Waves of the highest degree
+Please note: When we open a chart we identify the smallest a-b-c fractal off the important long-term top or bottom. We count that smallest starting fractal as the lowest degree waves “a”, “b”, “c” comprising together wave i
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ] Waves of the highest degree
+Please note: When we open a chart we identify the smallest a-b-c fractal off the important long-term top or bottom. We count that smallest starting fractal as the lowest degree waves “a”, “b”, “c” comprising together wave i
+Once we identify the following waves ii, iii, iv and v we label that five wave fractal as ( a ). What we did is that we counted five waves of the lowest degree that forms a wave of one degree higher
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ] Waves of the highest degree
+Please note: Once we identify a completed wave ( a ) we look for a corrective a-b-c move down which we label as ( b )
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ] Waves of the highest degree
+Please note: Once we identify a completed wave ( a ) we look for a corrective a-b-c move down which we label as ( b ). And off the low of that wave ( b ) we start counting again small waves i, ii, iii and v that would comprise wave ( c ) of one degree higher
+Degrees of Waves
+Waves of the lowest degree i, ii, iii, iv, v a b c
+( i ), ( ii ), ( iii ), ( iv ), ( v ) ( a ) ( b ) ( c )
+1, 2, 3, 4, 5 A B C
+( 1 ), ( 2 ), ( 3 ), ( 4 ), ( 5 ) ( A ) ( B ) ( C )
+[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ] [ A ] [ B ] [ C ] Waves of the highest degree
+Please note: Once we identify a completed wave ( a ) we look for a corrective a-b-c move down which we label as ( b ). And off the low of that wave ( b ) we start counting again small waves i, ii, iii and v that would comprise wave ( c ) of one degree higher
+That completed fractal ( a ) - ( b ) - ( c ) comprises wave ( i ) of one degree higher
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHbm6gUWI9s2kvx3fhPJK9dMhFIEXL6kEY98K_zEGKiJREm430Q5wJk2m1_ifTh1-DGI-bJ7t8Bu0Cr-517wVqptnxlQ5DotYeacTryNw2OGK9Qo5R1JVKrKc8UZq7226tzwZYjLQ=w1068-h696-v0
+a b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Impulsive Waves ( “Five Waves” fractals ) Direction: Up
+pr ic
+e
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE6o9zXYlWdI08ea8W-fD0r71vuXJ96OQomSbd6XVPDZDAXG6wtkMzdR3lpY6b7mYW2oHg7ckjYzqD3ZdLx7j2vNGB5ZriJK0We0UzVX5nhtmihHTeZWZmvWNsguHbQEv7bNgl4=w1068-h696-v0
+a b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Impulsive Waves ( “Five Waves” fractals ) Direction: Up
+pr ic
+e
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF8E9a6WvGgkp7H5IY2qK2htvoL38_YPFG8v7zfDH2RziKvIkfLc5Is7_mimltBTu2xEDzaJvGck8O8kwS8hbKadFN33LtqbKfzpDETqdYeMKBo25iAjNZmRegxsskLyg8nFjAixQ=w1068-h696-v0
+Impulsive Waves ( “Five Waves” fractals )
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5Higher high Higher low
+Direction: Up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGk8gkHoZ7aXkVwkdFqXQPdvpZrkYdTjfico90Mdz7D9rf8eUfiR8wiy13qep33Vy-9wG8TLuKV_U69IjNGscBkfKGIvOi6SBwC_bgbzRsRh-XMy0xrZ0Dy4LU0q72yPVliot2tfA=w1068-h696-v0
+Impulsive Waves ( “Five Waves” fractals )
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5Higher high Higher low
+Direction: Up
+Please note:
+Odd numbered Waves 1, 3 and 5 manage to drive the price in the direction of the trend
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEnu6-aNj6tlysIeGqlt4CBIpETgzqnzhnuwjHfAP0IzxRtD_iHqk0FqTbCFK1eRSyGSFaJ4L7hbO95AB9x6Yq6x8gUpxzMtO_HqGc2HQSds8q7vdwsP-QoH503S8ZpfdDRhD2cGw=w1068-h696-v0
+Impulsive Waves ( “Five Waves” fractals )
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5Higher high Higher low
+Direction: Up
+Please note:
+Odd numbered Waves 1, 3 and 5 manage to drive the price in the direction of the trend
+With every push bulls prove they are stronger and price reaches new Higher High
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHhNnaaP0_AjH2z1wViO7XNALONxck26C4LMq5OcAcds4PShsbFkCHfGlrwkvwOe8qOhDLseqJmoVNlnp2RLrvEILAHWSMpvxFcnzM_fzrP119bRMqVkDVvKpJkfnP1pXd64fkFHw=w1068-h696-v0
+Impulsive Waves ( “Five Waves” fractals )
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5Higher high Higher low
+Direction: Up
+Even numbered Waves 2 and 4 are countertrend moves. They only temporary interrupt move in the main direction
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEKhke7rOf5mUA229uz4x3w0qEhw9VSCzQueUBzU8Ifg0c4v165vN_h8JzxtcAvDOhT_l65PV-0cVk7ttfMK_l8UkwL_4MmmS9EoIetP6Nn4jtHxDHyXtViGuVUI6eXpJ0wYnhR=w1068-h696-v0
+Impulsive Waves ( “Five Waves” fractals )
+a
+b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5Higher high Higher low
+Direction: Up
+Even numbered Waves 2 and 4 are countertrend moves. They only temporary interrupt move in the main direction
+We call countertrend waves “Corrective Waves”.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHZGChdldXtD9bmctDyvgdvHxp5RyScrQNojzbPyJdkrnFNLxmKfm4cmjwCzgchnnleTGooczcm1ivjKkVHkW0s3cuKToD4fzgUuNNOLgw9R7SMdPc37joux94EDdQ9jL4TqkC_3g=w1068-h696-v0
+a b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5Higher high Higher low
+Every counterattack by bears only shows their weakness because bulls manage to stop them at higher prices
+Impulsive Waves ( “Five Waves” fractals ) Direction: Up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQESQi5_jMCeoJx8q3RpYCTsO3_MfZnAw7U8WSzzOJMB12GJOXPoiRQ8rosZuOXR3OV3hulUkacAPe979MV5GzB8EttFAvmMuMPMR5Aw9MiNmWk247AJOiHgZZ4nCsN5PyduMKhDSQ=w1068-h696-v0
+a b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5Higher high Higher low
+Please note:
+Up Trend is a sequence of Higher Highs and Higher Lows
+Impulsive Waves ( “Five Waves” fractals ) Direction: Up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF6iL4cfZXI0ssTI0c0rok_Fa31rLHpbOV_EBV7Q5d0n-LkfUSJDOc-UyEwrKU_VZUhDeV7CwS_Vq_vSEJVCFlVUojXJqBisOO2JBQsxfeF9REvXeXedKHxtccXpilpVqH_cpIARA=w1068-h696-v0
+a b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Higher high Higher low
+Please note:
+Up Trend is a sequence of Higher Highs and Higher Lows
+Every Trending Move has Five Wave structure.
+Impulsive Waves ( “Five Waves” fractals ) Direction: Up
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH2uwz0p_fFFPkk25XLIu0MZvtaMg2Fk1W52GrsdTeWk5UKuSpOqeHfp8S_7ARFmVQXD0oDPFztLnQsN51yjoefzVI0eelL2W0N8lu0SsuTI6JUE2Do89wSyXRi0ztPgZ6UGikQEA=w1068-h696-v0
+a b
+c
+1
+a
+b
+c
+2
+a
+b
+c
+3
+a
+b
+c
+4
+a
+b
+c
+5
+Higher high Higher low
+Please note:
+Up Trend is a sequence of Higher Highs and Higher Lows
+Every Trending Move has Five Wave structure.
+We call a Five Wave fractal the “Impulsive Wave”
+Impulsive Waves ( “Five Waves” fractals ) Direction: Up
+"Impulse" In physics it is a force acting briefly on a body and producing a finite change of momentum.
+"Impulsive Wave" In Elliott Wave theory is a wave (fractal ) subdivided into five subwaves driving price into new territory and creating direction of a trend.
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF0WfO5yYyd8F4nGFiAqPPWn0YV75E5qtXFWawL2qJZeqfjVOlxnLUnCmEJ37tFHdxNJ8mov7931izrs8MlbqWSiToDpoeUFefOgejaUqqSfBkny4ii7slpFy4Ae5sLmQXljoqZug=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFCqUFBpD6jLWmRY5PtJdlrdqTbegzzZfjZahucrPDAg-WAWOdutYzyD0XHePrMFcXAcG21C3impYmsZKAC7s-QDP1wJswSL5h7pEpuCdF4BuVtuzxBSlilMF_q5af-2pZMtuCDng=w1000-h105-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGXJzYVj0VMoAlwmE6bpPKQjFhO_h1EnWhbiSlkHEu9kutHGCvQSorm6f3D2SylNMwGwZQcfJeP6qPcTQfwzbiHtXC3mGpKQ9SQVigALd7a5eO3Qp81Zn7PjO8pU2rpc0bxo5asBw=w822-h241-v0
+? ? ?
+? ? ?
+by www.CastAwayTrader.com
+(A)
+( 1 ) (C)
+(B)
+(A)
+(C)
+(B)
+(B)
+(A)
+(C) ( 3 )
+The Five Wave Up fractal
+with subdivision of waves
+(A)
+( 5 ) (C)
+(B) (A)
+(B)
+(C) ( 4 )
+The very first step on the way to
+mastery of the Better Wave Analysis is
+to memorize this fractal
+(A)
+( 1 ) (C)
+(B)
+(A)
+(C)
+(B)
+(B)
+(A)
+(C) ( 3 )
+The Five Wave Up fractal
+with subdivision of waves
+(A)
+( 5 ) (C)
+(B) (A)
+(B)
+(C) ( 4 )
+HUGE UNCERTAINTY
+In real life trading you will be dealing
+with incomplete fractal. To become a
+master of wave analysis means to be
+able to recognize partially completed
+Five Wave up fractal!
+(A)
+( 1 ) (C)
+(B)
+(A)
+(C)
+(B)
+(B)
+(A)
+(C) ( 3 )
+The Five Wave Up fractal
+with subdivision of waves
+(A)
+( 5 ) (C)
+(B) (A)
+(B)
+(C) ( 4 )
+LESS UNCERTAINTY!
+(A)
+( 1 ) (C)
+(B)
+(A)
+(C)
+(B)
+(B)
+(A)
+(C) ( 3 )
+The Five Wave Up fractal
+with subdivision of waves
+(A)
+( 5 ) (C)
+(B) (A)
+(B)
+(C) ( 4 )
+MUCH LESS UNCERTAINTY!
+(A)
+( 1 ) (C)
+(B)
+(A)
+(C)
+(B)
+(B)
+(A)
+( 3 ) (C)
+What tools we can use to attempt nailing the
+very top of subwave (C) of wave ( 3 )?
+The Five Wave Up fractal
+with subdivision of waves
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHnqMIOAArTdmg0WUncBwK9TGyGTcD70gdKf5wO3UAZtKvMCRqbQfQV53oLgGxAWyfxd7c-KMFcL-AnWLyp-k5Nv_JjyBskDQx_1lYypfjNS7w0edsKpVKlsiK05Uh6r3PhmY0ZmQ=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFgGNBfy2nQdKyFQKV7O7EqI31kiU6eBZHHf8MEfMVL4q_pltHHOssrmKcKz3FUinoKgVdw0Ewy800VU45FR_VOUxE9GNvwqRM6kRpacbWotRcnPwA1H9gggcRRGunPvHJM5fEnPw=w1000-h109-v0
+? ? ? ?
+?? ? ? ?
+?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEhBKCIVsfgtmKuWWo4Q7JwTjkJgf2yFMZEVo3AHytywRVG6tHPVwXY1AEG-MsJY_i0Wb7P0ANIZVmda3u2gXJsVekqukgNJC40YPGfEevXhJ9T45Jijzftw-kGwh5sWxEgkCofjQ=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHyy8NPm6JFGkposhPsSEIoo6bYWhbOwOFTMzTEGIptOMu-ZzxWNjYwoXSkqWYeYXvGEeSc5ytBG3dCWI5x2XKNKlhIeBNHXyRUNR6sdpIciBzs_7D6V4qNXEt2pzj3xg49uNqU=w1000-h109-v0
+? ? ?
+?? ? ? ?
+?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEx9LTTia93kiToYGPtWxCv2YYbfXRRSJwwBUyguDnx4QZ-pNMnx2LXfR7YCxhGqJtH6W8TYUlqpukFHzwBo9_Lgbsjar7Mlh5owwH0Sch8foIR43saIH17VuikOAbY3h1yjL7iRw=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEdNu53kSlhvoKHz2lDj2BW7znBK-gsusRLz-IGWHq3K08NtjsBz8dFxrj4DORiGptJXIA5VvpAlJUg4QnhkUpMLEf2Alihry8bYokRH4WqiEIXRYix-h_8S7XdbkguseMKtIFlpw=w1000-h109-v0
+? ?
+?? ? ? ?
+?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQE2rSkKVAJBNK_rnI4xQ4JDMkxFW44Ntw_OVz2A1ZWbeQfSM5EAzNfTh7SgzjsH29Tl7qHp9QfiX4siGiF_AuHOISFYHHseciIQynrtu8i08Kdgj2ix7n_wF0qtVnc8x_00DvEDFQ=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFdzPI3Jefst6Z2NV9F1khJnrFXAsjzrp9XhC5d9tRgosDMn43t-b8EwcSZkv285rkTsF6Kb0FqaSEkTcCEEg39Zx7u8n4bQWFE2niEfhMxmwno7fwcsogODF8owDy6kDPh3OKzKQ=w1000-h109-v0
+? ?? ? ? ?
+?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGTWHF4vLPRePIg7WPhoPoj6_3OHHi4iXkV6es4WDgu4N6b4WR9Hf7PVbTO3X6D_Rpp9arAr9zkqRmQkqZUBoTizAJj-PxXepMfZxuDXZcW9F3moTGFutjguY_laGBgO_gkVAXORg=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHgb02m7M_vwGn8mCP_BuJCEoVUn8eT_rqUEjheCKjXE8aGvuNnVfznA98kLBliHgdgEEKwMIY2wrLnY63E1SVoIcEC342xXZOPWEcfrCY1InketPPHWzF58_4PODJXa15kZOGq9g=w1000-h109-v0
+?? ? ? ?
+?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGjZQWBbMw1GDLAGmDIudto74bky9UI3-uk8RK0uI-4IyxqoNKumKkaPdQBV6aB9nrysVslcLl9OFj6o8uhfIU-olITuUJZbbXjHWEmyspSr7gKLBfGjUk0fsLm90qFHgy6lFesvw=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFIGfDdwhPTnKdDseX8InTO1YgLWMnoqVnG0dycqFFc-clmYXp5nciF8aBSwBCgnE5qCQlbgJ99dWMwD00kCU8oJ4kuYj04p1bK9zOmqE62m1wDI4MiNJNBSWRYmycewamVUZlegA=w1000-h109-v0
+?? ? ? ?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEshfuKhAQR2CNWguK286hLUlQXZ_jjZPzC4pXSU68xDD_M9_1H0AJ1ZjhRvFbN835me8vSgpJntiWu_fELA0Cad8DpNbTYk8kGZXA0mJ8uYwefjKyEATVHP_IVTrhsTABy_H771w=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHaIhJrZM0RzG014YuM4jc1bCstkO275uaDow5TnhUqMBLrRegmTLpf2hj-hTqDNX0HQLpdrshjQteRKWp65_kN689hKUR_g-w5W7AM5PZC3TwnOejzDMZEmaOouNRf1BxTnJXcnw=w1000-h109-v0
+? ? ? ?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGE1KFNANit_rrglEDiQbFQYH0iYL4mneUxu-EVC9MwwsAYblJAz8BJyAC--O805bvHq5EmdKb9RACJctWAD7awj6Vi1j4NIGkrQ4CMYDyhAKeetqudM-nL8X1_IApqK9RRYqBhcQ=w870-h486-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQF0Y8S3bSVA98XQMqXcj0jOiNBNpmShsizM-7BbAPLlGoDYp71H1FSyTWLnukjIZIad1fZVTLZnEpYyTDz0gYFMYEMZqKTCaMfRsHwc622idv2zPjln9i37UYUGUTOzYEGuU9SgBA=w1000-h109-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEGHY8MnCXtUKR04jL8bXbMBoHMZXSXijag7wGTYxudDZg6fymoCGxRY_k3yGY8L8Wo2nN3VSnPF64dxeT4vc_wXNAN90i998Kiae_RRawrc1femsyJEf82lTMBqJpMIDWx1H2jdQ=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQET5eDztGO4nu4EQzEfSxq7AEQxuUc0tLR11FQ2ftGuvEimOfycl2NvkPDQUyx2yBego35uMLFAGkqYAk-qDByM244QcwybQMUUfgWO1Z4PSHnYsNo1f7Si71QKy0RJTg1T7-Vm=w1000-h80-v0
+? ? ?
+? ? ?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHiP087OSyub4jUDgEc2rfz33V3uQBKmSk4sGzkLH92xtW5qv_ZGI2rgRT6FM2KRyFpizBIDMh4hLQ1soUuMNRUS5x05lCSPs8nz8UXgvhIjiTyNkTfy10RuD3HkbGJAPXi5texOw=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEHS0l5JP_MlA84n2t9t0b5T4HPRHPzTR_RmZqgv7sAGp_1fMmv2XIIJTrcc3eecnYIpt8_8FnfY7ToRDkW9F2eP_9M7YnFDbc3D-GmqqvMcF8OF941pLtRjf0EtbOEE6kTuSrZ=w1000-h80-v0
+? ?
+? ??
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFO2LH4dBH8Icl5QxF_Xgwxaxfzg0p61CDnrfj8wVnJb-UdDiBg_N62Bw_jC1R4FAfjrpHm9SxMGE0rKKfOV5Q2c9q3OrnZJLqJ1-63v9NAOmYFjNUArF2vcahzDkltAL8_-kI0Ew=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEhyRtNJ4mx6_-v9ATcZnuqYu2k9bIgfT3JvdLbzti0LI29M3VnGn_2B-RD-zxd7PKPWO6cdmBhxJKV822LpXaf8Oh5YULQryCmQOfu3KfITBlQ-uNal4Qf2G2YXPMX1YtbCB5QwA=w1000-h80-v0
+? ?
+? ?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFZXG7jEatkOrlD5ncZPYxtM4vI6katLovXZq9D0YTwf3r07mXOXnWRskvyZ7YOHzj1Pe8drrRXpOvfNlaP6Xns1qrO6b59eRdmiK4F2eIlRoV78sXtVUiTkAToFOlcr43vONcAIA=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFpxnhKIF7VUo1t3XGcS4c4yHORL3_xOLCrYXnUMSJpbNFgQt84ZSEpYFEL8il6r2GDBHreXZlIfMTtZF_QWj-6Z43u9dnKv5vQ2OwZ4AnAb9s7GybkrqiCxf4phyMiC1-f_M_zpg=w1000-h80-v0
+? ?
+?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGSuk6gDyy-GC-ej2IaBP8WonerZNubsh5eEZjZAh5omdvL-5psp0-nEd24JU2o3hhqEiDmAzrxJIPJUhbcO67eZ-nXozLdkLP0fkvUuYQILX8QBz-Yu1EZzMB6PMRvMjffxS3F=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGIBRxdNg8Rxpx_ckEYhdBeY9Dwe68K4mFLZgXHMqoQu9B8EhznIbp81K5HV4ZpdQM4cxaTzWE7GbHzSEoVcZlwDinSL8shtAuNXcosN8upuPRjhvBZjUwoM-G5uzsKrEAQ5uLz5Q=w1000-h80-v0
+? ?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEr--9RLRDr-KW4yv_pcC1g8MyfpbL4CGY6cGuaDVf_zWw5JdLghmoZyulO8iuazoAG-bvb8Zik8UeCnXJMM46Jl2doVFdUSB52HjD_BySs5GUUN-7ZHi8jP6ZXxePNxpk-qvWArg=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGzcb6wd6cx-aXQh6vMLDnGQA09cTrDi4TvD1-WdVcCQcsnhE4tAr7lJnVbPnw6whxorscdhZ6BVkIKnf9wVOo12_mcr1gZ0VxI0pdfbmKt8uZLRMK2dv7FHhpxzWIZJ5Wze4tusQ=w1000-h80-v0
+?
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFrQBDlnkwWzImYo_StxV8T4VU9D2Q0deCu2EX95Af4XvloPc_7QOAolDwHLUOSfWgarPN-JuJkuxXjOv-CxI1BD9AnxZ1UWr7kiono5v0XXToMGLnVu3wRLIKblGrr1W24y9KJ7w=w1280-h723-v0
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGmTIbmV0FyfwFPoW21aJKwkAfgBanEeRbiQMOgC6c1NKCfElMdUCjqAOOyLuJCAO7KAAEZ2dPqZOFwMN2AhBpbAzIB3C6coeJaR1XtWHiHtq9ubz_Dhz836nquTW5qepvgLqD49g=w1000-h80-v0
+How our brain recognizes familiar objectsKEY TAKEAWAYS
+1 Our brain does not need to see a whole picture and all the details of an object to
+recognize it. The object may be partially covered but brain will make an educated guess about what is hidden or covered.
+2 To make a guess our brain has to be trained on numerous samples. To recognize an
+object by the look of its part you first need to see hundreds of samples of such objects. You brain automatically stores those samples in your long term memory and categorizes them. In particular in distinguishes key features of objects, something that helps us to distinguish a cat from a dog, a sedun from a truck, a man from a woman.
+Fractal forecasting is based on the very same principle. First we teach our brain about specific details of the main fractals or patterns we track. Second we train our brain on numerous examples where actual charts are labelled. We add numbers to recognize specific waves or segments of fractals. Finally we can feed to our brain the look of incomplete fractals. That should help it to recognize unfolding fractals before their completion.
+3
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFZc4Ory0Mmxr4jeeff7Lrx_jeWWlcVP1R3YPf5S12ZHHxX0Xj0KiQgAMCtjfE59ovdrUelPpRjfhFwbN5K9hsfxKCoxFQdNkXHkzbAFGHWDL_Ji4ma0sukeb8Ewa2qRPKO0rksHw=w1280-h707-v0
+wave A of 3 upCASE STUDY Subdivision
+Wave A of 3 is an impulsive five wave structure and subdivided into five smaller waves (i)-(ii)-(iii)-(iv)-(v)
+GILD, daily chart, Jul’02 - Oct ‘04
+https://lh3.googleusercontent.com/notebooklm/AKXwDQFwqvRkxDc_012A1Cz2RhlJ5WtHUjtdWLq2TZ8CB71z2-dkEVgGdlQ9u1itezzn7JrP1uxkL9vK87mzARA9VZWgYav1d7G0YRlqAAcOVpNA5mSmRl5F8bh0HPNm98K91Nq3WfEbKA=w1280-h888-v0
+wave C of 3 upCASE STUDY Subdivision
+Wave C of 3 is an impulsive five wave structure and subdivided into five smaller waves (i)-(ii)-(iii)-(iv)-(v)
+GILD, daily chart, Feb’05 - Apr ‘07
+https://lh3.googleusercontent.com/notebooklm/AKXwDQH4BAZaRR0jjJWwp7C5QmCPOViYtfMMwhDlzaw1oZM45GHI4PRF1EQTDwcKiKjqsSIa4Xa9HBaAVQLagPBdjp4NCygFzBKgqDIjUpkNOp_bnwmHYseCsP92xd57VVM7oo26pVFtBQ=w1280-h782-v0
+CASE STUDY
+XBI, daily chart, May ‘06 - Nov ‘08
+Subdivision
+XBI is a popular Biotech ETF that seeks to provide investment results corresponding to the total return performance of the S&P® Biotechnology Select Index
+wave C of 3 is subdivided into five smaller waves
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave b of 5 becomes a new critical supportc
+a
+b
+c
+a
+b
+Subwave c of Wave 5 up
+c 3
+1 breakout level a
+b
+c 4
+breakout level a
+b
+Please note:
+Subwave C of the wave 5 almost always reaches the highest high of the whole five wave fractal. Sometimes it goes parabolic and gets as wild as subwave c of the wave 3. The reason is that at this point the vast majority of bulls feel euphoric. They are happy to see the price flying higher and do not even think of selling their holdings. In contrast, those who were unlucky to be short finally capitulate when price makes a new high. Last bears have to close they shorts driving price to its highest point. c
+5
+a The starting point of the first subwave a of wave 1
+b First correction is unable to break the previous low
+c Bulls attack again and price makes a new higher high marked as the blue solid dot
+Here we get the first completed a-b-c sequence. This is our wave 1 up
+1
+Please note: Subwave C managed to reach a new higher high over the high established by the subwave a
+Corrective subwave b could not make a new low under the lowest starting point of the subwave a
+That a-b-c move off the low can be considered as a set of higher highs and higher lows
+Impulsive Waves ( “Five Waves Up” fractal ) Wave 1 up
+a The starting point of the first subwave a of wave 1
+b This higher low becomes a new critical support level
+c 1
+a
+b
+c
+Each completed bullish a-b-c move up gives birth to a corrective a-b-c move in opposite direction Wave 2 down was unable to break the starting point of the wave 1 confirming power of bulls
+Please note: After corrective wave 2 down is completed its lowest low marked by becomes the new main support level for the whole Five Wave structure.
+If that new higher low established by the wave 2 gets violated by the next corrective wave we say that the five wave up structure gets invalidated because one of the formar rules is broken
+Impulsive Waves ( “Five Waves Up” fractal ) Wave 2 down
+Higher high Higher lowLower high
+a The starting point of the first subwave a of wave 1
+b This higher low becomes a new critical support level
+c 1
+a
+b
+c
+a After bears give up being unable to push the price to a lower low bulls counter attack and push the price back up to its latest highs in a subwave a of the wave 3
+Please note: It is impossible to predict whether subwave a of 3 will stall at the highs established by previous rally in the wave 1 or will be strong enough to establish a new higher high
+But what we know for sure is (1) a corrective wave b of 3 will follow and ( 2 ) after a corrective wave b of 3 we will get the most powerful segment of the whole rally in the subwave c of 3 that will reach much higher prices
+Impulsive Waves ( “Five Waves Up” fractal ) Subwave a of 3 up
+Higher high Higher lowLower high
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low becomes a new critical support
+c 1
+a
+b
+c
+a
+b
+Please note: We have a hard rule saying that the corrective wave b of 3 should not violate the low established by the previous decline in the corrective wave 2
+If the low established by the wave 2 down gets violated by subwave b of 3 we say that the five wave up structure gets invalidated because one of the formar rules is broken
+Subwave b of 3 sets a new critical support at higher low which can’t get violated by the next corrective move down
+Subwave b of 3 down
+Higher high Higher lowLower high
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low becomes a new critical support
+c
+Higher high Higher low
+a
+b
+c
+Lower high
+a
+b
+Wave 3 up
+c This subwave c of 3 normally looks like a crazy emotional unstoppable move up. In 100% of cases it does establish a new higher high and concludes the wave 3 up
+3
+1
+Please note: In majority of cases subwave c of 3 goes parabolic not letting bears close their shorts and not letting those who missed that rally to get any meaningful pullback to buy at lower price
+Subwave c is the best opportunity for traders who prefer breakout trades
+breakout level
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave 4 is a new critical support
+c
+Higher high Higher low
+a
+b
+c
+Lower high
+a
+b
+Wave 4 down
+c 3
+1 breakout level a
+b
+c 4
+Please note: After corrective wave 4 down is completed its lowest low marked by becomes the new main support level for the whole Five Wave structure.
+If that new higher low established by the wave 4 gets violated by the next corrective wave we say that the five wave up structure gets invalidated because one of the formar rules is broken
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave 4 is a new critical support
+c
+a
+b
+c
+a
+b
+Subwave a of Wave 5 up
+c 3
+1 breakout level a
+b
+c 4
+breakout level a
+Please note: Subwave a of 5 almost never is strong enough to move substantially higher over the top of the wave 3. Quite often it stalls near that previous top getting exhausted
+But what we know for sure is (1) a corrective wave b of 5 will follow and ( 2 ) after a corrective wave b of 5 we will get another more powerful and the final segment of the whole rally in the subwave c of 5 that should make at least a nominally higher high prices
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave b of 5 becomes a new critical supportc
+a
+b
+c
+a
+b
+Subwave b of Wave 5 down
+c 3
+1 breakout level a
+b
+c 4
+breakout level a
+b
+Please note: After corrective subwave b of the wave 5 down is completed its lowest low marked by becomes the new main support level for the whole Five Wave structure. As long as this support holds we should expect the five wave structure to keep unfolding and the next subwave c of 5 to make a new highest high If that new critical support established by the subwave b of wave 5 gets violated we conclude that the five wave up structure gets invalidated because one of the formar rules is broken
+a The starting point of the first subwave a of wave 1
+b First correction is unable to break the previous low
+c Bulls attack again and price makes a new higher high marked as the blue solid dot
+Here we get the first completed a-b-c sequence. This is our wave 1 up
+1
+Please note: Subwave C managed to reach a new higher high over the high established by the subwave a
+Corrective subwave b could not make a new low under the lowest starting point of the subwave a
+That a-b-c move off the low can be considered as a set of higher highs and higher lows
+Impulsive Waves ( “Five Waves Up” fractal ) Wave 1 up
+a The starting point of the first subwave a of wave 1
+b This higher low becomes a new critical support level
+c 1
+a
+b
+c
+Each completed bullish a-b-c move up gives birth to a corrective a-b-c move in opposite direction Wave 2 down was unable to break the starting point of the wave 1 confirming power of bulls
+Please note: After corrective wave 2 down is completed its lowest low marked by becomes the new main support level for the whole Five Wave structure.
+If that new higher low established by the wave 2 gets violated by the next corrective wave we say that the five wave up structure gets invalidated because one of the formar rules is broken
+Impulsive Waves ( “Five Waves Up” fractal ) Wave 2 down
+Higher high Higher lowLower high
+a The starting point of the first subwave a of wave 1
+b This higher low becomes a new critical support level
+c 1
+a
+b
+c
+a After bears give up being unable to push the price to a lower low bulls counter attack and push the price back up to its latest highs in a subwave a of the wave 3
+Please note: It is impossible to predict whether subwave a of 3 will stall at the highs established by previous rally in the wave 1 or will be strong enough to establish a new higher high
+But what we know for sure is (1) a corrective wave b of 3 will follow and ( 2 ) after a corrective wave b of 3 we will get the most powerful segment of the whole rally in the subwave c of 3 that will reach much higher prices
+Impulsive Waves ( “Five Waves Up” fractal ) Subwave a of 3 up
+Higher high Higher lowLower high
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low becomes a new critical support
+c 1
+a
+b
+c
+a
+b
+Please note: We have a hard rule saying that the corrective wave b of 3 should not violate the low established by the previous decline in the corrective wave 2
+If the low established by the wave 2 down gets violated by subwave b of 3 we say that the five wave up structure gets invalidated because one of the formar rules is broken
+Subwave b of 3 sets a new critical support at higher low which can’t get violated by the next corrective move down
+Subwave b of 3 down
+Higher high Higher lowLower high
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low becomes a new critical support
+c
+Higher high Higher low
+a
+b
+c
+Lower high
+a
+b
+Wave 3 up
+c This subwave c of 3 normally looks like a crazy emotional unstoppable move up. In 100% of cases it does establish a new higher high and concludes the wave 3 up
+3
+1
+Please note: In majority of cases subwave c of 3 goes parabolic not letting bears close their shorts and not letting those who missed that rally to get any meaningful pullback to buy at lower price
+Subwave c is the best opportunity for traders who prefer breakout trades
+breakout level
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave 4 is a new critical support
+c
+Higher high Higher low
+a
+b
+c
+Lower high
+a
+b
+Wave 4 down
+c 3
+1 breakout level a
+b
+c 4
+Please note: After corrective wave 4 down is completed its lowest low marked by becomes the new main support level for the whole Five Wave structure.
+If that new higher low established by the wave 4 gets violated by the next corrective wave we say that the five wave up structure gets invalidated because one of the formar rules is broken
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave 4 is a new critical support
+c
+a
+b
+c
+a
+b
+Subwave a of Wave 5 up
+c 3
+1 breakout level a
+b
+c 4
+breakout level a
+Please note: Subwave a of 5 almost never is strong enough to move substantially higher over the top of the wave 3. Quite often it stalls near that previous top getting exhausted
+But what we know for sure is (1) a corrective wave b of 5 will follow and ( 2 ) after a corrective wave b of 5 we will get another more powerful and the final segment of the whole rally in the subwave c of 5 that should make at least a nominally higher high prices
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave b of 5 becomes a new critical supportc
+a
+b
+c
+a
+b
+Subwave b of Wave 5 down
+c 3
+1 breakout level a
+b
+c 4
+breakout level a
+b
+Please note: After corrective subwave b of the wave 5 down is completed its lowest low marked by becomes the new main support level for the whole Five Wave structure. As long as this support holds we should expect the five wave structure to keep unfolding and the next subwave c of 5 to make a new highest high If that new critical support established by the subwave b of wave 5 gets violated we conclude that the five wave up structure gets invalidated because one of the formar rules is broken
+Impulsive Waves ( “Five Waves Up” fractal )
+a
+The starting point of the first subwave a of wave 1
+b
+This higher low set by the corrective wave b of 5 becomes a new critical supportc
+a
+b
+c
+a
+b
+Subwave c of Wave 5 up
+c 3
+1 breakout level a
+b
+c 4
+breakout level a
+b
+Please note:
+Subwave C of the wave 5 almost always reaches the highest high of the whole five wave fractal. Sometimes it goes parabolic and gets as wild as subwave c of the wave 3. The reason is that at this point the vast majority of bulls feel euphoric. They are happy to see the price flying higher and do not even think of selling their holdings. In contrast, those who were unlucky to be short finally capitulate when price makes a new high. Last bears have to close they shorts driving price to its highest point. c
+5
+https://lh3.googleusercontent.com/notebooklm/AKXwDQEnZBEqPxrwN1W0GNZngWCWSPe8fujws6TuZdMMDfnVpzJJRO9FQKw7GFumWikaOHvPOFwERPbS5C0eHTXf1zPgm73mpsXzp6cvI8UnCLdeTQBzmVKDRLIlCHF1imO0YdxSxSjDGQ=w705-h767-v0
+Critical support for wave (B) down
+Impulsive Waves ( “Five Waves Up” fractal )
+Subwave a of Wave 5 up
+CASE STUDY
+MSFT, daily chart, Apr - Dec 2000
+Please note:
+Subwave ( A ) of ( 5 ) followed a textbook and stalled near the previous top made by wave ( 3 ) up.
+Once that subwave ( A ) of ( 5 ) stopped right at the previous top of the wave ( 3 ) it was a very good sign that the high probability setup is in play. At that point we expected a corrective wave ( B ) of ( 5 ) down to make a higher low over the low reached by the previous correction in wave ( 4 ) down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHAXPLs5aYQ2yHDy_36ZnW1DDSUnb_G8fP_UPQpn6oVjIGznFqzocbVNyDWJt0PwM4zqmVbAnK1Ha1KfAGIYCx8mgZzi7kB0HMAmV235WpDSsWRP06XUUQBVoFjt8cWrlGVHTWSMw=w705-h767-v0
+Critical support for wave (B) down
+Impulsive Waves ( “Five Waves Up” fractal )
+Subwave b of Wave 5 down
+CASE STUDY
+MSFT, daily chart, Apr - Dec 2000
+Please note:
+Corrective wave (B) down stopped its decline making a new higher low above the critical support of the lower low established by the previous corrective wave ( 4 ) down
+https://lh3.googleusercontent.com/notebooklm/AKXwDQGrG1YqNMeR0n043Aqd2qfw26G75xNqx8-z6ObGxcEXfduH0u5AQewlSBwRbCqIA3pJR9A-NpvQ80lf0Z5hGK3mfQ9NlVaKJMFbEg7oJPfFKKjX7J-R2pEuOXXfmIubddbdUZ7Vfw=w705-h767-v0
+Critical support for wave (B) down
+Impulsive Waves ( “Five Waves Up” fractal )
+Subwave c of Wave 5 up
+CASE STUDY
+MSFT, daily chart, Apr - Dec 2000
+Please note:
+Subwave ( A ) of ( 5 ) followed a textbook and played a wild rally making a much higher high over the top of the previous rally in wave ( 3 ) up.
+It is a very common to see wave C of 5 to go parabolic and get as wild as subwave C of the wave 3. The reasons are (i) last bears give up and close their shorts driving price to its highest point and (ii) momentum traders buy breakout setup when price gets over resistance at the the top of the wave 3.
+Breakout through resistance
+https://lh3.googleusercontent.com/notebooklm/AKXwDQHZgZ8PdrdDxotNzMl_P83_yd8gHtnot6kj4bOvSziXZFKwSra1BOhekZafkeoWgiuFAAsiBTlwbaD-FgqsK5YyyO7Qu0ViQuoTLkEYzkd2lIXoza6m0xQhlTQiB9J4rtcOm1SUzQ=w1280-h782-v0
+Critical support for wave B down
+Impulsive Waves ( “Five Waves Up” fractal )
+wave 4 down
+CASE STUDY
+Please note:
+Corrective wave 4 down stopped its decline making a new higher low above the critical support of the lower low established by the previous corrective wave B of 3
+XBI, daily chart, May ’06 - Nov ‘08

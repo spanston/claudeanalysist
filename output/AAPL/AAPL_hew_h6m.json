@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "ticker": "AAPL",
+    "engine": "hew-v2",
+    "window": [
+      "2022-07-13",
+      "2026-07-20"
+    ],
+    "monowaves": 56,
+    "pivot_k": 2.8788,
+    "run_date": "2026-07-21",
+    "last_close": 326.59,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "fit": "fixed-8x"
+    }
+  },
+  "no_clean_count": true,
+  "message": "Best HEW candidate scores 0.33 < 0.4 harmony floor -- structure present but ratios do not confirm. Honest refusal.",
+  "preferred": null,
+  "alternates": [],
+  "warnings": [],
+  "best_candidate": {
+    "direction": "up",
+    "status": "in_progress",
+    "stage": "iii",
+    "harmony": 0.3347,
+    "aspects": {
+      "s3": 0.0,
+      "s5": 0.5,
+      "sc": 0.9331848535695642,
+      "salt": 0.5
+    },
+    "penalties": {
+      "iii_rare_band": 0.85
+    },
+    "start": {
+      "date": "2025-09-10",
+      "price": 225.95
+    },
+    "end": {
+      "date": "2026-07-17",
+      "price": 334.99
+    },
+    "waves": {
+      "i": {
+        "span": [
+          {
+            "date": "2025-09-10",
+            "price": 225.95
+          },
+          {
+            "date": "2025-12-03",
+            "price": 288.62
+          }
+        ],
+        "len": 62.67,
+        "retr_ii": 0.688
+      },
+      "ii": {
+        "span": [
+          {
+            "date": "2025-12-03",
+            "price": 288.62
+          },
+          {
+            "date": "2026-03-30",
+            "price": 245.51
+          }
+        ],
+        "legs": 5
+      },
+      "iii": {
+        "span": [
+          {
+            "date": "2026-03-30",
+            "price": 245.51
+          },
+          {
+            "date": "2026-07-17",
+            "price": 334.99
+          }
+        ],
+        "len": 89.48,
+        "r3": 1.428,
+        "retr_b3": 0.607,
+        "c_over_a": 0.852
+      }
+    },
+    "position": {
+      "text_en": "In wave (iii) of a up five-wave fractal (started 2025-09-10 at 225.95)."
+    },
+    "targets": [
+      {
+        "label": "(iii) 176.4% proof level",
+        "price": 356.06,
+        "basis": "rule 6 minimum"
+      },
+      {
+        "label": "(iii) 176.4% cluster",
+        "price": 356.06,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 185.4% cluster",
+        "price": 361.7,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      },
+      {
+        "label": "(iii) 190.2% cluster",
+        "price": 364.71,
+        "basis": "|(i)| x cluster from (ii) extreme"
+      }
+    ],
+    "invalidations": [
+      {
+        "label": "low of (ii)",
+        "price": 245.51,
+        "rule": "rule 1 ratchet: (ii) extreme is the binding support",
+        "binding": true
+      }
+    ]
+  }
+}
