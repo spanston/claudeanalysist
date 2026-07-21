@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "ticker": "AMAT",
+    "run_date": "2026-07-21",
+    "window": [
+      "2022-08-05",
+      "2026-07-17"
+    ],
+    "monowaves": 102,
+    "pivot_k": 2.1768,
+    "last_close": 525.7000122070312,
+    "data_through": "2026-07-20",
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [],
+      "degree1_median_bars": null,
+      "fit": "no_clean_count",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": true,
+  "best_score": 1.886,
+  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
+  "anchors_considered": [
+    {
+      "date": "2022-10-13",
+      "score": 1.886
+    },
+    {
+      "date": "2024-07-10",
+      "score": null
+    },
+    {
+      "date": "2024-08-05",
+      "score": null
+    },
+    {
+      "date": "2025-01-31",
+      "score": null
+    },
+    {
+      "date": "2025-04-07",
+      "score": null
+    }
+  ]
+}

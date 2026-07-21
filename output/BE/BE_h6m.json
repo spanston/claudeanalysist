@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "ticker": "BE",
+    "run_date": "2026-07-21",
+    "window": [
+      "2022-08-02",
+      "2026-07-17"
+    ],
+    "monowaves": 127,
+    "pivot_k": 1.8928,
+    "last_close": 197.05999755859375,
+    "data_through": "2026-07-20",
+    "relvol_50": 1.38,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [
+        193,
+        89,
+        303
+      ],
+      "degree1_median_bars": 193,
+      "fit": "unresolved",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 193,
+          "d1_bars": [
+            193,
+            89,
+            303
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 658,
+          "median_d1_bars": 193,
+          "d1_bars": [
+            193,
+            87,
+            305
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 430,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2024-02-23",
+    "index": 50
+  },
+  "preferred": {
+    "pattern": "double_three",
+    "structure_strength": 5.472,
+    "relative_confidence": 0.767,
+    "direction": "down",
+    "span": [
+      "2024-02-23",
+      "2026-07-17"
+    ],
+    "completed": true,
+    "reversal_tail": {
+      "pattern": null,
+      "direction": "down",
+      "structured": false,
+      "span": [
+        "2026-06-25",
+        "2026-07-17"
+      ],
+      "completed_at": {
+        "date": "2026-06-25",
+        "price": 351.2799987792969
+      },
+      "relvol_at_completion": 1.2
+    },
+    "position": {
+      "path": [
+        "?'"
+      ],
+      "text_en": "Degree 2 double_three complete at 351.28; degree 1 counter-move (down) underway (too young to structure)",
+      "text_sv": "Grad 2 double_three avslutad vid 351.28; grad 1 motv\u00e5g (ned\u00e5t) p\u00e5g\u00e5r"
+    },
+    "invalidations": [
+      {
+        "price": 351.2799987792969,
+        "degree": 2,
+        "rule": "a new extreme beyond the completion point falsifies the completed reading",
+        "label": "?'",
+        "binding": true,
+        "pct_from_last": 78.3,
+        "zone": [
+          336.32,
+          366.24
+        ]
+      }
+    ],
+    "targets": []
+  },
+  "alternate": {
+    "anchor_date": "2024-02-23",
+    "pattern": "double_three",
+    "score": -1.16,
+    "direction": "up",
+    "span": [
+      "2024-02-23",
+      "2026-07-17"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "stale_data: price data ends 2026-07-20, report run 2026-07-21",
+    "horizon_fit_unresolved: realized median degree-1 duration 193 bars did not settle within [0.75, 1.33]x the 126-bar horizon"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2024-02-23",
+      "score": 5.472
+    },
+    {
+      "date": "2025-09-25",
+      "score": null
+    },
+    {
+      "date": "2025-10-15",
+      "score": null
+    },
+    {
+      "date": "2025-10-22",
+      "score": null
+    },
+    {
+      "date": "2025-11-03",
+      "score": null
+    }
+  ]
+}

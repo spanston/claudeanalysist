@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "ticker": "GOOG",
+    "run_date": "2026-07-21",
+    "window": [
+      "2022-08-02",
+      "2026-07-17"
+    ],
+    "monowaves": 113,
+    "pivot_k": 2.1768,
+    "last_close": 351.3699951171875,
+    "data_through": "2026-07-20",
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [],
+      "degree1_median_bars": null,
+      "fit": "no_clean_count",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": true,
+  "best_score": 2.958,
+  "message": "Price action does not resolve into a coherent Elliott structure at this degree; no count is reported.",
+  "anchors_considered": [
+    {
+      "date": "2022-11-03",
+      "score": 2.958
+    },
+    {
+      "date": "2025-02-04",
+      "score": -6.562
+    },
+    {
+      "date": "2025-08-20",
+      "score": null
+    },
+    {
+      "date": "2025-09-19",
+      "score": null
+    },
+    {
+      "date": "2025-11-12",
+      "score": null
+    }
+  ]
+}

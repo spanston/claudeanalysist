@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "ticker": "ORCL",
+    "run_date": "2026-07-21",
+    "window": [
+      "2022-08-09",
+      "2026-07-20"
+    ],
+    "monowaves": 101,
+    "pivot_k": 2.1768,
+    "last_close": 121.37999725341797,
+    "data_through": "2026-07-20",
+    "relvol_50": 1.2,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [
+        178,
+        125,
+        616
+      ],
+      "degree1_median_bars": 178,
+      "fit": "unresolved",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 178,
+          "d1_bars": [
+            178,
+            125,
+            616
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 714,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2022-09-29",
+    "index": 6
+  },
+  "preferred": {
+    "pattern": "double_zigzag",
+    "structure_strength": 8.432,
+    "relative_confidence": 0.434,
+    "direction": "down",
+    "span": [
+      "2022-09-29",
+      "2026-07-20"
+    ],
+    "completed": true,
+    "reversal_tail": {
+      "pattern": null,
+      "direction": "down",
+      "structured": false,
+      "span": [
+        "2026-06-01",
+        "2026-07-20"
+      ],
+      "completed_at": {
+        "date": "2026-06-01",
+        "price": 250.25
+      },
+      "relvol_at_completion": 1.89
+    },
+    "position": {
+      "path": [
+        "?'"
+      ],
+      "text_en": "Degree 2 double_zigzag complete at 250.25; degree 1 counter-move (down) underway (too young to structure)",
+      "text_sv": "Grad 2 double_zigzag avslutad vid 250.25; grad 1 motv\u00e5g (ned\u00e5t) p\u00e5g\u00e5r"
+    },
+    "invalidations": [
+      {
+        "price": 250.25,
+        "degree": 2,
+        "rule": "a new extreme beyond the completion point falsifies the completed reading",
+        "label": "?'",
+        "binding": true,
+        "pct_from_last": 106.2,
+        "zone": [
+          246.09,
+          254.41
+        ]
+      }
+    ],
+    "targets": []
+  },
+  "alternate": null,
+  "warnings": [
+    "stale_data: price data ends 2026-07-20, report run 2026-07-21",
+    "near_tie_alternate: same-anchor double_zigzag (down) is within 1 nat of the preferred count",
+    "horizon_fit_unresolved: realized median degree-1 duration 178 bars did not settle within [0.75, 1.33]x the 126-bar horizon"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2022-09-29",
+      "score": 8.432
+    },
+    {
+      "date": "2025-04-21",
+      "score": null
+    },
+    {
+      "date": "2025-07-08",
+      "score": null
+    },
+    {
+      "date": "2025-07-31",
+      "score": null
+    },
+    {
+      "date": "2025-09-02",
+      "score": null
+    }
+  ]
+}

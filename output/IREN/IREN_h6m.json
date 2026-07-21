@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "ticker": "IREN",
+    "run_date": "2026-07-21",
+    "window": [
+      "2022-08-02",
+      "2026-07-20"
+    ],
+    "monowaves": 120,
+    "pivot_k": 1.8928,
+    "last_close": 40.20000076293945,
+    "data_through": "2026-07-20",
+    "relvol_50": 1.9,
+    "horizon": {
+      "input": "6m",
+      "target_bars": 126,
+      "window_bars": 1008,
+      "degree1_durations_bars": [
+        366,
+        205,
+        288
+      ],
+      "degree1_median_bars": 288,
+      "fit": "unresolved",
+      "iterations": [
+        {
+          "window_bars": 1008,
+          "median_d1_bars": 288,
+          "d1_bars": [
+            366,
+            205,
+            288
+          ],
+          "decision": "refine"
+        },
+        {
+          "window_bars": 441,
+          "median_d1_bars": null,
+          "decision": "stop_no_clean_count"
+        }
+      ]
+    }
+  },
+  "no_clean_count": false,
+  "anchor": {
+    "date": "2022-12-28",
+    "index": 14
+  },
+  "preferred": {
+    "pattern": "double_zigzag",
+    "structure_strength": 11.059,
+    "relative_confidence": 0.992,
+    "direction": "down",
+    "span": [
+      "2022-12-28",
+      "2026-07-20"
+    ],
+    "completed": true,
+    "reversal_tail": {
+      "pattern": null,
+      "direction": "down",
+      "structured": false,
+      "span": [
+        "2026-06-03",
+        "2026-07-20"
+      ],
+      "completed_at": {
+        "date": "2026-06-03",
+        "price": 70.70700073242188
+      },
+      "relvol_at_completion": 1.34
+    },
+    "position": {
+      "path": [
+        "?'"
+      ],
+      "text_en": "Degree 2 double_zigzag complete at 70.71; degree 1 counter-move (down) underway (too young to structure)",
+      "text_sv": "Grad 2 double_zigzag avslutad vid 70.71; grad 1 motv\u00e5g (ned\u00e5t) p\u00e5g\u00e5r"
+    },
+    "invalidations": [
+      {
+        "price": 70.70700073242188,
+        "degree": 2,
+        "rule": "a new extreme beyond the completion point falsifies the completed reading",
+        "label": "?'",
+        "binding": true,
+        "pct_from_last": 75.9,
+        "zone": [
+          68.48,
+          72.93
+        ]
+      }
+    ],
+    "targets": []
+  },
+  "alternate": {
+    "anchor_date": "2022-12-28",
+    "pattern": "double_zigzag",
+    "score": 4.437,
+    "direction": "up",
+    "span": [
+      "2022-12-28",
+      "2026-07-20"
+    ],
+    "same_anchor": true
+  },
+  "warnings": [
+    "stale_data: price data ends 2026-07-20, report run 2026-07-21",
+    "horizon_fit_unresolved: realized median degree-1 duration 288 bars did not settle within [0.75, 1.33]x the 126-bar horizon"
+  ],
+  "anchors_considered": [
+    {
+      "date": "2022-12-28",
+      "score": 11.059
+    },
+    {
+      "date": "2025-09-26",
+      "score": null
+    },
+    {
+      "date": "2025-10-15",
+      "score": null
+    },
+    {
+      "date": "2025-10-22",
+      "score": null
+    },
+    {
+      "date": "2025-11-05",
+      "score": null
+    }
+  ]
+}
